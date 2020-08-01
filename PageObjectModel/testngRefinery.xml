@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+			<class name="testcases.RefineryCreateNewDO" />
+			
+			<class name="testcases.RefineryIncomingDOViewOriginal" />
+			
+			<class name="testcases.RefineryIncomingDOViewAssociatedDocs" />
+			
+			<class name="testcases.RefineryIncomingDOViewAttachments" />
+			
+			<class name="testcases.RefineryIncomingDOAddWeighbridge" />
+			
+			<class name="testcases.RefineryIncomingDOAddFFBQuality" />
+			
+			<class name="testcases.RefineryOutgoingDOVIEWOriginal" />
+			
+			<class name="testcases.RefineryOutgoingDOVIEWAssociatedDocs" />
+			
+			<class name="testcases.RefineryOutgoingDOVIEWAttachments" />
+			
+			<class name="testcases.RefineryOutgoingDOAddWeighbridge" />
+			
+			<class name="testcases.RefineryOutgoingDOAddFFBQuality" />
+			
+			<class name="testcases.RefineryPartnerManagementAddPartner" />
+			
+			<class name="testcases.RefineryPartnerManagementPartnerListView" />
+			
+			<class name="testcases.RefineryPartnerManagementPartnerListViewDeletePartner" />
+			
+			<class name="testcases.RefineryPartnerManagementNewRequestsView" />
+			
+			<class name="testcases.RefineryPartnerManagementNewRequestsDeletePartner" />
+			
+			<class name="testcases.RefineryPartnerManagementNewRequestsChooseActionAccept" />
+			
+			<class name="testcases.RefineryPartnerManagementNewRequestsChooseActionDecline" />
+			
+			<class name="testcases.RefineryAuditReport" />
+			
+			<class name="testcases.RefineryFeedback" />
+			
+			<class name="testcases.RefineryProductTraceGraph" />
+			
+			<class name="testcases.RefineryProductTraceMap" />
+			
+			<class name="testcases.RefineryProductTraceTree" />
+			
+			<class name="testcases.RefineryWeighbridgeCreateSlip" />
+			
+			<class name="testcases.RefineryWeighbridgeView" />
+			
+			<class name="testcases.RefineryWeighbridgeEdit" />
+			
+			
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

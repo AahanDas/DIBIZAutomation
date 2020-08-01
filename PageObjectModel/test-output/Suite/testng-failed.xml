@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.RefineryIncomingDOViewOriginal">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="setValue"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.RefineryIncomingDOViewOriginal -->
+      <class name="testcases.RefineryAuditReport">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setValue"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.RefineryAuditReport -->
+      <class name="testcases.RefineryProductTraceGraph">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="setValue"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.RefineryProductTraceGraph -->
+      <class name="testcases.RefineryProductTraceTree">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="setValue"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.RefineryProductTraceTree -->
+      <class name="testcases.RefineryIncomingDOAddFFBQuality">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="loginLogOut"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="setValue"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.RefineryIncomingDOAddFFBQuality -->
+      <class name="testcases.RefineryPartnerManagementNewRequestsDeletePartner">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="setValue"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.RefineryPartnerManagementNewRequestsDeletePartner -->
+      <class name="testcases.RefineryWeighbridgeEdit">
+        <methods>
+          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="setValue"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.RefineryWeighbridgeEdit -->
+      <class name="testcases.RefineryOutgoingDOAddFFBQuality">
+        <methods>
+          <include name="setValue"/>
+          <include name="beforeMethod"/>
+          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.RefineryOutgoingDOAddFFBQuality -->
+      <class name="testcases.RefineryCreateNewDO">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="setValue"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.RefineryCreateNewDO -->
+      <class name="testcases.RefineryProductTraceMap">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setValue"/>
+          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.RefineryProductTraceMap -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

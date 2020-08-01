@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+			<class name="testcases.PalmOilMillCreateNewDO" />
+			<class name="testcases.PalmOilMillIncomingDOViewOriginal" />
+			<class name="testcases.PalmOilMillIncomingDOViewAssociatedDocs" />
+			<class name="testcases.PalmOilMillIncomingDOViewAttachments" />
+			<class name="testcases.PalmOilMillIncomingDOAddWeighbridge" />
+			<class name="testcases.PalmOilMillOutgoingDOVIEWOriginal" />
+			<class name="testcases.PalmOilMillOutgoingDOVIEWAssociatedDocs" />
+			<class name="testcases.PalmOilMillOutgoingDOVIEWAttachments" />
+			<class name="testcases.PalmOilMillOutgoingDOAddWeighbridge" />
+			<class name="testcases.PalmOilMillProductTraceGraph" />
+			<class name="testcases.PalmOilMillProductTraceMap" />
+			<class name="testcases.PalmOilMillProductTraceTree" />
+			<class name="testcases.PalmOilMillWeighbridgeCreateSlip" />
+			<class name="testcases.PalmOilMillWeighbridgeEdit" />
+			<class name="testcases.PalmOilMillFeedback" />
+			<class name="testcases.PalmOilMillAuditReport" />
+			<class name="testcases.PalmOilMillProductionPlotInput" />
+			<class name="testcases.PalmOilMillProductionSourcedBatchView" />
+			<class name="testcases.PalmOilMillProductionProducedBatchView" />
+			<class name="testcases.PalmOilMillQualityCreateReportFFBQuality" />
+			<class name="testcases.PalmOilMillPartnerManagementAddPartner" />
+			<class name="testcases.PalmOilMillPartnerManagementPartnerListView" />
+			<class name="testcases.PalmOilMillPartnerManagementPartnerListViewDeletePartner" />
+			<class name="testcases.PalmOilMillPartnerManagementNewRequestsView" />
+			<class name="testcases.PalmOilMillPartnerManagementNewRequestsDeletePartner" />
+			<class name="testcases.PalmOilMillPartnerManagementNewRequestsChooseActionAccept" />
+			<class name="testcases.PalmOilMillPartnerManagementNewRequestsChooseActionDecline" />
+			<class name="testcases.PalmOilMillCreateReportCPOQuality" />
+			<class name="testcases.PalmOilMillCreateReportFFBQuality" />
+			<class name="testcases.PalmOilMillIncomingDOAddFFBQuality" />
+			<class name="testcases.PalmOilMillOutgoingDOAddFFBQuality" />
+			<class name="testcases.PalmOilMillQualityCreateReportCPOQuality" />
+			<class name="testcases.PalmOilMillWeighbridgeView" />
+			
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

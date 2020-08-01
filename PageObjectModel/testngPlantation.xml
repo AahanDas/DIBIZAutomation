@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+			<class name="testcases.PlantationCreateNewDO" />
+			
+			<class name="testcases.PlantationIncomingDOViewOriginal" />
+			
+			<class name="testcases.PlantationIncomingDOViewAssociatedDocs" />
+			
+			<class name="testcases.PlantationIncomingDOViewAttachments" />
+			
+			<class name="testcases.PlantationIncomingDOAddWeighbridge" />
+			
+			<class name="testcases.PlantationIncomingDOAddFFBQuality" />
+			
+			<class name="testcases.PlantationOutgoingDOVIEWOriginal" />
+			
+			<class name="testcases.PlantationOutgoingDOVIEWAssociatedDocs" />
+			
+			<class name="testcases.PlantationOutgoingDOVIEWAttachments" />
+			
+			<class name="testcases.PlantationOutgoingDOAddWeighbridge" />
+			
+			<class name="testcases.PlantationOutgoingDOAddFFBQuality" />
+			
+			<class name="testcases.PlantationPartnerManagementAddPartner" />
+			
+			<class name="testcases.PlantationPartnerManagementPartnerListView" />
+			
+			<class name="testcases.PlantationPartnerManagementPartnerListViewDeletePartner" />
+			
+			<class name="testcases.PlantationPartnerManagementNewRequestsView" />
+			
+			<class name="testcases.PlantationPartnerManagementNewRequestsDeletePartner" />
+			
+			<class name="testcases.PlantationPartnerManagementNewRequestsChooseActionAccept" />
+			
+			<class name="testcases.PlantationPartnerManagementNewRequestsChooseActionDecline" />
+			
+			<class name="testcases.PlantationAuditReport" />
+			
+			<class name="testcases.PlantationFeedback" />
+			
+			<class name="testcases.PlantationCreateTicket" />
+			
+			<class name="testcases.PlantationViewTicket" />
+			<class name="testcases.PlantationEditTicket" />
+			<class name="testcases.PlantationCreateBin" />
+			<class name="testcases.PlantationViewBin" />
+			<class name="testcases.PlantationEditBin" />
+			
+			
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
