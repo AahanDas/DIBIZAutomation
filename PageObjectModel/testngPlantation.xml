@@ -48,8 +48,9 @@
 			<class name="testcases.PlantationViewTicket" />
 			<class name="testcases.PlantationEditTicket" />
 			<class name="testcases.PlantationCreateBin" />
-			<class name="testcases.PlantationViewBin" />
-			<class name="testcases.PlantationEditBin" />
+			
+			<!-- <class name="testcases.PlantationViewBin" />
+			<class name="testcases.PlantationEditBin" /> -->
 			
 			
 			
