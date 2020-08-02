@@ -62,7 +62,7 @@ public class HomePage extends DibizWrappers {
 	}
 
 	public BinsPage clickOnBin() {
-		clickByXpath("//*[contains(text(), 'Bin')]");
+		clickByXpath("(//*[contains(text(), 'Bin')])[1]");
 		return new BinsPage(driver, test);
 
 	}

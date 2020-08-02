@@ -23,4 +23,8 @@ public class TicketsPage extends DibizWrappers {
 		return new CreateTicketPage(driver, test);
 	}
 
+	public ViewTicketPage clickOnView() {
+		clickByXpath("(//*[contains(text(), 'View')])[2]");
+		return new ViewTicketPage(driver, test);
+	}
 }

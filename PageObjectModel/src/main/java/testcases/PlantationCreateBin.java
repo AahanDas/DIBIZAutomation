@@ -15,7 +15,7 @@ public class PlantationCreateBin extends DibizWrappers {
 		category = "smoke";
 		authors = "DrD";
 		browserName = "chrome";
-		dataSheetName = "CreateBinPlantation";
+		dataSheetName = "PlantationCreateBin";
 	}
 
 	@Test(dataProvider = "fetchData")
