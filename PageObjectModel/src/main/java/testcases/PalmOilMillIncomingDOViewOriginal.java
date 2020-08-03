@@ -10,7 +10,7 @@ public class PalmOilMillIncomingDOViewOriginal extends DibizWrappers {
 
 	@BeforeClass
 	public void setValue() {
-		testCaseName = "Palm Oil Mill Incoming DO View Original";
+		testCaseName = "PalmOilMillIncomingDOViewOriginal";
 		testDescription = "PalmOilMillIncomingDOViewOriginal";
 		category = "Regression";
 		authors = "DrD";

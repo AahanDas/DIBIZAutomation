@@ -10,7 +10,7 @@ public class PalmOilMillCreateReportFFBQuality extends DibizWrappers {
 
 	@BeforeClass
 	public void setValue() {
-		testCaseName = "Palm Oil Mill Create Report FFB Quality";
+		testCaseName = "PalmOilMillCreateReportFFBQuality";
 		testDescription = "PalmOilMillCreateReportFFBQuality";
 		category = "smoke";
 		authors = "DrD";

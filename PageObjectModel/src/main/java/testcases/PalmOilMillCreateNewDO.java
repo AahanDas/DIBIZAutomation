@@ -33,8 +33,8 @@ public class PalmOilMillCreateNewDO extends DibizWrappers {
 		
 		.enterVehicleNumber(VehicleNumber)
 		.enterDriverName(DriverName)
-		.EnterSelectExpectedDeliveryDate()
 		
+		.EnterSelectExpectedDeliveryDate()
 		//.enterDispatchedThrough(DispatchedThrough)
 		//.enterShipperReferenceNumber(ShipperReferenceNumber)
 		.clickOnAddProduct()
