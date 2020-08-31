@@ -20,7 +20,7 @@ public class CreateNewDO extends DibizWrappers {
 
 	@Test(dataProvider = "fetchData")
 	public void loginLogOut(String uName, String pwd, String partner, String VehicleNumber, String DriverName, String DispatchedThrough,
-			String ShipperReferenceNumber, String Product, String Quantity, String Remarks, String Remarks1) {
+			String ShipperReferenceNumber, String Product, String Quantity, String Remarks, String Remarks1) throws InterruptedException {
 		new LoginPageDibiz(driver, test)
 		.enterEmail(uName)
 		.enterPassword(pwd)

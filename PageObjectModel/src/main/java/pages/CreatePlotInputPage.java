@@ -35,13 +35,17 @@ public class CreatePlotInputPage extends DibizWrappers {
 	}
 
 	public CreatePlotInputPage enterQuantityUsed(String data) {
-		enterById("input-quantity-entity-delivery-order-iWjt0wwqiDLH4P7S", data);
+		//enterByXpath("(//*[@class='StyledTextInput-sc-1x30a0s-0 fjmpmu'])[1]", data);
+		//enterById("input-quantity-entity-delivery-order-Iwphsgoa9GX3fvjK", data);
+		enterByXpath("(//*[@type='number'])[1]", data);
+		
 
 		return this;
 	}
 
 	public CreatePlotInputPage enterProductionLine(String data) {
-		enterById("input-production-entity-delivery-order-iWjt0wwqiDLH4P7S", data);
+		//enterByXpath("(//*[@class='StyledTextInput-sc-1x30a0s-0 fjmpmu'])[2]", data);
+		enterByXpath("(//*[@type='text'])[2]", data);
 
 		return this;
 	}

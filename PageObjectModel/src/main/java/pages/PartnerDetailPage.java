@@ -34,7 +34,9 @@ public class PartnerDetailPage extends DibizWrappers {
 
 	public PartnerDetailPage clickOnProceedButton() {
 
-		clickByXpath("//*[contains(text(), 'Proceed')]");
+		//clickByXpath("//*[contains(text(), 'Proceed')]");
+		clickByXpath("//*[@class='StyledButton-sc-323bzc-0 edaVNT']");
+		
 
 		return this;
 	}

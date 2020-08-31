@@ -48,6 +48,7 @@ public class HomePage extends DibizWrappers {
 		return new TDMPage(driver, test);
 
 	}
+	
 
 	public WeighBridgePage clickOnWeighBridgeMainMenu() {
 
@@ -105,5 +106,53 @@ public class HomePage extends DibizWrappers {
 		
 		
 	}
+	
+	public HomePage checkForCardInsightSales(String data) {
+
+		verifyTextByXpath("(//*[contains(text(), 'Sales')])[1]", data);
+		return this;
+	}
+	public HomePage checkForCardInsightPurchase(String data) {
+
+		verifyTextByXpath("(//*[contains(text(), 'Purchase')])[1]", data);
+		return this;
+	}
+	public HomePage checkForCardInsightBestSuppliers(String data) {
+
+		verifyTextByXpath("(//*[contains(text(), 'Best Suppliers')])[1]", data);
+		return this;
+	}
+	public HomePage checkForCardInsightTopProducts(String data) {
+
+		verifyTextByXpath("(//*[contains(text(), 'Top Products')])[1]", data);
+		return this;
+	}
+	
+	public HomePage checkForCardInsightCertifiedSupplyChain(String data) {
+
+		verifyTextByXpath("//*[contains(text(), 'Certified Supply Chain')]", data);
+		return this;
+	}
+	public HomePage checkForCardInsightSupplierCategories(String data) {
+
+		verifyTextByXpath("//*[contains(text(), 'Supplier Categories')]", data);
+		return this;
+	}
+	public HomePage checkForCardInsightExtractionRatio(String data) {
+
+		verifyTextByXpath("//*[contains(text(), 'Extraction Ratio')]", data);
+		return this;
+	}
+	public HomePage checkForCardInsightTradeDetails(String data) {
+
+		verifyTextByXpath("//*[contains(text(), 'Trade details')]", data);
+		return this;
+	}
+	public HomePage checkForCardInsightMessagesExchanged(String data) {
+
+		verifyTextByXpath("//*[contains(text(), 'Messages exchanged')]", data);
+		return this;
+	}
+	
 
 }

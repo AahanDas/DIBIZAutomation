@@ -36,6 +36,9 @@ public class createBinPage extends DibizWrappers {
 	}
 	public createBinPage clickOnTicketNumberCheckBox() {
 		clickByXpath("(//*[@class='StyledBox-sc-13pk1d4-0 PiYIl StyledCheckBox__StyledCheckBoxBox-sc-1dbk5ju-3 cJNjzg'])[1]");
+		clickByXpath("(//*[@class='StyledBox-sc-13pk1d4-0 PiYIl StyledCheckBox__StyledCheckBoxBox-sc-1dbk5ju-3 cJNjzg'])[2]");
+		clickByXpath("(//*[@class='StyledBox-sc-13pk1d4-0 PiYIl StyledCheckBox__StyledCheckBoxBox-sc-1dbk5ju-3 cJNjzg'])[3]");
+		clickByXpath("(//*[@class='StyledBox-sc-13pk1d4-0 PiYIl StyledCheckBox__StyledCheckBoxBox-sc-1dbk5ju-3 cJNjzg'])[4]");
 		return this;
 	}
 	public ViewBinPage clickOnCreate() {

@@ -51,5 +51,13 @@ public class ProductionPage extends DibizWrappers {
 		
 		
 	}
+	
+	public InputStorageUpdatePage clickOnInputStorageUpdateButton() {
+		
+		clickByXpath("//*[contains(text(), 'Input Storage Update')]");
+		return new InputStorageUpdatePage(driver, test);
+	}
+	
+	
 
 }

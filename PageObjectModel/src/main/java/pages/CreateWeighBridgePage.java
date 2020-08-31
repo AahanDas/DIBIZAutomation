@@ -66,5 +66,11 @@ public class CreateWeighBridgePage extends DibizWrappers {
 		return new ViewWeighBridgePage(driver, test);
 	}
 	
+	public CreateWeighBridgePage verifyProduct(String data) {
+		
+		verifyTextByXpath("//*[contains(text(), 'Fresh fruit bunch')]", data);
+		return this;
+
+	}
 
 }

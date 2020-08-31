@@ -68,7 +68,7 @@
 				<inherited>true</inherited>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>${SuiteFileName}</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

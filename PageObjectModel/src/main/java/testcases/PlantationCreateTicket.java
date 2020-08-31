@@ -15,7 +15,7 @@ public class PlantationCreateTicket extends DibizWrappers {
 		category = "smoke";
 		authors = "DrD";
 		browserName = "chrome";
-		dataSheetName = "PlantationCreateTicket";
+		dataSheetName = "PlantationCreateTicketForDemo";
 	}
 
 	@Test(dataProvider = "fetchData")

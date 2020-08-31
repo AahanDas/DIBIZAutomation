@@ -32,6 +32,7 @@ public class CreateNewWeighBridge extends DibizWrappers {
 		.entergrossWeight(grossWeight)
 		.entertareWeight(tareWeight)
 		.enterticketNumber(ticketNumber)
-		.clickOnSubmit();
+		.clickOnSubmit()
+		.validateToastMessage();
 }
 }

@@ -34,10 +34,21 @@ public class LoginPageDibiz extends DibizWrappers {
 	}
 
 	public HomePage clickSignIn() {
+		//For I'm not robot check box.
+		//clickByXpath("//*[contains(text(),'I'm not a robot')]");
 		clickByXpath(prop.getProperty("Login.SignIn.Xpath"));
 		return new HomePage(driver, test);
 	}
 
+	public LoginPageDibiz clickOnIamNotRobot(String frame) {
+		//For I'm not robot check box.
+		
+		switchToFrame(frame);
+		//clickByXpath("//*[contains(text(),'I'm not a robot')]");
+		clickByXpath("//*[@class='recaptcha-checkbox-border']");
+		return this;
+	}
+	
 	public LoginPageDibiz clickLoginforFailure() {
 		clickByClassName("decorativeSubmit");
 		/*

@@ -14,6 +14,7 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.NoSuchFrameException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriverException;
@@ -97,44 +98,46 @@ public class GenericWrappers extends Reporter implements Wrappers {
 	 * @param url - The url with http or https
 	 * 
 	 */
-	
-	 public void invokeApp(String browser, boolean bRemote) { try {
-	  
-	 DesiredCapabilities dc = new DesiredCapabilities();
-	 dc.setBrowserName(browser); dc.setPlatform(Platform.WINDOWS);
-	 
-	 // this is for grid run 
-	 if (bRemote) driver = new RemoteWebDriver(new
-	 URL("http://" + sHubUrl + ":" + sHubPort + "/wd/hub"), dc);
-	 else { // this is for local run 
-	 if (browser.equalsIgnoreCase("chrome")) {
-	 
-	 //for Headless browser 
-	//ChromeOptions chromeOptions = new ChromeOptions();
-	 //chromeOptions.addArguments("--headless");
-	 //chromeOptions.addArguments("window-size=1920x1500");
-	
-	 //driver = new ChromeDriver(chromeOptions);
-	 
-	 System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe"); 
-	 driver = new ChromeDriver(); 
-	 } else if
-	  (browser.equalsIgnoreCase("Firefox")) {
-	  System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
-	  driver = new FirefoxDriver(); } }
-	  
-	  driver.manage().window().maximize();
-	  driver.manage().timeouts().implicitlyWait(45, TimeUnit.SECONDS);
-	 driver.get(sUrl);
-	  
-	  primaryWindowHandle = driver.getWindowHandle(); reportStep("The browser:" +
-	  browser + " launched successfully", "PASS");
-	  
-	  } catch (Exception e) { e.printStackTrace(); reportStep("The browser:" +
-	 browser + " could not be launched", "FAIL"); } }
-	 
-	
-	
+
+	public void invokeApp(String browser, boolean bRemote) {
+		try {
+
+			DesiredCapabilities dc = new DesiredCapabilities();
+			dc.setBrowserName(browser);
+			dc.setPlatform(Platform.WINDOWS);
+
+			// this is for grid run
+			if (bRemote)
+				driver = new RemoteWebDriver(new URL("http://" + sHubUrl + ":" + sHubPort + "/wd/hub"), dc);
+			else { // this is for local run
+				if (browser.equalsIgnoreCase("chrome")) {
+
+					// for Headless browser
+					//ChromeOptions chromeOptions = new ChromeOptions();
+					//chromeOptions.addArguments("--headless");
+				//	chromeOptions.addArguments("window-size=1920x1500");
+
+					System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+					//driver = new ChromeDriver(chromeOptions);
+					driver = new ChromeDriver();
+				} else if (browser.equalsIgnoreCase("Firefox")) {
+					System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
+					driver = new FirefoxDriver();
+				}
+			}
+
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(45, TimeUnit.SECONDS);
+			driver.get(sUrl);
+
+			primaryWindowHandle = driver.getWindowHandle();
+			reportStep("The browser:" + browser + " launched successfully", "PASS");
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			reportStep("The browser:" + browser + " could not be launched", "FAIL");
+		}
+	}
 
 	/**
 	 * This method will enter the value to the text field using id attribute to
@@ -579,6 +582,24 @@ public class GenericWrappers extends Reporter implements Wrappers {
 		}
 	}
 
+	/**
+	 * This method will move the control to the iFrame
+	 * only for name or ID
+	 * @author DrD- Dibiz
+	 */
+
+	public void switchToFrame(String frame) {
+		try {
+			driver.switchTo().frame(frame);
+			System.out.println("Navigated to frame with name " + frame);
+		} catch (NoSuchFrameException e) {
+			System.out.println("Unable to locate frame with id " + frame
+					+ e.getStackTrace());
+		} catch (Exception e) {
+			System.out.println("Unable to navigate to frame with id " + frame
+					+ e.getStackTrace());
+		}
+	}
 	/**
 	 * This method will accept the alert opened
 	 * 

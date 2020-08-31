@@ -18,10 +18,11 @@ public class NewDOPage extends DibizWrappers {
 
 	}
 
-	public NewDOPage searchPartner(String data) {
+	public NewDOPage searchPartner(String data) throws InterruptedException {
 
 		clickByXpath("//*[@name='input-undefined-Search Partner']");
 		enterByXpath("//*[@name='input-undefined-Search Partner']", data);
+		Thread.sleep(5000);
 		return this;
 	}
 	

@@ -27,13 +27,14 @@ public class PalmOilMillIncomingDOAddWeighbridge extends DibizWrappers {
 		.clickOnTradeDocumentManagerMainMenu()
 		.clickOnIncomingDeliveryOrders()
 		.clickOnIncomingDeliveryOrdersAddWeighbridge()
-		.selectDOList(DO)
-		.selectProductSelection(product)
-		.clickOnSubmitButton()
+		//.selectDOList(DO)
+		//.selectProductSelection(product)
+		//.clickOnSubmitButton()
 		.entergrossWeight(grossWeight)
 		.entertareWeight(tareWeight)
 		.enterticketNumber(ticketNumber)
-		.clickOnSubmit();
+		.clickOnSubmit()
+		.validateToastMessage();
 
 }
 }

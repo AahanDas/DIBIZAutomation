@@ -3,24 +3,16 @@
 <suite name="Suite">
 	<test name="Test">
 		<classes>
-			<class name="testcases.TC001_LoginLogOut" />
-			<class name="testcases.CreateBinPlantation" />
-			<class name="testcases.CreateNewDO" />
-			<class name="testcases.CreateNewWeighBridge" />
-			<class name="testcases.CreateReportCPOQuality" />
-			<class name="testcases.CreateReportFFBQuality" />
-			<class name="testcases.CreateTicketPlantation" />
-			<class name="testcases.CreateWorkSmallHolder" />
-			<class name="testcases.DeleteWorkSmallHolder" />
-			<class name="testcases.ProductionCreatePlotInput" />
-			<class name="testcases.TC002_GoToWorkDetailModule" />
-			<class name="testcases.TC003_SubmitWorkDetail" />
-			<class name="testcases.TC004_AddPartnerIfNotAvailable" />
-			<class name="testcases.UpdateWeighBridge" />
-			<class name="testcases.UT3_006_SmallHolderCreateWork" />
-			<class name="testcases.UT3_006_SmallHolderEditWork" />
-
-
+			<class name="testcases.US18_16_17_TDM_Original_AssociatedDocsView" />
+			<class name="testcases.US18_5_6_7_TDM_PO_Invoice_DO_Tabs" />
+			<class name="testcases.US18_10_11_12_13_14_15_TDM_ViewAllDO" />
+			<class name="testcases.US18_2_3_4_TDMFromNavigation" />
+			<class name="testcases.US18_20_IncomingDOStatusChangeToDelivered" />
+			<class name="testcases.US18_21_ViewAddSubDocumentWeighbridge" />
+			<class name="testcases.US18_US18_22_ViewAddSubDocumentFFBQuality" />
+			<class name="testcases.US18_US18_3_AddNewFFBQuality" />
+			<class name="testcases.US18_3_AddNewWeighbridgeTicket" />
+			
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

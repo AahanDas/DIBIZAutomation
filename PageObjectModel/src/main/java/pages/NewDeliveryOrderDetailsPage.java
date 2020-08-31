@@ -19,7 +19,7 @@ public class NewDeliveryOrderDetailsPage extends DibizWrappers {
 	}
 
 	public NewDeliveryOrderDetailsPage EnterSelectExpectedDeliveryDate() {
-		
+
 		clickById("date-picker-expectedDate-id");
 		clickByXpath("//*[@class='flatpickr-next-month']");
 		clickByXpath("(//*[@class='flatpickr-day '])[30]");
@@ -49,42 +49,77 @@ public class NewDeliveryOrderDetailsPage extends DibizWrappers {
 
 		return this;
 	}
-	
+
 	public NewDeliveryOrderDetailsPage clickOnAddProduct() {
 		clickByXpath("//*[contains(text(),'Add Products')]");
 
 		return this;
 	}
+
 	public NewDeliveryOrderDetailsPage selectProductFromDropDown(String data) {
 		clickById("select-drop-productSelection__input");
 		enterByXpath("//*[@type='search']", data);
 		clickByXpath("//*[@class='StyledText-sc-1sadyjn-0 oKAxv']");
 		return this;
 	}
+
 	public NewDeliveryOrderDetailsPage enterQuantity(String data) {
 		enterById("input-quantity", data);
 
 		return this;
 	}
+
 	public NewDeliveryOrderDetailsPage clickOnSubmit() {
 		clickByXpath("//*[contains(text(),'Submit')]");
-		
 
 		return this;
 	}
+
 	public NewDeliveryOrderDetailsPage enterRemarks(String data) {
 		enterById("input-remarks", data);
 
 		return this;
 	}
+
+	public TDMPage clickOnSaveButton() {
+		clickByXpath("//*[contains(text(),'Save')]");
+		return new TDMPage(driver, test);
+
+	}
+
 	public NewDeliveryOrderConfirmPage clickOnPreviewDetails() {
-		
+
 		clickByXpath("//*[contains(text(),'Preview Details')]");
 		return new NewDeliveryOrderConfirmPage(driver, test);
 	}
+
+	public NewDeliveryOrderDetailsPage enterDeliveryOrderReference(String data) {
+
+		enterById("input-entityReference", data);
+		return this;
+	}
+
+	public NewDeliveryOrderDetailsPage clickOnAssociatedDocsTab() {
+
+		clickByXpath("//*[contains(text(),'Associated Docs')]");
+		return this;
+	}
+
+	public NewDeliveryOrderDetailsPage clickOnOriginalDocsTab() {
+
+		clickByXpath("//*[contains(text(),'Original')]");
+		return this;
+	}
+	public NewDeliveryOrderDetailsPage clickOnAttachmentsTab() {
+
+		clickByXpath("//*[contains(text(),'Attachments')]");
+		return this;
+	}
 	
-	
-	
-	
+	public NewDeliveryOrderDetailsPage checkForentityType(String data) {
+
+		verifyTextByXpath("(//*[contains(text(), 'DELIVERY ORDER')])[1]", data);
+		return this;
+	}
 
 }
