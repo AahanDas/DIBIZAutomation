@@ -113,13 +113,13 @@ public class GenericWrappers extends Reporter implements Wrappers {
 				if (browser.equalsIgnoreCase("chrome")) {
 
 					// for Headless browser
-					//ChromeOptions chromeOptions = new ChromeOptions();
-					//chromeOptions.addArguments("--headless");
-				//	chromeOptions.addArguments("window-size=1920x1500");
+					ChromeOptions chromeOptions = new ChromeOptions();
+					chromeOptions.addArguments("--headless");
+					chromeOptions.addArguments("window-size=1920x1500");
 
 					System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
-					//driver = new ChromeDriver(chromeOptions);
-					driver = new ChromeDriver();
+					driver = new ChromeDriver(chromeOptions);
+					//driver = new ChromeDriver();
 				} else if (browser.equalsIgnoreCase("Firefox")) {
 					System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
 					driver = new FirefoxDriver();

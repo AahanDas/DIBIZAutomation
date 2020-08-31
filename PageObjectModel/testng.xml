@@ -9,8 +9,8 @@
 			<class name="testcases.US18_2_3_4_TDMFromNavigation" />
 			<class name="testcases.US18_20_IncomingDOStatusChangeToDelivered" />
 			<class name="testcases.US18_21_ViewAddSubDocumentWeighbridge" />
-			<class name="testcases.US18_US18_22_ViewAddSubDocumentFFBQuality" />
-			<class name="testcases.US18_US18_3_AddNewFFBQuality" />
+			<class name="testcases.US18_22_ViewAddSubDocumentFFBQuality" />
+			<class name="testcases.US18_3_AddNewFFBQuality" />
 			<class name="testcases.US18_3_AddNewWeighbridgeTicket" />
 			
 		</classes>
