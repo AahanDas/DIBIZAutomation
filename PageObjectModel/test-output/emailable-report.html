@@ -8,81 +8,33 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">3,795</td><td></td><td></td></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">6</td><td class="num">0</td><td class="num attn">3</td><td class="num">217,984</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testcases.PalmOilMillCreateNewDO</td><td><a href="#m0">beforeMethod</a></td><td rowspan="1">1598788242702</td><td rowspan="1">3363</td></tr><tr><th colspan="4">Default test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">testcases.PalmOilMillCreateNewDO</td><td><a href="#m1">afterMethod</a></td><td rowspan="1">1598788246071</td><td rowspan="1">0</td></tr><tr><th colspan="4">Default test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testcases.PalmOilMillCreateNewDO</td><td><a href="#m2">loginLogOut</a></td><td rowspan="1">1598788246070</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.US18_20_IncomingDOStatusChangeToDelivered</td><td><a href="#m0">loginLogOut</a></td><td rowspan="1">1598904402581</td><td rowspan="1">51796</td></tr><tr class="failedodd"><td rowspan="1">testcases.US18_2_3_4_TDMFromNavigation</td><td><a href="#m1">loginLogOut</a></td><td rowspan="1">1598904395691</td><td rowspan="1">0</td></tr><tr class="failedeven"><td rowspan="1">testcases.US18_3_AddNewFFBQuality</td><td><a href="#m2">loginLogOut</a></td><td rowspan="1">1598904495124</td><td rowspan="1">51941</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.US18_10_11_12_13_14_15_TDM_ViewAllDO</td><td><a href="#m3">loginLogOut</a></td><td rowspan="1">1598904386464</td><td rowspan="1">8653</td></tr><tr class="passedodd"><td rowspan="1">testcases.US18_16_17_TDM_Original_AssociatedDocsView</td><td><a href="#m4">loginLogOut</a></td><td rowspan="1">1598904357113</td><td rowspan="1">7807</td></tr><tr class="passedeven"><td rowspan="1">testcases.US18_21_ViewAddSubDocumentWeighbridge</td><td><a href="#m5">loginLogOut</a></td><td rowspan="1">1598904461993</td><td rowspan="1">8797</td></tr><tr class="passedodd"><td rowspan="1">testcases.US18_22_ViewAddSubDocumentFFBQuality</td><td><a href="#m6">loginLogOut</a></td><td rowspan="1">1598904479358</td><td rowspan="1">8327</td></tr><tr class="passedeven"><td rowspan="1">testcases.US18_3_AddNewWeighbridgeTicket</td><td><a href="#m7">loginLogOut</a></td><td rowspan="1">1598904554620</td><td rowspan="1">9139</td></tr><tr class="passedodd"><td rowspan="1">testcases.US18_5_6_7_TDM_PO_Invoice_DO_Tabs</td><td><a href="#m8">loginLogOut</a></td><td rowspan="1">1598904372956</td><td rowspan="1">5923</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">testcases.PalmOilMillCreateNewDO#beforeMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: FAILED
+<h2>Test</h2><h3 id="m0">testcases.US18_20_IncomingDOStatusChangeToDelivered#loginLogOut</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>sales@gmas.com</td><td>passwordgmas123</td><td>Acknowledge remarks</td><td>Accepted remarks</td><td>Received Goods remarks</td></tr><tr><th colspan="5">Exception</th></tr><tr><td colspan="5"><div class="stacktrace">java.lang.RuntimeException: FAILED
 	at utils.Reporter.reportStep(Reporter.java:33)
 	at utils.Reporter.reportStep(Reporter.java:43)
-	at wrappers.GenericWrappers.invokeApp(GenericWrappers.java:138)
-	at wrappers.GenericWrappers.invokeApp(GenericWrappers.java:90)
-	at wrappers.DibizWrappers.beforeMethod(DibizWrappers.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testcases.PalmOilMillCreateNewDO#afterMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testcases.PalmOilMillCreateNewDO#loginLogOut</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: FAILED
+	at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:430)
+	at pages.DeliveryOrderPage.clickOnActionAcknowledge(DeliveryOrderPage.java:68)
+	at testcases.US18_20_IncomingDOStatusChangeToDelivered.loginLogOut(US18_20_IncomingDOStatusChangeToDelivered.java:31)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcases.US18_2_3_4_TDMFromNavigation#loginLogOut</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] wrappers.DibizWrappers.getData() returned a null value
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.US18_3_AddNewFFBQuality#loginLogOut</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr><tr class="param stripe"><td>sales@gmas.com</td><td>passwordgmas123</td><td>DO-org</td><td>Crude Palm Oil</td><td>87654</td><td>238</td><td>108</td><td>18</td></tr><tr><th colspan="8">Exception</th></tr><tr><td colspan="8"><div class="stacktrace">java.lang.RuntimeException: FAILED
 	at utils.Reporter.reportStep(Reporter.java:33)
 	at utils.Reporter.reportStep(Reporter.java:43)
-	at wrappers.GenericWrappers.invokeApp(GenericWrappers.java:138)
-	at wrappers.GenericWrappers.invokeApp(GenericWrappers.java:90)
-	at wrappers.DibizWrappers.beforeMethod(DibizWrappers.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at wrappers.GenericWrappers.clickById(GenericWrappers.java:370)
+	at pages.FFBQualityEnterDetailPage.selectDOList(FFBQualityEnterDetailPage.java:23)
+	at testcases.US18_3_AddNewFFBQuality.loginLogOut(US18_3_AddNewFFBQuality.java:32)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcases.US18_10_11_12_13_14_15_TDM_ViewAllDO#loginLogOut</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>sales@gmas.com</td><td>passwordgmas123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.US18_16_17_TDM_Original_AssociatedDocsView#loginLogOut</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>sales@gmas.com</td><td>passwordgmas123</td><td>DELIVERY ORDER</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testcases.US18_21_ViewAddSubDocumentWeighbridge#loginLogOut</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>sales@gmas.com</td><td>passwordgmas123</td><td>Fresh fruit bunch</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testcases.US18_22_ViewAddSubDocumentFFBQuality#loginLogOut</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>sales@gmas.com</td><td>passwordgmas123</td><td>Fresh fruit bunch</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testcases.US18_3_AddNewWeighbridgeTicket#loginLogOut</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>sales@gmas.com</td><td>passwordgmas123</td><td>DO-org</td><td>Fresh fruit bunch</td><td>812</td><td>1</td><td>238Tkt</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testcases.US18_5_6_7_TDM_PO_Invoice_DO_Tabs#loginLogOut</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>sales@gmas.com</td><td>passwordgmas123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

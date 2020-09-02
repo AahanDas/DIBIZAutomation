@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>27/6/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Aug 10 00:36:44 IST 2020</td>
+<td>Started on:</td><td>Tue Sep 01 01:35:46 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>890 seconds (890220 ms)</td>
+<tr><td>Total time:</td><td>217 seconds (217984 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,19 +75,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.PalmOilMillIncomingDOAddWeighbridge.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillIncomingDOAddWeighbridge</td>
-<td><div><pre>org.testng.internal.reflect.MethodMatcherException: 
-Data provider mismatch
-Method: loginLogOut([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}])
-Arguments: [(java.lang.String) sales@gmas.com,(java.lang.String) passwordgmas123,(java.lang.String) 8765,(java.lang.String) 87,(java.lang.String) 238Tkt]
-... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1395262169", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1395262169'><pre>org.testng.internal.reflect.MethodMatcherException: 
-Data provider mismatch
-Method: loginLogOut([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}])
-Arguments: [(java.lang.String) sales@gmas.com,(java.lang.String) passwordgmas123,(java.lang.String) 8765,(java.lang.String) 87,(java.lang.String) 238Tkt]
-	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:45)
-	at org.testng.internal.Parameters.injectParameters(Parameters.java:796)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:983)
+<td title='testcases.US18_2_3_4_TDMFromNavigation.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.US18_2_3_4_TDMFromNavigation</td>
+<td><div><pre>org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] wrappers.DibizWrappers.getData() returned a null value
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace664091267", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace664091267'><pre>org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] wrappers.DibizWrappers.getData() returned a null value
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:133)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 	at org.testng.TestRunner.privateRun(TestRunner.java:648)
@@ -107,194 +105,22 @@ Arguments: [(java.lang.String) sales@gmas.com,(java.lang.String) passwordgmas123
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>testcases.PalmOilMillIncomingDOAddWeighbridge@67b92f0a</td></tr>
+<td>testcases.US18_2_3_4_TDMFromNavigation@6536e911</td></tr>
 <tr>
-<td title='testcases.PalmOilMillProductTraceGraph.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillProductTraceGraph<br>Parameters: sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB)</td>
+<td title='testcases.US18_20_IncomingDOStatusChangeToDelivered.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.US18_20_IncomingDOStatusChangeToDelivered<br>Parameters: sales@gmas.com, passwordgmas123, Acknowledge remarks, Accepted remarks, Received Goods remarks</td>
 <td><div><pre>java.lang.RuntimeException: FAILED
 	at utils.Reporter.reportStep(Reporter.java:33)
 	at utils.Reporter.reportStep(Reporter.java:43)
 	at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:430)
-	at pages.GenerateTracePage.clickOnMinusForGraph(GenerateTracePage.java:37)
-	at testcases.PalmOilMillProductTraceGraph.loginLogOut(PalmOilMillProductTraceGraph.java:33)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1644864746", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1644864746'><pre>java.lang.RuntimeException: FAILED
+	at pages.DeliveryOrderPage.clickOnActionAcknowledge(DeliveryOrderPage.java:68)
+	at testcases.US18_20_IncomingDOStatusChangeToDelivered.loginLogOut(US18_20_IncomingDOStatusChangeToDelivered.java:31)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1454171136", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1454171136'><pre>java.lang.RuntimeException: FAILED
 	at utils.Reporter.reportStep(Reporter.java:33)
 	at utils.Reporter.reportStep(Reporter.java:43)
 	at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:430)
-	at pages.GenerateTracePage.clickOnMinusForGraph(GenerateTracePage.java:37)
-	at testcases.PalmOilMillProductTraceGraph.loginLogOut(PalmOilMillProductTraceGraph.java:33)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>58</td>
-<td>testcases.PalmOilMillProductTraceGraph@7b49cea0</td></tr>
-<tr>
-<td title='testcases.PalmOilMillProductTraceTree.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillProductTraceTree<br>Parameters: sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB)</td>
-<td><div><pre>java.lang.RuntimeException: FAILED
-	at utils.Reporter.reportStep(Reporter.java:33)
-	at utils.Reporter.reportStep(Reporter.java:43)
-	at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:430)
-	at pages.ProductTracePage.clickOnTraceLink(ProductTracePage.java:46)
-	at testcases.PalmOilMillProductTraceTree.loginLogOut(PalmOilMillProductTraceTree.java:31)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace788048067", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace788048067'><pre>java.lang.RuntimeException: FAILED
-	at utils.Reporter.reportStep(Reporter.java:33)
-	at utils.Reporter.reportStep(Reporter.java:43)
-	at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:430)
-	at pages.ProductTracePage.clickOnTraceLink(ProductTracePage.java:46)
-	at testcases.PalmOilMillProductTraceTree.loginLogOut(PalmOilMillProductTraceTree.java:31)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>12</td>
-<td>testcases.PalmOilMillProductTraceTree@7fac631b</td></tr>
-<tr>
-<td title='testcases.PalmOilMillWeighbridgeEdit.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillWeighbridgeEdit<br>Parameters: sales@gmas.com, passwordgmas123, 8888, 88, tkt0808</td>
-<td><div><pre>java.lang.RuntimeException: FAILED
-	at utils.Reporter.reportStep(Reporter.java:33)
-	at utils.Reporter.reportStep(Reporter.java:43)
-	at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:430)
-	at pages.ViewWeighBridgePage.clickOnEDITWEIGHBRIDGE(ViewWeighBridgePage.java:22)
-	at testcases.PalmOilMillWeighbridgeEdit.loginLogOut(PalmOilMillWeighbridgeEdit.java:29)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace7548983", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace7548983'><pre>java.lang.RuntimeException: FAILED
-	at utils.Reporter.reportStep(Reporter.java:33)
-	at utils.Reporter.reportStep(Reporter.java:43)
-	at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:430)
-	at pages.ViewWeighBridgePage.clickOnEDITWEIGHBRIDGE(ViewWeighBridgePage.java:22)
-	at testcases.PalmOilMillWeighbridgeEdit.loginLogOut(PalmOilMillWeighbridgeEdit.java:29)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>54</td>
-<td>testcases.PalmOilMillWeighbridgeEdit@6e0e048a</td></tr>
-<tr>
-<td title='testcases.PalmOilMillProductionPlotInput.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillProductionPlotInput<br>Parameters: sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB), 888, 444</td>
-<td><div><pre>java.lang.RuntimeException: FAILED
-	at utils.Reporter.reportStep(Reporter.java:33)
-	at utils.Reporter.reportStep(Reporter.java:43)
-	at wrappers.GenericWrappers.enterByXpath(GenericWrappers.java:203)
-	at pages.CreatePlotInputPage.enterProductionLine(CreatePlotInputPage.java:44)
-	at testcases.PalmOilMillProductionPlotInput.loginLogOut(PalmOilMillProductionPlotInput.java:32)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace438123546", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace438123546'><pre>java.lang.RuntimeException: FAILED
-	at utils.Reporter.reportStep(Reporter.java:33)
-	at utils.Reporter.reportStep(Reporter.java:43)
-	at wrappers.GenericWrappers.enterByXpath(GenericWrappers.java:203)
-	at pages.CreatePlotInputPage.enterProductionLine(CreatePlotInputPage.java:44)
-	at testcases.PalmOilMillProductionPlotInput.loginLogOut(PalmOilMillProductionPlotInput.java:32)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>56</td>
-<td>testcases.PalmOilMillProductionPlotInput@23e028a9</td></tr>
-<tr>
-<td title='testcases.PalmOilMillQualityCreateReportCPOQuality.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillQualityCreateReportCPOQuality<br>Parameters: sales@gmas.com, passwordgmas123, 99900199922, 5, 8, Tank B</td>
-<td><div><pre>java.lang.RuntimeException: FAILED
-	at utils.Reporter.reportStep(Reporter.java:33)
-	at utils.Reporter.reportStep(Reporter.java:43)
-	at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:430)
-	at pages.QualityPage.selectCPOQualityFromCreateReportDropDown(QualityPage.java:50)
-	at testcases.PalmOilMillQualityCreateReportCPOQuality.loginLogOut(PalmOilMillQualityCreateReportCPOQuality.java:29)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1378559537", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1378559537'><pre>java.lang.RuntimeException: FAILED
-	at utils.Reporter.reportStep(Reporter.java:33)
-	at utils.Reporter.reportStep(Reporter.java:43)
-	at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:430)
-	at pages.QualityPage.selectCPOQualityFromCreateReportDropDown(QualityPage.java:50)
-	at testcases.PalmOilMillQualityCreateReportCPOQuality.loginLogOut(PalmOilMillQualityCreateReportCPOQuality.java:29)
+	at pages.DeliveryOrderPage.clickOnActionAcknowledge(DeliveryOrderPage.java:68)
+	at testcases.US18_20_IncomingDOStatusChangeToDelivered.loginLogOut(US18_20_IncomingDOStatusChangeToDelivered.java:31)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -322,7 +148,50 @@ Arguments: [(java.lang.String) sales@gmas.com,(java.lang.String) passwordgmas123
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>51</td>
-<td>testcases.PalmOilMillQualityCreateReportCPOQuality@6ebc05a6</td></tr>
+<td>testcases.US18_20_IncomingDOStatusChangeToDelivered@520a3426</td></tr>
+<tr>
+<td title='testcases.US18_3_AddNewFFBQuality.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.US18_3_AddNewFFBQuality<br>Parameters: sales@gmas.com, passwordgmas123, DO-org, Crude Palm Oil, 87654, 238, 108, 18</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:33)
+	at utils.Reporter.reportStep(Reporter.java:43)
+	at wrappers.GenericWrappers.clickById(GenericWrappers.java:370)
+	at pages.FFBQualityEnterDetailPage.selectDOList(FFBQualityEnterDetailPage.java:23)
+	at testcases.US18_3_AddNewFFBQuality.loginLogOut(US18_3_AddNewFFBQuality.java:32)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1923634801", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1923634801'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:33)
+	at utils.Reporter.reportStep(Reporter.java:43)
+	at wrappers.GenericWrappers.clickById(GenericWrappers.java:370)
+	at pages.FFBQualityEnterDetailPage.selectDOList(FFBQualityEnterDetailPage.java:23)
+	at testcases.US18_3_AddNewFFBQuality.loginLogOut(US18_3_AddNewFFBQuality.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>51</td>
+<td>testcases.US18_3_AddNewFFBQuality@6c3708b3</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -332,140 +201,35 @@ Arguments: [(java.lang.String) sales@gmas.com,(java.lang.String) passwordgmas123
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.PalmOilMillCreateNewDO.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillCreateNewDO<br>Parameters: sales@gmas.com, passwordgmas123, Chris Mark, KA 01 2020, DrD, Road and Rail, Transport, Crude Palm Oil (#CPO), 88, Remarks, newRemarks</td>
-<td></td>
-<td>33</td>
-<td>testcases.PalmOilMillCreateNewDO@7791a895</td></tr>
-<tr>
-<td title='testcases.PalmOilMillIncomingDOViewOriginal.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillIncomingDOViewOriginal<br>Parameters: sales@gmas.com, passwordgmas123</td>
-<td></td>
-<td>9</td>
-<td>testcases.PalmOilMillIncomingDOViewOriginal@3a5ed7a6</td></tr>
-<tr>
-<td title='testcases.PalmOilMillIncomingDOViewAssociatedDocs.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillIncomingDOViewAssociatedDocs<br>Parameters: sales@gmas.com, passwordgmas123</td>
-<td></td>
-<td>10</td>
-<td>testcases.PalmOilMillIncomingDOViewAssociatedDocs@6325a3ee</td></tr>
-<tr>
-<td title='testcases.PalmOilMillIncomingDOViewAttachments.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillIncomingDOViewAttachments<br>Parameters: sales@gmas.com, passwordgmas123</td>
-<td></td>
-<td>9</td>
-<td>testcases.PalmOilMillIncomingDOViewAttachments@1d16f93d</td></tr>
-<tr>
-<td title='testcases.PalmOilMillOutgoingDOVIEWOriginal.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillOutgoingDOVIEWOriginal<br>Parameters: sales@gmas.com, passwordgmas123</td>
-<td></td>
-<td>9</td>
-<td>testcases.PalmOilMillOutgoingDOVIEWOriginal@2b9627bc</td></tr>
-<tr>
-<td title='testcases.PalmOilMillOutgoingDOVIEWAssociatedDocs.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillOutgoingDOVIEWAssociatedDocs<br>Parameters: sales@gmas.com, passwordgmas123</td>
-<td></td>
-<td>9</td>
-<td>testcases.PalmOilMillOutgoingDOVIEWAssociatedDocs@65e2dbf3</td></tr>
-<tr>
-<td title='testcases.PalmOilMillOutgoingDOVIEWAttachments.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillOutgoingDOVIEWAttachments<br>Parameters: sales@gmas.com, passwordgmas123</td>
-<td></td>
-<td>10</td>
-<td>testcases.PalmOilMillOutgoingDOVIEWAttachments@4f970963</td></tr>
-<tr>
-<td title='testcases.PalmOilMillOutgoingDOAddWeighbridge.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillOutgoingDOAddWeighbridge<br>Parameters: sales@gmas.com, passwordgmas123, DO-org, Crude Palm Oil, 8765, 87, 238Tkt</td>
-<td></td>
-<td>18</td>
-<td>testcases.PalmOilMillOutgoingDOAddWeighbridge@61f8bee4</td></tr>
-<tr>
-<td title='testcases.PalmOilMillProductTraceMap.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillProductTraceMap<br>Parameters: sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB)</td>
-<td></td>
-<td>13</td>
-<td>testcases.PalmOilMillProductTraceMap@887af79</td></tr>
-<tr>
-<td title='testcases.PalmOilMillWeighbridgeCreateSlip.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillWeighbridgeCreateSlip<br>Parameters: sales@gmas.com, passwordgmas123, DO-org, Crude Palm Oil, 8765, 824, tkt8888</td>
-<td></td>
-<td>15</td>
-<td>testcases.PalmOilMillWeighbridgeCreateSlip@5b87ed94</td></tr>
-<tr>
-<td title='testcases.PalmOilMillFeedback.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillFeedback<br>Parameters: sales@gmas.com, passwordgmas123, Work, Feedback message</td>
-<td></td>
-<td>9</td>
-<td>testcases.PalmOilMillFeedback@5bc79255</td></tr>
-<tr>
-<td title='testcases.PalmOilMillAuditReport.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillAuditReport<br>Parameters: sales@gmas.com, passwordgmas123</td>
-<td></td>
-<td>9</td>
-<td>testcases.PalmOilMillAuditReport@47ef968d</td></tr>
-<tr>
-<td title='testcases.PalmOilMillProductionSourcedBatchView.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillProductionSourcedBatchView<br>Parameters: sales@gmas.com, passwordgmas123</td>
-<td></td>
-<td>8</td>
-<td>testcases.PalmOilMillProductionSourcedBatchView@3dd4520b</td></tr>
-<tr>
-<td title='testcases.PalmOilMillProductionProducedBatchView.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillProductionProducedBatchView<br>Parameters: sales@gmas.com, passwordgmas123</td>
-<td></td>
-<td>9</td>
-<td>testcases.PalmOilMillProductionProducedBatchView@5ae63ade</td></tr>
-<tr>
-<td title='testcases.PalmOilMillQualityCreateReportFFBQuality.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillQualityCreateReportFFBQuality<br>Parameters: sales@gmas.com, passwordgmas123, DO-org, Crude Palm Oil, 8687, 240, 340, 16</td>
-<td></td>
-<td>17</td>
-<td>testcases.PalmOilMillQualityCreateReportFFBQuality@610694f1</td></tr>
-<tr>
-<td title='testcases.PalmOilMillPartnerManagementAddPartner.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillPartnerManagementAddPartner<br>Parameters: sales@gmas.com, passwordgmas123, DibizAutomation Corporation, Palm Oil Mill, Chennai, 8056188888, DibizAutomation@gmail.com</td>
-<td></td>
-<td>18</td>
-<td>testcases.PalmOilMillPartnerManagementAddPartner@43814d18</td></tr>
-<tr>
-<td title='testcases.PalmOilMillPartnerManagementPartnerListView.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillPartnerManagementPartnerListView<br>Parameters: sales@gmas.com, passwordgmas123</td>
+<td title='testcases.US18_16_17_TDM_Original_AssociatedDocsView.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.US18_16_17_TDM_Original_AssociatedDocsView<br>Parameters: sales@gmas.com, passwordgmas123, DELIVERY ORDER</td>
 <td></td>
 <td>7</td>
-<td>testcases.PalmOilMillPartnerManagementPartnerListView@5c5a1b69</td></tr>
+<td>testcases.US18_16_17_TDM_Original_AssociatedDocsView@5f9d02cb</td></tr>
 <tr>
-<td title='testcases.PalmOilMillPartnerManagementPartnerListViewDeletePartner.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillPartnerManagementPartnerListViewDeletePartner<br>Parameters: sales@gmas.com, passwordgmas123</td>
+<td title='testcases.US18_5_6_7_TDM_PO_Invoice_DO_Tabs.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.US18_5_6_7_TDM_PO_Invoice_DO_Tabs<br>Parameters: sales@gmas.com, passwordgmas123</td>
+<td></td>
+<td>5</td>
+<td>testcases.US18_5_6_7_TDM_PO_Invoice_DO_Tabs@63753b6d</td></tr>
+<tr>
+<td title='testcases.US18_10_11_12_13_14_15_TDM_ViewAllDO.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.US18_10_11_12_13_14_15_TDM_ViewAllDO<br>Parameters: sales@gmas.com, passwordgmas123</td>
+<td></td>
+<td>8</td>
+<td>testcases.US18_10_11_12_13_14_15_TDM_ViewAllDO@6b09bb57</td></tr>
+<tr>
+<td title='testcases.US18_21_ViewAddSubDocumentWeighbridge.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.US18_21_ViewAddSubDocumentWeighbridge<br>Parameters: sales@gmas.com, passwordgmas123, Fresh fruit bunch</td>
+<td></td>
+<td>8</td>
+<td>testcases.US18_21_ViewAddSubDocumentWeighbridge@18eed359</td></tr>
+<tr>
+<td title='testcases.US18_22_ViewAddSubDocumentFFBQuality.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.US18_22_ViewAddSubDocumentFFBQuality<br>Parameters: sales@gmas.com, passwordgmas123, Fresh fruit bunch</td>
+<td></td>
+<td>8</td>
+<td>testcases.US18_22_ViewAddSubDocumentFFBQuality@3e9b1010</td></tr>
+<tr>
+<td title='testcases.US18_3_AddNewWeighbridgeTicket.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.US18_3_AddNewWeighbridgeTicket<br>Parameters: sales@gmas.com, passwordgmas123, DO-org, Fresh fruit bunch, 812, 1, 238Tkt</td>
 <td></td>
 <td>9</td>
-<td>testcases.PalmOilMillPartnerManagementPartnerListViewDeletePartner@3701eaf6</td></tr>
-<tr>
-<td title='testcases.PalmOilMillPartnerManagementNewRequestsView.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillPartnerManagementNewRequestsView<br>Parameters: sales@gmas.com, passwordgmas123</td>
-<td></td>
-<td>8</td>
-<td>testcases.PalmOilMillPartnerManagementNewRequestsView@627551fb</td></tr>
-<tr>
-<td title='testcases.PalmOilMillPartnerManagementNewRequestsDeletePartner.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillPartnerManagementNewRequestsDeletePartner<br>Parameters: sales@gmas.com, passwordgmas123</td>
-<td></td>
-<td>10</td>
-<td>testcases.PalmOilMillPartnerManagementNewRequestsDeletePartner@2b552920</td></tr>
-<tr>
-<td title='testcases.PalmOilMillPartnerManagementNewRequestsChooseActionAccept.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillPartnerManagementNewRequestsChooseActionAccept<br>Parameters: sales@gmas.com, passwordgmas123</td>
-<td></td>
-<td>8</td>
-<td>testcases.PalmOilMillPartnerManagementNewRequestsChooseActionAccept@2758fe70</td></tr>
-<tr>
-<td title='testcases.PalmOilMillPartnerManagementNewRequestsChooseActionDecline.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillPartnerManagementNewRequestsChooseActionDecline<br>Parameters: sales@gmas.com, passwordgmas123</td>
-<td></td>
-<td>7</td>
-<td>testcases.PalmOilMillPartnerManagementNewRequestsChooseActionDecline@1f36e637</td></tr>
-<tr>
-<td title='testcases.PalmOilMillCreateReportCPOQuality.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillCreateReportCPOQuality<br>Parameters: sales@gmas.com, passwordgmas123, DO-org-003-20200710, 99900199922, 10, 5, Tank B</td>
-<td></td>
-<td>15</td>
-<td>testcases.PalmOilMillCreateReportCPOQuality@578486a3</td></tr>
-<tr>
-<td title='testcases.PalmOilMillCreateReportFFBQuality.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillCreateReportFFBQuality<br>Parameters: sales@gmas.com, passwordgmas123, DO-org, Crude Palm Oil, 23456, 230, 100, 10</td>
-<td></td>
-<td>17</td>
-<td>testcases.PalmOilMillCreateReportFFBQuality@551aa95a</td></tr>
-<tr>
-<td title='testcases.PalmOilMillIncomingDOAddFFBQuality.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillIncomingDOAddFFBQuality<br>Parameters: sales@gmas.com, passwordgmas123, DO-org, Crude Palm Oil, 87654, 238, 108, 18</td>
-<td></td>
-<td>18</td>
-<td>testcases.PalmOilMillIncomingDOAddFFBQuality@35d176f7</td></tr>
-<tr>
-<td title='testcases.PalmOilMillOutgoingDOAddFFBQuality.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillOutgoingDOAddFFBQuality<br>Parameters: sales@gmas.com, passwordgmas123, DO-org, Crude Palm Oil, 2888, 288, 345, 24</td>
-<td></td>
-<td>17</td>
-<td>testcases.PalmOilMillOutgoingDOAddFFBQuality@1dfe2924</td></tr>
-<tr>
-<td title='testcases.PalmOilMillWeighbridgeView.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillWeighbridgeView<br>Parameters: sales@gmas.com, passwordgmas123</td>
-<td></td>
-<td>10</td>
-<td>testcases.PalmOilMillWeighbridgeView@6e6c3152</td></tr>
+<td>testcases.US18_3_AddNewWeighbridgeTicket@6f1fba17</td></tr>
 </table><p>
 </body>
 </html>

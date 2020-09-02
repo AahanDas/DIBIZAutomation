@@ -3,55 +3,19 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testcases.PalmOilMillProductTraceGraph">
+      <class name="testcases.US18_2_3_4_TDMFromNavigation">
         <methods>
-          <include name="loginLogOut" invocation-numbers="0"/>
           <include name="beforeMethod"/>
-          <include name="setValue"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="afterSuite"/>
-          <include name="beforeSuite"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- testcases.PalmOilMillProductTraceGraph -->
-      <class name="testcases.PalmOilMillIncomingDOAddWeighbridge">
-        <methods>
-          <include name="beforeMethod"/>
+          <include name="setValue"/>
           <include name="loginLogOut"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="afterSuite"/>
-          <include name="setValue"/>
           <include name="beforeSuite"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- testcases.PalmOilMillIncomingDOAddWeighbridge -->
-      <class name="testcases.PalmOilMillProductTraceTree">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="loginLogOut" invocation-numbers="0"/>
-          <include name="setValue"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="afterSuite"/>
-          <include name="beforeSuite"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- testcases.PalmOilMillProductTraceTree -->
-      <class name="testcases.PalmOilMillProductionPlotInput">
-        <methods>
-          <include name="loginLogOut" invocation-numbers="0"/>
-          <include name="beforeMethod"/>
-          <include name="setValue"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="afterSuite"/>
-          <include name="beforeSuite"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- testcases.PalmOilMillProductionPlotInput -->
-      <class name="testcases.PalmOilMillWeighbridgeEdit">
+      </class> <!-- testcases.US18_2_3_4_TDMFromNavigation -->
+      <class name="testcases.US18_20_IncomingDOStatusChangeToDelivered">
         <methods>
           <include name="beforeMethod"/>
           <include name="setValue"/>
@@ -62,19 +26,19 @@
           <include name="beforeSuite"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- testcases.PalmOilMillWeighbridgeEdit -->
-      <class name="testcases.PalmOilMillQualityCreateReportCPOQuality">
+      </class> <!-- testcases.US18_20_IncomingDOStatusChangeToDelivered -->
+      <class name="testcases.US18_3_AddNewFFBQuality">
         <methods>
           <include name="beforeMethod"/>
           <include name="loginLogOut" invocation-numbers="0"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="afterSuite"/>
+          <include name="setValue"/>
           <include name="beforeSuite"/>
           <include name="afterTest"/>
-          <include name="setValue"/>
         </methods>
-      </class> <!-- testcases.PalmOilMillQualityCreateReportCPOQuality -->
+      </class> <!-- testcases.US18_3_AddNewFFBQuality -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

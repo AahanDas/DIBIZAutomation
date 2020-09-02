@@ -121,5 +121,46 @@ public class NewDeliveryOrderDetailsPage extends DibizWrappers {
 		verifyTextByXpath("(//*[contains(text(), 'DELIVERY ORDER')])[1]", data);
 		return this;
 	}
+	public NewDeliveryOrderDetailsPage clickOnGoBackButton() {
+		clickByXpath("//*[contains(text(),'Go Back')]");	
+		return this;
+	}
+	public NewDeliveryOrderDetailsPage clickOnAuthorization() {
+		clickByXpath("//*[contains(text(),'Authorization')]");
+		return this;
+	}
+	
+	public NewDeliveryOrderDetailsPage verifyReportedBy() {
+		String ReportedBy = getTextById("input-reportedBy");
+		
+		
+		if (ReportedBy == null){
+			System.out.println("ReportedBy field is Empty");
+		}
+		System.out.println(ReportedBy);
+		
+		return this;
+	}
+	public NewDeliveryOrderDetailsPage verifyRole() {
+		String Role = getTextById("input-reportedByRole");
+		if (Role == null){
+			System.out.println("Role field is Empty");
+		}
+		System.out.println(Role);
+		
+		
+		
+		return this;
+	}
+	
+	public NewDeliveryOrderDetailsPage verifyAuthorisedSignatory() {
+		String AuthorisedSignatory = getTextById("input-authorisedSignatory");
+		if (AuthorisedSignatory == null){
+			System.out.println("AuthorisedSignatory field is Empty");
+		}
+		System.out.println(AuthorisedSignatory);
+		
+		return this;
+	}
 
 }

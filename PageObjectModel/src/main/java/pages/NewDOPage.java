@@ -25,16 +25,18 @@ public class NewDOPage extends DibizWrappers {
 		Thread.sleep(5000);
 		return this;
 	}
-	
+
 	public NewDOPage selectPartner() {
-		clickByXpath("//*[@class='StyledBox-sc-13pk1d4-0 ewGRLN StyledRadioButton__StyledRadioButtonBox-g1f6ld-3 gsXQqV']");		
+		clickByXpath(
+				"//*[@class='StyledBox-sc-13pk1d4-0 ewGRLN StyledRadioButton__StyledRadioButtonBox-g1f6ld-3 gsXQqV']");
 		return this;
 	}
+
 	public NewDeliveryOrderDetailsPage clickOnEnterDetails() {
 		clickByXpath("//*[contains(text(),'Enter Details')]");
 		return new NewDeliveryOrderDetailsPage(driver, test);
-		
-	}
-	
 
+	}
+
+	
 }
