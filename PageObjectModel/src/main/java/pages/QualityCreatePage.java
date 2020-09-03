@@ -19,30 +19,30 @@ public class QualityCreatePage extends DibizWrappers {
 	}
 
 	public QualityCreatePage enterNumberOfRipeBunches(String data) {
-		enterById("input-ripe", data);
+		enterById("input-ripeBunches", data);
 
 		return this;
 	}
 
 	public QualityCreatePage enterNumberOfOverRipeBunches(String data) {
-		enterById("input-overRipe", data);
+		enterById("input-overripeBunches", data);
 
 		return this;
 	}
 
 	public QualityCreatePage enterNumberOfUnderRipeBunches(String data) {
-		enterById("input-underRipe", data);
+		enterById("input-underripeBunches", data);
 
 		return this;
 	}
 
 	public QualityCreatePage enterNumberOfEmptyBunches(String data) {
-		enterById("input-empty", data);
+		enterById("input-emptyBunches", data);
 
 		return this;
 	}
 	public QualityPage clickOnCreate() {
-		clickByXpath("(//*[contains(text(),'Create')])[2]");
+		clickByXpath("//*[contains(text(),'Submit')]");
 		return new QualityPage(driver, test);
 	}
 

@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileReader;
 import java.util.Properties;
 
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.relevantcodes.extentreports.ExtentTest;
@@ -32,6 +33,19 @@ public class LoginPageDibiz extends DibizWrappers {
 		enterByName(prop.getProperty("Login.Password.Name"), data);
 		return this;
 	}
+	
+	public LoginPageDibiz verifySignInButtonDisableOrNot() {
+		WebElement ele = driver.findElementByXPath("//*[@type='submit']");
+		if (ele.isEnabled()) {
+			System.out.println("Sign In Button is Enabled");
+			
+		}else {
+			System.out.println("Sign In Button is Disabled");
+		}
+		
+		return this;
+	}
+	
 
 	public HomePage clickSignIn() {
 		//For I'm not robot check box.
