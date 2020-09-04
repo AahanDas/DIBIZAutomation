@@ -100,19 +100,21 @@ public class DeliveryOrderPage extends DibizWrappers {
 	
 	
 
-	public CreateWeighBridgePage clickOnAddSubDocumentWeighbridge() {
-		clickByXpath("//*[contains(text(),'Add Sub Document')]");
-		clickByXpath("//*[contains(text(),'Weighbridge')]");
-		return new CreateWeighBridgePage(driver, test);
-
-	}
 	
-	public FFBQualityEnterDetailPage clickOnAddSubDocumentFFBQuality() {
-		clickByXpath("//*[contains(text(),'Add Sub Document')]");
-		clickByXpath("//*[contains(text(),'FFB Quality')]");
-		return new FFBQualityEnterDetailPage(driver, test);
-
-	}
+	  public CreateWeighBridgePage clickOnAddSubDocumentWeighbridge() {
+	  clickByXpath("//*[contains(text(),'Add Sub Document')]");
+	  clickByXpath("//*[contains(text(),'Weighbridge')]"); return new
+	  CreateWeighBridgePage(driver, test);
+	  
+	  }
+	  
+	  public FFBQualityEnterDetailPage clickOnAddSubDocumentFFBQuality() {
+	  clickByXpath("//*[contains(text(),'Add Sub Document')]");
+	  clickByXpath("//*[contains(text(),'FFB Quality')]"); return new
+	  FFBQualityEnterDetailPage(driver, test);
+	  
+	  }
+	 
 	
 	
 	

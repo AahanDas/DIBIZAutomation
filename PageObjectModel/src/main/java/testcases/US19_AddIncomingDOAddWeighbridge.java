@@ -6,11 +6,11 @@ import org.testng.annotations.Test;
 import pages.LoginPageDibiz;
 import wrappers.DibizWrappers;
 
-public class PalmOilMillIncomingDOAddWeighbridge extends DibizWrappers {
+public class US19_AddIncomingDOAddWeighbridge extends DibizWrappers {
 
 	@BeforeClass
 	public void setValue() {
-		testCaseName = "PalmOilMillIncomingDOAddWeighbridge";
+		testCaseName = "US19_AddIncomingDOAddWeighbridge";
 		testDescription = "PalmOilMillIncomingDOAddWeighbridge";
 		category = "Regression";
 		authors = "DrD";

@@ -162,5 +162,18 @@ public class NewDeliveryOrderDetailsPage extends DibizWrappers {
 		
 		return this;
 	}
+	public CreateWeighBridgePage clickOnAddSubDocumentWeighbridge() {
+		clickByXpath("//*[contains(text(),'Add Sub Document')]");
+		clickByXpath("//*[contains(text(),'Weighbridge')]");
+		return new CreateWeighBridgePage(driver, test);
+
+	}
+	
+	public FFBQualityEnterDetailPage clickOnAddSubDocumentFFBQuality() {
+		clickByXpath("//*[contains(text(),'Add Sub Document')]");
+		clickByXpath("//*[contains(text(),'FFB Quality')]");
+		return new FFBQualityEnterDetailPage(driver, test);
+
+	}
 
 }

@@ -22,9 +22,19 @@ public class HomePage extends DibizWrappers {
 
 	public HomePage clickOnUserLogo() {
 
-		clickByXpath("//*[@class='TopNavbarFragments__UserProfile-adzq1e-0 bNdfRr']");
+		clickByXpath("//*[@class='TopNavbarFragments__UserProfile-adzq1e-0 bnwzZQ']");
 		return this;
 	}
+
+	public SettingsPage clickOnSettings() {
+		clickByXpath("//*[contains(text(),'Settings')]");
+		return new SettingsPage(driver, test);
+	}
+	public AdminPage clickOnAdmin() {
+		clickByXpath("(//*[contains(text(),'Admin')])[1]");
+		return new AdminPage(driver, test);
+	}
+	
 
 	public LoginPageDibiz clickLogOut() {
 		clickByXpath("//*[contains(text(),'Log Out')]");
@@ -48,7 +58,6 @@ public class HomePage extends DibizWrappers {
 		return new TDMPage(driver, test);
 
 	}
-	
 
 	public WeighBridgePage clickOnWeighBridgeMainMenu() {
 
@@ -99,55 +108,61 @@ public class HomePage extends DibizWrappers {
 		clickByXpath("//*[contains(text(),'Audit Reports')]");
 		return new AuditReportPage(driver, test);
 	}
-	
+
 	public ProductTracePage clickOnProductTraceFromMenu() {
 		clickByXpath("//*[contains(text(),'Product Trace')]");
 		return new ProductTracePage(driver, test);
-		
-		
+
 	}
-	
+
 	public HomePage checkForCardInsightSales(String data) {
 
 		verifyTextByXpath("(//*[contains(text(), 'Sales')])[1]", data);
 		return this;
 	}
+
 	public HomePage checkForCardInsightPurchase(String data) {
 
 		verifyTextByXpath("(//*[contains(text(), 'Purchase')])[1]", data);
 		return this;
 	}
+
 	public HomePage checkForCardInsightBestSuppliers(String data) {
 
 		verifyTextByXpath("(//*[contains(text(), 'Best Suppliers')])[1]", data);
 		return this;
 	}
+
 	public HomePage checkForCardInsightTopProducts(String data) {
 
 		verifyTextByXpath("(//*[contains(text(), 'Top Products')])[1]", data);
 		return this;
 	}
-	
+
 	public HomePage checkForCardInsightCertifiedSupplyChain(String data) {
 
 		verifyTextByXpath("//*[contains(text(), 'Certified Supply Chain')]", data);
 		return this;
 	}
+
 	public HomePage checkForCardInsightSupplierCategories(String data) {
 
 		verifyTextByXpath("//*[contains(text(), 'Supplier Categories')]", data);
 		return this;
 	}
+
 	public HomePage checkForCardInsightExtractionRatio(String data) {
 
 		verifyTextByXpath("//*[contains(text(), 'Extraction Ratio')]", data);
 		return this;
 	}
+
 	public HomePage checkForCardInsightTradeDetails(String data) {
 
 		verifyTextByXpath("//*[contains(text(), 'Trade details')]", data);
 		return this;
 	}
+
 	public HomePage checkForCardInsightMessagesExchanged(String data) {
 
 		verifyTextByXpath("//*[contains(text(), 'Messages exchanged')]", data);
