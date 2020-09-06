@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25782" started-at="2020-09-03T18:59:33Z" finished-at="2020-09-03T18:59:58Z">
+  <suite name="Default suite" duration-ms="22065" started-at="2020-09-05T20:22:31Z" finished-at="2020-09-05T20:22:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25782" started-at="2020-09-03T18:59:33Z" finished-at="2020-09-03T18:59:58Z">
-      <class name="testcases.US17_3_ClickSigninWithoutEnteringCredentials">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.US17_3_ClickSigninWithoutEnteringCredentials@56235b8e]" name="beforeSuite" is-config="true" duration-ms="234" started-at="2020-09-03T18:59:32Z" finished-at="2020-09-03T18:59:33Z">
+    <test name="Default test" duration-ms="22065" started-at="2020-09-05T20:22:31Z" finished-at="2020-09-05T20:22:53Z">
+      <class name="testcases.US20_5_6_7_8_9_10_PlotInput">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.US20_5_6_7_8_9_10_PlotInput@56235b8e]" name="beforeSuite" is-config="true" duration-ms="102" started-at="2020-09-05T20:22:31Z" finished-at="2020-09-05T20:22:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.US17_3_ClickSigninWithoutEnteringCredentials@56235b8e]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-09-03T18:59:33Z" finished-at="2020-09-03T18:59:33Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.US20_5_6_7_8_9_10_PlotInput@56235b8e]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-09-05T20:22:31Z" finished-at="2020-09-05T20:22:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US17_3_ClickSigninWithoutEnteringCredentials@56235b8e]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-03T18:59:33Z" finished-at="2020-09-03T18:59:33Z">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US20_5_6_7_8_9_10_PlotInput@56235b8e]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-05T20:22:31Z" finished-at="2020-09-05T20:22:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setValue -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US17_3_ClickSigninWithoutEnteringCredentials@56235b8e]" name="beforeMethod" is-config="true" duration-ms="22733" started-at="2020-09-03T18:59:34Z" finished-at="2020-09-03T18:59:56Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US20_5_6_7_8_9_10_PlotInput@56235b8e]" name="beforeMethod" is-config="true" duration-ms="9031" started-at="2020-09-05T20:22:31Z" finished-at="2020-09-05T20:22:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US17_3_ClickSigninWithoutEnteringCredentials@56235b8e]" name="loginLogOut" duration-ms="1342" started-at="2020-09-03T18:59:56Z" data-provider="fetchData" finished-at="2020-09-03T18:59:58Z">
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US20_5_6_7_8_9_10_PlotInput@56235b8e]" name="loginLogOut" duration-ms="12037" started-at="2020-09-05T20:22:40Z" data-provider="fetchData" finished-at="2020-09-05T20:22:52Z">
           <params>
             <param index="0">
               <value>
@@ -37,41 +37,36 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[99900199922]]>
+                <![CDATA[Fresh fruit bunch (#FFB)]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[5]]>
+                <![CDATA[1]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[8]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Tank B]]>
+                <![CDATA[7]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginLogOut -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US17_3_ClickSigninWithoutEnteringCredentials@56235b8e]" name="afterMethod" is-config="true" duration-ms="685" started-at="2020-09-03T18:59:58Z" finished-at="2020-09-03T18:59:58Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US20_5_6_7_8_9_10_PlotInput@56235b8e]" name="afterMethod" is-config="true" duration-ms="562" started-at="2020-09-05T20:22:52Z" finished-at="2020-09-05T20:22:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.US17_3_ClickSigninWithoutEnteringCredentials@56235b8e]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-09-03T18:59:58Z" finished-at="2020-09-03T18:59:58Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.US20_5_6_7_8_9_10_PlotInput@56235b8e]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-09-05T20:22:53Z" finished-at="2020-09-05T20:22:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.US17_3_ClickSigninWithoutEnteringCredentials@56235b8e]" name="afterSuite" is-config="true" duration-ms="621" started-at="2020-09-03T18:59:58Z" finished-at="2020-09-03T18:59:59Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.US20_5_6_7_8_9_10_PlotInput@56235b8e]" name="afterSuite" is-config="true" duration-ms="197" started-at="2020-09-05T20:22:53Z" finished-at="2020-09-05T20:22:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- testcases.US17_3_ClickSigninWithoutEnteringCredentials -->
+      </class> <!-- testcases.US20_5_6_7_8_9_10_PlotInput -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

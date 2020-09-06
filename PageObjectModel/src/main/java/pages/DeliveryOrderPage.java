@@ -56,8 +56,6 @@ public class DeliveryOrderPage extends DibizWrappers {
 		clickByXpath("//*[contains(text(),'Attachments')]");
 		return this;
 	}
-	
-	
 
 	public DeliveryOrderPage clickOnOutgoingDOAttachments() {
 		clickByXpath("//*[contains(text(),'Attachments')]");
@@ -72,14 +70,14 @@ public class DeliveryOrderPage extends DibizWrappers {
 	}
 
 	public DeliveryOrderPage enterRemarksForStatusChange(String data) {
-		//enterByXpath("(//*[@class='StyledTextArea-sc-17i3mwp-0 bQXsYf'])[2]", data);
+		// enterByXpath("(//*[@class='StyledTextArea-sc-17i3mwp-0 bQXsYf'])[2]", data);
 		enterById("input-remarks-input", data);
 		return this;
 
 	}
-	
+
 	public DeliveryOrderPage clickSubmitForRemarksStatusChange() {
-		
+
 		clickByXpath("//*[@class='StyledButton-sc-323bzc-0 edaVNT']");
 		return this;
 
@@ -91,32 +89,40 @@ public class DeliveryOrderPage extends DibizWrappers {
 		return this;
 
 	}
+
 	public DeliveryOrderPage clickOnActionReceivedGoods() {
 		clickByXpath("//*[contains(text(),'ACTION')]");
 		clickByXpath("//*[contains(text(),'Received Goods')]");
 		return this;
 
 	}
-	
-	
 
-	
-	  public CreateWeighBridgePage clickOnAddSubDocumentWeighbridge() {
-	  clickByXpath("//*[contains(text(),'Add Sub Document')]");
-	  clickByXpath("//*[contains(text(),'Weighbridge')]"); return new
-	  CreateWeighBridgePage(driver, test);
-	  
-	  }
-	  
-	  public FFBQualityEnterDetailPage clickOnAddSubDocumentFFBQuality() {
-	  clickByXpath("//*[contains(text(),'Add Sub Document')]");
-	  clickByXpath("//*[contains(text(),'FFB Quality')]"); return new
-	  FFBQualityEnterDetailPage(driver, test);
-	  
-	  }
-	 
-	
-	
-	
+	public CreateWeighBridgePage clickOnAddSubDocumentWeighbridge() {
+		clickByXpath("//*[contains(text(),'Add Sub Document')]");
+		clickByXpath("//*[contains(text(),'Weighbridge')]");
+		return new CreateWeighBridgePage(driver, test);
+
+	}
+
+	public FFBQualityEnterDetailPage clickOnAddSubDocumentFFBQuality() {
+		clickByXpath("//*[contains(text(),'Add Sub Document')]");
+		clickByXpath("//*[contains(text(),'FFB Quality')]");
+		return new FFBQualityEnterDetailPage(driver, test);
+
+	}
+
+	public DeliveryOrderPage checkAllDetailsInDeliveryOrderPageForIncomingDO() {
+		String Partner = getTextByXpath("(//*[@class='Typography__P-cdhru6-4 dqomvH'])[2]");
+		System.out.println("Partner: " +Partner);
+		
+		String Product = getTextByXpath("(//*[@class='Typography__Label-cdhru6-5 fjmeAk'])[2]");
+		System.out.println("Product: " +Product);
+		
+		String ReportedBy = getTextByXpath("((//*[@class='Box-sc-19yaqt9-0 fAFBPY']))[8]");
+		System.out.println("ReportedBy: " +ReportedBy);
+		
+		
+		return this;
+	}
 
 }

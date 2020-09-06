@@ -30,11 +30,11 @@ public class HomePage extends DibizWrappers {
 		clickByXpath("//*[contains(text(),'Settings')]");
 		return new SettingsPage(driver, test);
 	}
+
 	public AdminPage clickOnAdmin() {
 		clickByXpath("(//*[contains(text(),'Admin')])[1]");
 		return new AdminPage(driver, test);
 	}
-	
 
 	public LoginPageDibiz clickLogOut() {
 		clickByXpath("//*[contains(text(),'Log Out')]");
@@ -168,6 +168,6 @@ public class HomePage extends DibizWrappers {
 		verifyTextByXpath("//*[contains(text(), 'Messages exchanged')]", data);
 		return this;
 	}
-	
 
+	
 }

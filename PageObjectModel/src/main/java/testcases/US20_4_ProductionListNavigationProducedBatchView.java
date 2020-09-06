@@ -10,12 +10,12 @@ public class US20_4_ProductionListNavigationProducedBatchView extends DibizWrapp
 
 	@BeforeClass
 	public void setValue() {
-		testCaseName = "US20_1_2_3_ProductionListNavigationProducedBatchView";
-		testDescription = "US20_1_2_3_ProductionListNavigationProducedBatchView";
+		testCaseName = "US20_4_ProductionListNavigationProducedBatchView";
+		testDescription = "US20_4_ProductionListNavigationProducedBatchView";
 		category = "Regression";
 		authors = "DrD";
 		browserName = "chrome";
-		dataSheetName = "PalmOilMillProductionProducedBatchView";
+		dataSheetName = "US20_1_2_3_ProductionListNavigationSourcedBatchView";
 	}
 
 	@Test(dataProvider = "fetchData")

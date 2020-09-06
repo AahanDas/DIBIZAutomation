@@ -15,7 +15,7 @@ public class US20_1_2_3_ProductionListNavigationSourcedBatchView extends DibizWr
 		category = "Regression";
 		authors = "DrD";
 		browserName = "chrome";
-		dataSheetName = "PalmOilMillProductionSourcedBatchView";
+		dataSheetName = "US20_1_2_3_ProductionListNavigationSourcedBatchView";
 	}
 
 	@Test(dataProvider = "fetchData")

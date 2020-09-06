@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.relevantcodes.extentreports.ExtentTest;
@@ -62,6 +63,34 @@ public class NewDeliveryOrderDetailsPage extends DibizWrappers {
 		clickByXpath("//*[@class='StyledText-sc-1sadyjn-0 oKAxv']");
 		return this;
 	}
+	
+	public NewDeliveryOrderDetailsPage calculateAvailableQuantity() {
+		
+		String quantity = getTextByXpath("(//*[@class='Typography__P-cdhru6-4 ctKvoC'])[8]");
+		int AvailQuantity = Integer.parseInt(quantity);
+		AvailQuantity = AvailQuantity+100;
+		System.out.println("AvailQuantity: " +AvailQuantity);
+		
+		String strQuantity = String.valueOf(AvailQuantity);
+		enterById("input-quantity", strQuantity);
+		return this;
+	}
+	
+	
+	public NewDeliveryOrderDetailsPage verifySubmitButtonDisableOrNot() {
+		WebElement ele = driver.findElementByXPath("//*[contains(text(),'Submit')]");
+		if (ele.isEnabled()) {
+			System.out.println("Submit Button is Enabled");
+			
+		}else {
+			System.out.println("Submit Button is Disabled");
+		}
+		
+		return this;
+	}
+	
+	
+	
 
 	public NewDeliveryOrderDetailsPage enterQuantity(String data) {
 		enterById("input-quantity", data);

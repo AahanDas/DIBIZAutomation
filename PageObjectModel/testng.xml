@@ -3,15 +3,71 @@
 <suite name="Suite">
 	<test name="Test">
 		<classes>
-			<class name="testcases.US18_16_17_TDM_Original_AssociatedDocsView" />
+					
+			<class name="testcases.US17_6_ClickSigninWithoutEnteringPassword" />
+			<class name="testcases.US17_5_ClickSigninWithInvalidCredential" />
+			<class name="testcases.US17_3_ClickSigninWithoutEnteringCredentials" />
+			
+			<class name="testcases.US18_1_AllInsightsInCards" />
+			<class name="testcases.US18_2_3_4_TDMFromNavigation" />
+			<class name="testcases.US18_3_AddNewFFBQuality" />
+			<class name="testcases.US18_3_AddNewWeighbridgeTicket" />
 			<class name="testcases.US18_5_6_7_TDM_PO_Invoice_DO_Tabs" />
 			<class name="testcases.US18_10_11_12_13_14_15_TDM_ViewAllDO" />
-			<class name="testcases.US18_2_3_4_TDMFromNavigation" />
+			<class name="testcases.US18_16_17_TDM_Original_AssociatedDocsView" />
+			<class name="testcases.US18_19_ViewIncomingDODetails" />
 			<class name="testcases.US18_20_IncomingDOStatusChangeToDelivered" />
 			<class name="testcases.US18_21_ViewAddSubDocumentWeighbridge" />
 			<class name="testcases.US18_22_ViewAddSubDocumentFFBQuality" />
-			<class name="testcases.US18_3_AddNewFFBQuality" />
-			<class name="testcases.US18_3_AddNewWeighbridgeTicket" />
+			
+			
+			
+			
+			<class name="testcases.US19_AddIncomingDOAddFFBQuality" />
+			<class name="testcases.US19_AddIncomingDOAddWeighbridge" />
+			<class name="testcases.US19_AddSubDocumentFFBQualityIncomingDO" />
+			<class name="testcases.US19_AddSubDocumentWeighbridgeIncomingDO" />
+			
+			
+			<class name="testcases.US20_1_2_3_ProductionListNavigationSourcedBatchView" />
+			<class name="testcases.US20_4_ProductionListNavigationProducedBatchView" />
+			<class name="testcases.US20_5_6_7_8_9_10_PlotInput" />
+			<class name="testcases.US20_11_VerifyMoreThanAvailableQuantity" />
+			<class name="testcases.US20_12_13_PlotInput_BackButton" />
+			
+			
+			<class name="testcases.US21_1_2_3_4_5_6_7_9_14_15_16" />
+			<class name="testcases.US21_1_19_CreateOutgoingDO" />
+			<class name="testcases.US21_11_Authorization_Info_Check" />
+			<class name="testcases.US21_12_Goback_To_PartnerSelectionPage" />
+			<class name="testcases.US21_13_Edit_Draft_DO" />
+			<class name="testcases.US21_13_Save_DO_As_Draft" />
+			<class name="testcases.US21_17_View_Attachments" />
+			
+			<class name="testcases.US23_4_5_Apply" />
+			<class name="testcases.US23_6_OrganisationInformations" />
+			<class name="testcases.US23_7_8_TransactionInformations" />
+			<class name="testcases.US23_9_ShowMore" />
+			
+			<class name="testcases.US25_3_AcceptPartner" />
+			<class name="testcases.US25_3_DeclinePartner" />
+			<class name="testcases.US25_8_9_AddNewPartner_IfNotExists_CheckStatus" />
+			
+			<class name="testcases.US26_1_5_Feedback" />
+			
+			<class name="testcases.US28_Settings_LanguageChange" />
+			<class name="testcases.US28_Settings_PasswordChange" />
+			
+			<class name="testcases.US29_11_Admin_CreateAssets" />
+			<class name="testcases.US29_Admin_AssetsView_VehiclesAndStorageUnits" />
+			<class name="testcases.US29_Admin_ViewCompanyInformation" />
+			<class name="testcases.US29_Admin_ViewEmployeeManagement" />
+			
+			<class name="testcases.US30_1_2_3_CheckAllQualityTabs" />
+			<class name="testcases.US30_4_5_CreateFFBQualityReport" />
+			<class name="testcases.US30_6_Edit_FFBQualityReport" />
+			<class name="testcases.US30_7_8_CreateCPOQualityReport" />
+			<class name="testcases.US30_11_View_CPOQualityReport" />
 			
 		</classes>
 	</test> <!-- Test -->

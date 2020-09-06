@@ -15,7 +15,7 @@ public class US20_12_13_PlotInput_BackButton  extends DibizWrappers {
 		category = "Regression";
 		authors = "DrD";
 		browserName = "chrome";
-		dataSheetName = "PalmOilMillProductionPlotInput";
+		dataSheetName = "US20_12_13_PlotInput_BackButton";
 	}
 
 	@Test(dataProvider = "fetchData")

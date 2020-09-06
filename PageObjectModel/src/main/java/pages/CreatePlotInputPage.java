@@ -26,19 +26,20 @@ public class CreatePlotInputPage extends DibizWrappers {
 
 	}
 
-	public CreatePlotInputPage selectCheckBoxOfConsignmentNumber() {
+	public CreatePlotInputPage selectCheckBoxOfConsignmentNumber()  {
 
 		clickByXpath(
 				"(//*[@class='StyledBox-sc-13pk1d4-0 PiYIl StyledCheckBox__StyledCheckBoxBox-sc-1dbk5ju-3 cJNjzg'])[1]");
+		//Thread.sleep(8000);
 		return this;
 
 	}
 
 	public CreatePlotInputPage enterQuantityUsed(String data) {
 		//enterByXpath("(//*[@class='StyledTextInput-sc-1x30a0s-0 fjmpmu'])[1]", data);
-		//enterById("input-quantity-entity-delivery-order-Iwphsgoa9GX3fvjK", data);
+		//enterById("input-quantity-entity-delivery-order-854IRswr5U6c1TyP", data);
 		enterByXpath("(//*[@type='number'])[1]", data);
-		
+		//enterByXpath("(//*[@class='FieldText-sc-1q7ny79-0 iJsudR'])[2]", data);
 
 		return this;
 	}

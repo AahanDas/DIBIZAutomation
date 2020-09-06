@@ -53,6 +53,7 @@ public class LoginPageDibiz extends DibizWrappers {
 		clickByXpath(prop.getProperty("Login.SignIn.Xpath"));
 		return new HomePage(driver, test);
 	}
+	
 
 	public LoginPageDibiz clickOnIamNotRobot(String frame) {
 		//For I'm not robot check box.
@@ -77,6 +78,12 @@ public class LoginPageDibiz extends DibizWrappers {
 	}
 	
 	
+	public LoginPageDibiz clickOnSignInAndVerifyToastMessageForLoginFailure() {
+		
+		clickByXpath("//*[@type='submit']");
+		//verifyTextByXpath("/*[contains(text(),'invalid authentication credentials provided')]", "invalid authentication credentials provided");
+		return this;
+	}
 	
 
 
