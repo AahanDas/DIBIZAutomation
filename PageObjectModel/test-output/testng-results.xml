@@ -1,29 +1,1114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="16" ignored="192" total="241" passed="33">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22065" started-at="2020-09-05T20:22:31Z" finished-at="2020-09-05T20:22:53Z">
+  <suite name="Suite" duration-ms="1207347" started-at="2020-09-07T10:40:49Z" finished-at="2020-09-07T11:00:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22065" started-at="2020-09-05T20:22:31Z" finished-at="2020-09-05T20:22:53Z">
-      <class name="testcases.US20_5_6_7_8_9_10_PlotInput">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.US20_5_6_7_8_9_10_PlotInput@56235b8e]" name="beforeSuite" is-config="true" duration-ms="102" started-at="2020-09-05T20:22:31Z" finished-at="2020-09-05T20:22:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.US20_5_6_7_8_9_10_PlotInput@56235b8e]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-09-05T20:22:31Z" finished-at="2020-09-05T20:22:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US20_5_6_7_8_9_10_PlotInput@56235b8e]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-05T20:22:31Z" finished-at="2020-09-05T20:22:31Z">
+    <test name="Test" duration-ms="1207347" started-at="2020-09-07T10:40:49Z" finished-at="2020-09-07T11:00:56Z">
+      <class name="testcases.US19_AddIncomingDOAddWeighbridge">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US19_AddIncomingDOAddWeighbridge@6ebc05a6]" name="setValue" is-config="true" duration-ms="1" started-at="2020-09-07T10:44:55Z" finished-at="2020-09-07T10:44:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setValue -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US20_5_6_7_8_9_10_PlotInput@56235b8e]" name="beforeMethod" is-config="true" duration-ms="9031" started-at="2020-09-05T20:22:31Z" finished-at="2020-09-05T20:22:40Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US19_AddIncomingDOAddWeighbridge@6ebc05a6]" name="beforeMethod" is-config="true" duration-ms="6929" started-at="2020-09-07T10:44:55Z" finished-at="2020-09-07T10:45:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US20_5_6_7_8_9_10_PlotInput@56235b8e]" name="loginLogOut" duration-ms="12037" started-at="2020-09-05T20:22:40Z" data-provider="fetchData" finished-at="2020-09-05T20:22:52Z">
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US19_AddIncomingDOAddWeighbridge@6ebc05a6]" name="loginLogOut" duration-ms="9409" started-at="2020-09-07T10:45:02Z" data-provider="fetchData" finished-at="2020-09-07T10:45:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DO-org]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Fresh fruit bunch]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[812]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[238Tkt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US19_AddIncomingDOAddWeighbridge@6ebc05a6]" name="afterMethod" is-config="true" duration-ms="559" started-at="2020-09-07T10:45:11Z" finished-at="2020-09-07T10:45:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US19_AddIncomingDOAddWeighbridge -->
+      <class name="testcases.US23_4_5_Apply">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US23_4_5_Apply@3224f60b]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:49:50Z" finished-at="2020-09-07T10:49:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US23_4_5_Apply@3224f60b]" name="beforeMethod" is-config="true" duration-ms="6800" started-at="2020-09-07T10:49:50Z" finished-at="2020-09-07T10:49:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US23_4_5_Apply@3224f60b]" name="loginLogOut" duration-ms="5992" started-at="2020-09-07T10:49:56Z" data-provider="fetchData" finished-at="2020-09-07T10:50:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Company Information]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Transaction - 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US23_4_5_Apply@3224f60b]" name="afterMethod" is-config="true" duration-ms="555" started-at="2020-09-07T10:50:02Z" finished-at="2020-09-07T10:50:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US23_4_5_Apply -->
+      <class name="testcases.US18_5_6_7_TDM_PO_Invoice_DO_Tabs">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US18_5_6_7_TDM_PO_Invoice_DO_Tabs@627551fb]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:42:08Z" finished-at="2020-09-07T10:42:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US18_5_6_7_TDM_PO_Invoice_DO_Tabs@627551fb]" name="beforeMethod" is-config="true" duration-ms="6758" started-at="2020-09-07T10:42:08Z" finished-at="2020-09-07T10:42:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.US18_5_6_7_TDM_PO_Invoice_DO_Tabs@627551fb]" name="loginLogOut" duration-ms="5561" started-at="2020-09-07T10:42:15Z" data-provider="fetchData" finished-at="2020-09-07T10:42:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US18_5_6_7_TDM_PO_Invoice_DO_Tabs@627551fb]" name="afterMethod" is-config="true" duration-ms="562" started-at="2020-09-07T10:42:21Z" finished-at="2020-09-07T10:42:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US18_5_6_7_TDM_PO_Invoice_DO_Tabs -->
+      <class name="testcases.US21_1_19_CreateOutgoingDO">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US21_1_19_CreateOutgoingDO@4973813a]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:48:38Z" finished-at="2020-09-07T10:48:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US21_1_19_CreateOutgoingDO@4973813a]" name="beforeMethod" is-config="true" duration-ms="6806" started-at="2020-09-07T10:48:38Z" finished-at="2020-09-07T10:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US21_1_19_CreateOutgoingDO@4973813a]" name="loginLogOut" duration-ms="27740" started-at="2020-09-07T10:48:45Z" data-provider="fetchData" finished-at="2020-09-07T10:49:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jendarata Palm Oil Mill]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DO-Plantation-001-20200820]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[KA 01 2020]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[DrD]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Road and Rail]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Transport]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Fresh fruit bunch (#FFB)]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Remarks]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[newRemarks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US21_1_19_CreateOutgoingDO@4973813a]" name="afterMethod" is-config="true" duration-ms="563" started-at="2020-09-07T10:49:13Z" finished-at="2020-09-07T10:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US21_1_19_CreateOutgoingDO -->
+      <class name="testcases.US20_1_2_3_ProductionListNavigationSourcedBatchView">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US20_1_2_3_ProductionListNavigationSourcedBatchView@3cef309d]" name="setValue" is-config="true" duration-ms="1" started-at="2020-09-07T10:46:32Z" finished-at="2020-09-07T10:46:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US20_1_2_3_ProductionListNavigationSourcedBatchView@3cef309d]" name="beforeMethod" is-config="true" duration-ms="10780" started-at="2020-09-07T10:46:32Z" finished-at="2020-09-07T10:46:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.US20_1_2_3_ProductionListNavigationSourcedBatchView@3cef309d]" name="loginLogOut" duration-ms="6610" started-at="2020-09-07T10:46:43Z" data-provider="fetchData" finished-at="2020-09-07T10:46:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US20_1_2_3_ProductionListNavigationSourcedBatchView@3cef309d]" name="afterMethod" is-config="true" duration-ms="561" started-at="2020-09-07T10:46:50Z" finished-at="2020-09-07T10:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US20_1_2_3_ProductionListNavigationSourcedBatchView -->
+      <class name="testcases.US29_Admin_AssetsView_VehiclesAndStorageUnits">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US29_Admin_AssetsView_VehiclesAndStorageUnits@9660f4e]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:56:02Z" finished-at="2020-09-07T10:56:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US29_Admin_AssetsView_VehiclesAndStorageUnits@9660f4e]" name="beforeMethod" is-config="true" duration-ms="6767" started-at="2020-09-07T10:56:02Z" finished-at="2020-09-07T10:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="loginLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.US29_Admin_AssetsView_VehiclesAndStorageUnits@9660f4e]" name="loginLogOut" duration-ms="48467" started-at="2020-09-07T10:56:09Z" data-provider="fetchData" finished-at="2020-09-07T10:56:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+at utils.Reporter.reportStep(Reporter.java:33)
+at utils.Reporter.reportStep(Reporter.java:43)
+at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:432)
+at pages.HomePage.clickOnUserLogo(HomePage.java:25)
+at testcases.US29_Admin_AssetsView_VehiclesAndStorageUnits.loginLogOut(US29_Admin_AssetsView_VehiclesAndStorageUnits.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US29_Admin_AssetsView_VehiclesAndStorageUnits@9660f4e]" name="afterMethod" is-config="true" duration-ms="557" started-at="2020-09-07T10:56:57Z" finished-at="2020-09-07T10:56:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US29_Admin_AssetsView_VehiclesAndStorageUnits -->
+      <class name="testcases.US19_AddSubDocumentFFBQualityIncomingDO">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US19_AddSubDocumentFFBQualityIncomingDO@6e6c3152]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:45:11Z" finished-at="2020-09-07T10:45:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US19_AddSubDocumentFFBQualityIncomingDO@6e6c3152]" name="beforeMethod" is-config="true" duration-ms="6936" started-at="2020-09-07T10:45:11Z" finished-at="2020-09-07T10:45:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US19_AddSubDocumentFFBQualityIncomingDO@6e6c3152]" name="loginLogOut" duration-ms="55313" started-at="2020-09-07T10:45:18Z" data-provider="fetchData" finished-at="2020-09-07T10:46:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DO-org]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Crude Palm Oil]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[87654]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[238]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[108]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+at utils.Reporter.reportStep(Reporter.java:33)
+at utils.Reporter.reportStep(Reporter.java:43)
+at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:432)
+at pages.FFBQualityEnterDetailPage.clickOnCreateButton(FFBQualityEnterDetailPage.java:73)
+at testcases.US19_AddSubDocumentFFBQualityIncomingDO.loginLogOut(US19_AddSubDocumentFFBQualityIncomingDO.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US19_AddSubDocumentFFBQualityIncomingDO@6e6c3152]" name="afterMethod" is-config="true" duration-ms="559" started-at="2020-09-07T10:46:14Z" finished-at="2020-09-07T10:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US19_AddSubDocumentFFBQualityIncomingDO -->
+      <class name="testcases.US18_3_AddNewWeighbridgeTicket">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US18_3_AddNewWeighbridgeTicket@3701eaf6]" name="setValue" is-config="true" duration-ms="1" started-at="2020-09-07T10:41:52Z" finished-at="2020-09-07T10:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US18_3_AddNewWeighbridgeTicket@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="6785" started-at="2020-09-07T10:41:52Z" finished-at="2020-09-07T10:41:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US18_3_AddNewWeighbridgeTicket@3701eaf6]" name="loginLogOut" duration-ms="9237" started-at="2020-09-07T10:41:58Z" data-provider="fetchData" finished-at="2020-09-07T10:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DO-org]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Fresh fruit bunch]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[812]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[238Tkt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US18_3_AddNewWeighbridgeTicket@3701eaf6]" name="afterMethod" is-config="true" duration-ms="559" started-at="2020-09-07T10:42:08Z" finished-at="2020-09-07T10:42:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US18_3_AddNewWeighbridgeTicket -->
+      <class name="testcases.US18_16_17_TDM_Original_AssociatedDocsView">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US18_16_17_TDM_Original_AssociatedDocsView@2758fe70]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:42:37Z" finished-at="2020-09-07T10:42:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US18_16_17_TDM_Original_AssociatedDocsView@2758fe70]" name="beforeMethod" is-config="true" duration-ms="6857" started-at="2020-09-07T10:42:37Z" finished-at="2020-09-07T10:42:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US18_16_17_TDM_Original_AssociatedDocsView@2758fe70]" name="loginLogOut" duration-ms="7599" started-at="2020-09-07T10:42:44Z" data-provider="fetchData" finished-at="2020-09-07T10:42:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DELIVERY ORDER]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US18_16_17_TDM_Original_AssociatedDocsView@2758fe70]" name="afterMethod" is-config="true" duration-ms="557" started-at="2020-09-07T10:42:52Z" finished-at="2020-09-07T10:42:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US18_16_17_TDM_Original_AssociatedDocsView -->
+      <class name="testcases.US17_3_ClickSigninWithoutEnteringCredentials">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US17_3_ClickSigninWithoutEnteringCredentials@5ae63ade]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:41:10Z" finished-at="2020-09-07T10:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US17_3_ClickSigninWithoutEnteringCredentials@5ae63ade]" name="beforeMethod" is-config="true" duration-ms="6830" started-at="2020-09-07T10:41:10Z" finished-at="2020-09-07T10:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US17_3_ClickSigninWithoutEnteringCredentials@5ae63ade]" name="loginLogOut" duration-ms="809" started-at="2020-09-07T10:41:17Z" data-provider="fetchData" finished-at="2020-09-07T10:41:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99900199922]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Tank B]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US17_3_ClickSigninWithoutEnteringCredentials@5ae63ade]" name="afterMethod" is-config="true" duration-ms="563" started-at="2020-09-07T10:41:18Z" finished-at="2020-09-07T10:41:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US17_3_ClickSigninWithoutEnteringCredentials -->
+      <class name="testcases.US25_8_9_AddNewPartner_IfNotExists_CheckStatus">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US25_8_9_AddNewPartner_IfNotExists_CheckStatus@68bbe345]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:52:40Z" finished-at="2020-09-07T10:52:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US25_8_9_AddNewPartner_IfNotExists_CheckStatus@68bbe345]" name="beforeMethod" is-config="true" duration-ms="6804" started-at="2020-09-07T10:52:40Z" finished-at="2020-09-07T10:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US25_8_9_AddNewPartner_IfNotExists_CheckStatus@68bbe345]" name="loginLogOut" duration-ms="13375" started-at="2020-09-07T10:52:46Z" data-provider="fetchData" finished-at="2020-09-07T10:53:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DibizAutomation Corporation]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Palm Oil Mill]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8056188888]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[DibizAutomation@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US25_8_9_AddNewPartner_IfNotExists_CheckStatus@68bbe345]" name="afterMethod" is-config="true" duration-ms="556" started-at="2020-09-07T10:53:00Z" finished-at="2020-09-07T10:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US25_8_9_AddNewPartner_IfNotExists_CheckStatus -->
+      <class name="testcases.US25_3_DeclinePartner">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US25_3_DeclinePartner@a7e666]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:51:43Z" finished-at="2020-09-07T10:51:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US25_3_DeclinePartner@a7e666]" name="beforeMethod" is-config="true" duration-ms="6799" started-at="2020-09-07T10:51:43Z" finished-at="2020-09-07T10:51:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="loginLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.US25_3_DeclinePartner@a7e666]" name="loginLogOut" duration-ms="49568" started-at="2020-09-07T10:51:50Z" data-provider="fetchData" finished-at="2020-09-07T10:52:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+at utils.Reporter.reportStep(Reporter.java:33)
+at utils.Reporter.reportStep(Reporter.java:43)
+at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:432)
+at pages.PartnerPage.clickOnNewRequestsTab(PartnerPage.java:32)
+at testcases.US25_3_DeclinePartner.loginLogOut(US25_3_DeclinePartner.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US25_3_DeclinePartner@a7e666]" name="afterMethod" is-config="true" duration-ms="570" started-at="2020-09-07T10:52:39Z" finished-at="2020-09-07T10:52:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US25_3_DeclinePartner -->
+      <class name="testcases.US28_Settings_LanguageChange">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US28_Settings_LanguageChange@7494e528]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:53:14Z" finished-at="2020-09-07T10:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US28_Settings_LanguageChange@7494e528]" name="beforeMethod" is-config="true" duration-ms="6818" started-at="2020-09-07T10:53:14Z" finished-at="2020-09-07T10:53:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="loginLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.US28_Settings_LanguageChange@7494e528]" name="loginLogOut" duration-ms="48516" started-at="2020-09-07T10:53:21Z" data-provider="fetchData" finished-at="2020-09-07T10:54:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+at utils.Reporter.reportStep(Reporter.java:33)
+at utils.Reporter.reportStep(Reporter.java:43)
+at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:432)
+at pages.HomePage.clickOnUserLogo(HomePage.java:25)
+at testcases.US28_Settings_LanguageChange.loginLogOut(US28_Settings_LanguageChange.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US28_Settings_LanguageChange@7494e528]" name="afterMethod" is-config="true" duration-ms="555" started-at="2020-09-07T10:54:10Z" finished-at="2020-09-07T10:54:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US28_Settings_LanguageChange -->
+      <class name="testcases.US19_AddIncomingDOAddFFBQuality">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US19_AddIncomingDOAddFFBQuality@1dfe2924]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:44:37Z" finished-at="2020-09-07T10:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US19_AddIncomingDOAddFFBQuality@1dfe2924]" name="beforeMethod" is-config="true" duration-ms="7511" started-at="2020-09-07T10:44:37Z" finished-at="2020-09-07T10:44:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US19_AddIncomingDOAddFFBQuality@1dfe2924]" name="loginLogOut" duration-ms="9014" started-at="2020-09-07T10:44:45Z" data-provider="fetchData" finished-at="2020-09-07T10:44:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DO-org]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Crude Palm Oil]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[87654]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[238]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[108]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US19_AddIncomingDOAddFFBQuality@1dfe2924]" name="afterMethod" is-config="true" duration-ms="557" started-at="2020-09-07T10:44:54Z" finished-at="2020-09-07T10:44:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US19_AddIncomingDOAddFFBQuality -->
+      <class name="testcases.US30_7_8_CreateCPOQualityReport">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US30_7_8_CreateCPOQualityReport@5d76b067]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:59:44Z" finished-at="2020-09-07T10:59:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US30_7_8_CreateCPOQualityReport@5d76b067]" name="beforeMethod" is-config="true" duration-ms="6826" started-at="2020-09-07T10:59:44Z" finished-at="2020-09-07T10:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US30_7_8_CreateCPOQualityReport@5d76b067]" name="loginLogOut" duration-ms="49955" started-at="2020-09-07T10:59:51Z" data-provider="fetchData" finished-at="2020-09-07T11:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99900199922]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Tank B]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+at utils.Reporter.reportStep(Reporter.java:33)
+at utils.Reporter.reportStep(Reporter.java:43)
+at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:432)
+at pages.QualityPage.selectCPOQualityFromCreateReportDropDown(QualityPage.java:51)
+at testcases.US30_7_8_CreateCPOQualityReport.loginLogOut(US30_7_8_CreateCPOQualityReport.java:29)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US30_7_8_CreateCPOQualityReport@5d76b067]" name="afterMethod" is-config="true" duration-ms="555" started-at="2020-09-07T11:00:41Z" finished-at="2020-09-07T11:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US30_7_8_CreateCPOQualityReport -->
+      <class name="testcases.US21_17_View_Attachments">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US21_17_View_Attachments@3b084709]" name="setValue" is-config="true" duration-ms="1" started-at="2020-09-07T10:49:35Z" finished-at="2020-09-07T10:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US21_17_View_Attachments@3b084709]" name="beforeMethod" is-config="true" duration-ms="6895" started-at="2020-09-07T10:49:35Z" finished-at="2020-09-07T10:49:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.US21_17_View_Attachments@3b084709]" name="loginLogOut" duration-ms="6854" started-at="2020-09-07T10:49:42Z" data-provider="fetchData" finished-at="2020-09-07T10:49:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US21_17_View_Attachments@3b084709]" name="afterMethod" is-config="true" duration-ms="559" started-at="2020-09-07T10:49:49Z" finished-at="2020-09-07T10:49:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US21_17_View_Attachments -->
+      <class name="testcases.US21_11_Authorization_Info_Check">
+        <test-method status="FAIL" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US21_11_Authorization_Info_Check@6321e813]" name="loginLogOut" duration-ms="25" started-at="2020-09-07T10:49:14Z" data-provider="fetchData" finished-at="2020-09-07T10:49:14Z">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+Data provider mismatch
+Method: loginLogOut([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=7, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=8, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=9, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=10, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=11, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) sales@gmas.com,(java.lang.String) passwordgmas123]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: loginLogOut([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=7, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=8, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=9, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=10, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=11, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) sales@gmas.com,(java.lang.String) passwordgmas123]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:45)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:796)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:983)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US21_11_Authorization_Info_Check@6321e813]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:49:14Z" finished-at="2020-09-07T10:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+      </class> <!-- testcases.US21_11_Authorization_Info_Check -->
+      <class name="testcases.US17_5_ClickSigninWithInvalidCredential">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US17_5_ClickSigninWithInvalidCredential@3dd4520b]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:41:00Z" finished-at="2020-09-07T10:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US17_5_ClickSigninWithInvalidCredential@3dd4520b]" name="beforeMethod" is-config="true" duration-ms="7104" started-at="2020-09-07T10:41:00Z" finished-at="2020-09-07T10:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.US17_5_ClickSigninWithInvalidCredential@3dd4520b]" name="loginLogOut" duration-ms="2467" started-at="2020-09-07T10:41:07Z" data-provider="fetchData" finished-at="2020-09-07T10:41:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongPassword123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US17_5_ClickSigninWithInvalidCredential@3dd4520b]" name="afterMethod" is-config="true" duration-ms="560" started-at="2020-09-07T10:41:10Z" finished-at="2020-09-07T10:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US17_5_ClickSigninWithInvalidCredential -->
+      <class name="testcases.US30_6_Edit_FFBQualityReport">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US30_6_Edit_FFBQualityReport@7d0587f1]" name="setValue" is-config="true" duration-ms="1" started-at="2020-09-07T10:59:26Z" finished-at="2020-09-07T10:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US30_6_Edit_FFBQualityReport@7d0587f1]" name="beforeMethod" is-config="true" duration-ms="7829" started-at="2020-09-07T10:59:26Z" finished-at="2020-09-07T10:59:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US30_6_Edit_FFBQualityReport@7d0587f1]" name="loginLogOut" duration-ms="10125" started-at="2020-09-07T10:59:34Z" data-provider="fetchData" finished-at="2020-09-07T10:59:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DO-org]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Crude Palm Oil]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8687]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[240]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[340]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US30_6_Edit_FFBQualityReport@7d0587f1]" name="afterMethod" is-config="true" duration-ms="562" started-at="2020-09-07T10:59:44Z" finished-at="2020-09-07T10:59:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US30_6_Edit_FFBQualityReport -->
+      <class name="testcases.US18_2_3_4_TDMFromNavigation">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US18_2_3_4_TDMFromNavigation@43814d18]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:41:35Z" finished-at="2020-09-07T10:41:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="FAIL" signature="loginLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.US18_2_3_4_TDMFromNavigation@43814d18]" name="loginLogOut" duration-ms="0" started-at="2020-09-07T10:41:35Z" data-provider="fetchData" finished-at="2020-09-07T10:41:35Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Data Provider public java.lang.Object[][] wrappers.DibizWrappers.getData() returned a null value]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] wrappers.DibizWrappers.getData() returned a null value
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:133)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+      </class> <!-- testcases.US18_2_3_4_TDMFromNavigation -->
+      <class name="testcases.US20_5_6_7_8_9_10_PlotInput">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US20_5_6_7_8_9_10_PlotInput@3d99d22e]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:47:05Z" finished-at="2020-09-07T10:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US20_5_6_7_8_9_10_PlotInput@3d99d22e]" name="beforeMethod" is-config="true" duration-ms="6767" started-at="2020-09-07T10:47:05Z" finished-at="2020-09-07T10:47:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US20_5_6_7_8_9_10_PlotInput@3d99d22e]" name="loginLogOut" duration-ms="9369" started-at="2020-09-07T10:47:11Z" data-provider="fetchData" finished-at="2020-09-07T10:47:21Z">
           <params>
             <param index="0">
               <value>
@@ -54,19 +1139,1610 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginLogOut -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US20_5_6_7_8_9_10_PlotInput@56235b8e]" name="afterMethod" is-config="true" duration-ms="562" started-at="2020-09-05T20:22:52Z" finished-at="2020-09-05T20:22:53Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US20_5_6_7_8_9_10_PlotInput@3d99d22e]" name="afterMethod" is-config="true" duration-ms="558" started-at="2020-09-07T10:47:21Z" finished-at="2020-09-07T10:47:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.US20_5_6_7_8_9_10_PlotInput@56235b8e]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-09-05T20:22:53Z" finished-at="2020-09-05T20:22:53Z">
+      </class> <!-- testcases.US20_5_6_7_8_9_10_PlotInput -->
+      <class name="testcases.US30_1_2_3_CheckAllQualityTabs">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US30_1_2_3_CheckAllQualityTabs@5e853265]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:58:50Z" finished-at="2020-09-07T10:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US30_1_2_3_CheckAllQualityTabs@5e853265]" name="beforeMethod" is-config="true" duration-ms="8084" started-at="2020-09-07T10:58:50Z" finished-at="2020-09-07T10:58:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US30_1_2_3_CheckAllQualityTabs@5e853265]" name="loginLogOut" duration-ms="8641" started-at="2020-09-07T10:58:58Z" data-provider="fetchData" finished-at="2020-09-07T10:59:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DO-org]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Crude Palm Oil]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8687]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[240]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[340]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US30_1_2_3_CheckAllQualityTabs@5e853265]" name="afterMethod" is-config="true" duration-ms="557" started-at="2020-09-07T10:59:06Z" finished-at="2020-09-07T10:59:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US30_1_2_3_CheckAllQualityTabs -->
+      <class name="testcases.US21_1_2_3_4_5_6_7_9_14_15_16">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US21_1_2_3_4_5_6_7_9_14_15_16@3a883ce7]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:48:04Z" finished-at="2020-09-07T10:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US21_1_2_3_4_5_6_7_9_14_15_16@3a883ce7]" name="beforeMethod" is-config="true" duration-ms="6729" started-at="2020-09-07T10:48:04Z" finished-at="2020-09-07T10:48:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US21_1_2_3_4_5_6_7_9_14_15_16@3a883ce7]" name="loginLogOut" duration-ms="27627" started-at="2020-09-07T10:48:10Z" data-provider="fetchData" finished-at="2020-09-07T10:48:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jendarata Palm Oil Mill]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DO-Plantation-001-20200820]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[KA 01 2020]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[DrD]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Road and Rail]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Transport]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Fresh fruit bunch (#FFB)]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Remarks]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[newRemarks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US21_1_2_3_4_5_6_7_9_14_15_16@3a883ce7]" name="afterMethod" is-config="true" duration-ms="559" started-at="2020-09-07T10:48:38Z" finished-at="2020-09-07T10:48:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US21_1_2_3_4_5_6_7_9_14_15_16 -->
+      <class name="testcases.US18_22_ViewAddSubDocumentFFBQuality">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US18_22_ViewAddSubDocumentFFBQuality@35d176f7]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:44:22Z" finished-at="2020-09-07T10:44:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US18_22_ViewAddSubDocumentFFBQuality@35d176f7]" name="beforeMethod" is-config="true" duration-ms="6906" started-at="2020-09-07T10:44:22Z" finished-at="2020-09-07T10:44:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US18_22_ViewAddSubDocumentFFBQuality@35d176f7]" name="loginLogOut" duration-ms="8195" started-at="2020-09-07T10:44:29Z" data-provider="fetchData" finished-at="2020-09-07T10:44:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fresh fruit bunch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US18_22_ViewAddSubDocumentFFBQuality@35d176f7]" name="afterMethod" is-config="true" duration-ms="556" started-at="2020-09-07T10:44:37Z" finished-at="2020-09-07T10:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US18_22_ViewAddSubDocumentFFBQuality -->
+      <class name="testcases.US18_10_11_12_13_14_15_TDM_ViewAllDO">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US18_10_11_12_13_14_15_TDM_ViewAllDO@2b552920]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:42:21Z" finished-at="2020-09-07T10:42:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US18_10_11_12_13_14_15_TDM_ViewAllDO@2b552920]" name="beforeMethod" is-config="true" duration-ms="6875" started-at="2020-09-07T10:42:21Z" finished-at="2020-09-07T10:42:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.US18_10_11_12_13_14_15_TDM_ViewAllDO@2b552920]" name="loginLogOut" duration-ms="8478" started-at="2020-09-07T10:42:28Z" data-provider="fetchData" finished-at="2020-09-07T10:42:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US18_10_11_12_13_14_15_TDM_ViewAllDO@2b552920]" name="afterMethod" is-config="true" duration-ms="558" started-at="2020-09-07T10:42:36Z" finished-at="2020-09-07T10:42:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US18_10_11_12_13_14_15_TDM_ViewAllDO -->
+      <class name="testcases.US21_13_Save_DO_As_Draft">
+        <test-method status="FAIL" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US21_13_Save_DO_As_Draft@57855c9a]" name="loginLogOut" duration-ms="24" started-at="2020-09-07T10:49:35Z" data-provider="fetchData" finished-at="2020-09-07T10:49:35Z">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+Data provider mismatch
+Method: loginLogOut([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=7, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=8, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=9, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=10, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) sales@gmas.com,(java.lang.String) passwordgmas123,(java.lang.String) Jendarata Palm Oil Mill,(java.lang.String) DO-Plantation-001-20200820,(java.lang.String) KA 01 2020,(java.lang.String) DrD,(java.lang.String) Road and Rail,(java.lang.String) Transport,(java.lang.String) Fresh fruit bunch (#FFB),(java.lang.String) 1,(java.lang.String) Remarks,(java.lang.String) newRemarks]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: loginLogOut([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=7, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=8, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=9, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=10, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) sales@gmas.com,(java.lang.String) passwordgmas123,(java.lang.String) Jendarata Palm Oil Mill,(java.lang.String) DO-Plantation-001-20200820,(java.lang.String) KA 01 2020,(java.lang.String) DrD,(java.lang.String) Road and Rail,(java.lang.String) Transport,(java.lang.String) Fresh fruit bunch (#FFB),(java.lang.String) 1,(java.lang.String) Remarks,(java.lang.String) newRemarks]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:45)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:796)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:983)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US21_13_Save_DO_As_Draft@57855c9a]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:49:35Z" finished-at="2020-09-07T10:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+      </class> <!-- testcases.US21_13_Save_DO_As_Draft -->
+      <class name="testcases.US18_3_AddNewFFBQuality">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US18_3_AddNewFFBQuality@5c5a1b69]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:41:35Z" finished-at="2020-09-07T10:41:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US18_3_AddNewFFBQuality@5c5a1b69]" name="beforeMethod" is-config="true" duration-ms="6957" started-at="2020-09-07T10:41:35Z" finished-at="2020-09-07T10:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US18_3_AddNewFFBQuality@5c5a1b69]" name="loginLogOut" duration-ms="8712" started-at="2020-09-07T10:41:42Z" data-provider="fetchData" finished-at="2020-09-07T10:41:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DO-org]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Crude Palm Oil]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[87654]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[238]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[108]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US18_3_AddNewFFBQuality@5c5a1b69]" name="afterMethod" is-config="true" duration-ms="559" started-at="2020-09-07T10:41:51Z" finished-at="2020-09-07T10:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US18_3_AddNewFFBQuality -->
+      <class name="testcases.US19_AddSubDocumentWeighbridgeIncomingDO">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US19_AddSubDocumentWeighbridgeIncomingDO@50b494a6]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:46:14Z" finished-at="2020-09-07T10:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US19_AddSubDocumentWeighbridgeIncomingDO@50b494a6]" name="beforeMethod" is-config="true" duration-ms="6768" started-at="2020-09-07T10:46:14Z" finished-at="2020-09-07T10:46:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US19_AddSubDocumentWeighbridgeIncomingDO@50b494a6]" name="loginLogOut" duration-ms="10584" started-at="2020-09-07T10:46:21Z" data-provider="fetchData" finished-at="2020-09-07T10:46:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DO-org]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Fresh fruit bunch]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[812]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[238Tkt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US19_AddSubDocumentWeighbridgeIncomingDO@50b494a6]" name="afterMethod" is-config="true" duration-ms="558" started-at="2020-09-07T10:46:32Z" finished-at="2020-09-07T10:46:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US19_AddSubDocumentWeighbridgeIncomingDO -->
+      <class name="testcases.US21_12_Goback_To_PartnerSelectionPage">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US21_12_Goback_To_PartnerSelectionPage@79be0360]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:49:14Z" finished-at="2020-09-07T10:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US21_12_Goback_To_PartnerSelectionPage@79be0360]" name="beforeMethod" is-config="true" duration-ms="6748" started-at="2020-09-07T10:49:14Z" finished-at="2020-09-07T10:49:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US21_12_Goback_To_PartnerSelectionPage@79be0360]" name="loginLogOut" duration-ms="14201" started-at="2020-09-07T10:49:20Z" data-provider="fetchData" finished-at="2020-09-07T10:49:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jendarata Palm Oil Mill]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US21_12_Goback_To_PartnerSelectionPage@79be0360]" name="afterMethod" is-config="true" duration-ms="562" started-at="2020-09-07T10:49:35Z" finished-at="2020-09-07T10:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US21_12_Goback_To_PartnerSelectionPage -->
+      <class name="testcases.US23_6_OrganisationInformations">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US23_6_OrganisationInformations@63e2203c]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:50:03Z" finished-at="2020-09-07T10:50:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US23_6_OrganisationInformations@63e2203c]" name="beforeMethod" is-config="true" duration-ms="6965" started-at="2020-09-07T10:50:03Z" finished-at="2020-09-07T10:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US23_6_OrganisationInformations@63e2203c]" name="loginLogOut" duration-ms="6782" started-at="2020-09-07T10:50:10Z" data-provider="fetchData" finished-at="2020-09-07T10:50:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Company Information]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Transaction - 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US23_6_OrganisationInformations@63e2203c]" name="afterMethod" is-config="true" duration-ms="556" started-at="2020-09-07T10:50:17Z" finished-at="2020-09-07T10:50:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US23_6_OrganisationInformations -->
+      <class name="testcases.US18_20_IncomingDOStatusChangeToDelivered">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US18_20_IncomingDOStatusChangeToDelivered@578486a3]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:43:07Z" finished-at="2020-09-07T10:43:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US18_20_IncomingDOStatusChangeToDelivered@578486a3]" name="beforeMethod" is-config="true" duration-ms="6922" started-at="2020-09-07T10:43:07Z" finished-at="2020-09-07T10:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US18_20_IncomingDOStatusChangeToDelivered@578486a3]" name="loginLogOut" duration-ms="52083" started-at="2020-09-07T10:43:13Z" data-provider="fetchData" finished-at="2020-09-07T10:44:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Acknowledge remarks]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Accepted remarks]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Received Goods remarks]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+at utils.Reporter.reportStep(Reporter.java:33)
+at utils.Reporter.reportStep(Reporter.java:43)
+at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:432)
+at pages.DeliveryOrderPage.clickOnActionAcknowledge(DeliveryOrderPage.java:66)
+at testcases.US18_20_IncomingDOStatusChangeToDelivered.loginLogOut(US18_20_IncomingDOStatusChangeToDelivered.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US18_20_IncomingDOStatusChangeToDelivered@578486a3]" name="afterMethod" is-config="true" duration-ms="558" started-at="2020-09-07T10:44:06Z" finished-at="2020-09-07T10:44:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US18_20_IncomingDOStatusChangeToDelivered -->
+      <class name="testcases.US18_21_ViewAddSubDocumentWeighbridge">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US18_21_ViewAddSubDocumentWeighbridge@551aa95a]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:44:06Z" finished-at="2020-09-07T10:44:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US18_21_ViewAddSubDocumentWeighbridge@551aa95a]" name="beforeMethod" is-config="true" duration-ms="6778" started-at="2020-09-07T10:44:06Z" finished-at="2020-09-07T10:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US18_21_ViewAddSubDocumentWeighbridge@551aa95a]" name="loginLogOut" duration-ms="8244" started-at="2020-09-07T10:44:13Z" data-provider="fetchData" finished-at="2020-09-07T10:44:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fresh fruit bunch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US18_21_ViewAddSubDocumentWeighbridge@551aa95a]" name="afterMethod" is-config="true" duration-ms="556" started-at="2020-09-07T10:44:21Z" finished-at="2020-09-07T10:44:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US18_21_ViewAddSubDocumentWeighbridge -->
+      <class name="testcases.US29_11_Admin_CreateAssets">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US29_11_Admin_CreateAssets@7c29daf3]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:55:06Z" finished-at="2020-09-07T10:55:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US29_11_Admin_CreateAssets@7c29daf3]" name="beforeMethod" is-config="true" duration-ms="6751" started-at="2020-09-07T10:55:06Z" finished-at="2020-09-07T10:55:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US29_11_Admin_CreateAssets@7c29daf3]" name="loginLogOut" duration-ms="48502" started-at="2020-09-07T10:55:13Z" data-provider="fetchData" finished-at="2020-09-07T10:56:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vehicle]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[assetName12]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tata]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Tata 123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[First Model 123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Tons]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4 Wheeler]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+at utils.Reporter.reportStep(Reporter.java:33)
+at utils.Reporter.reportStep(Reporter.java:43)
+at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:432)
+at pages.HomePage.clickOnUserLogo(HomePage.java:25)
+at testcases.US29_11_Admin_CreateAssets.loginLogOut(US29_11_Admin_CreateAssets.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US29_11_Admin_CreateAssets@7c29daf3]" name="afterMethod" is-config="true" duration-ms="560" started-at="2020-09-07T10:56:01Z" finished-at="2020-09-07T10:56:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US29_11_Admin_CreateAssets -->
+      <class name="testcases.US23_9_ShowMore">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US23_9_ShowMore@6737fd8f]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:50:32Z" finished-at="2020-09-07T10:50:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US23_9_ShowMore@6737fd8f]" name="beforeMethod" is-config="true" duration-ms="6809" started-at="2020-09-07T10:50:32Z" finished-at="2020-09-07T10:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US23_9_ShowMore@6737fd8f]" name="loginLogOut" duration-ms="6545" started-at="2020-09-07T10:50:39Z" data-provider="fetchData" finished-at="2020-09-07T10:50:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Company Information]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Transaction - 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US23_9_ShowMore@6737fd8f]" name="afterMethod" is-config="true" duration-ms="560" started-at="2020-09-07T10:50:45Z" finished-at="2020-09-07T10:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US23_9_ShowMore -->
+      <class name="testcases.US21_13_Edit_Draft_DO">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US21_13_Edit_Draft_DO@22a67b4]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:49:35Z" finished-at="2020-09-07T10:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="FAIL" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US21_13_Edit_Draft_DO@22a67b4]" name="loginLogOut" duration-ms="22" started-at="2020-09-07T10:49:35Z" data-provider="fetchData" finished-at="2020-09-07T10:49:35Z">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+Data provider mismatch
+Method: loginLogOut([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=7, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=8, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=9, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=10, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) sales@gmas.com,(java.lang.String) passwordgmas123,(java.lang.String) Jendarata Palm Oil Mill,(java.lang.String) DO-Plantation-001-20200820,(java.lang.String) KA 01 2020,(java.lang.String) DrD,(java.lang.String) Road and Rail,(java.lang.String) Transport,(java.lang.String) Fresh fruit bunch (#FFB),(java.lang.String) 1,(java.lang.String) Remarks,(java.lang.String) newRemarks]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: loginLogOut([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=7, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=8, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=9, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=10, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) sales@gmas.com,(java.lang.String) passwordgmas123,(java.lang.String) Jendarata Palm Oil Mill,(java.lang.String) DO-Plantation-001-20200820,(java.lang.String) KA 01 2020,(java.lang.String) DrD,(java.lang.String) Road and Rail,(java.lang.String) Transport,(java.lang.String) Fresh fruit bunch (#FFB),(java.lang.String) 1,(java.lang.String) Remarks,(java.lang.String) newRemarks]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:45)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:796)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:983)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+      </class> <!-- testcases.US21_13_Edit_Draft_DO -->
+      <class name="testcases.US20_4_ProductionListNavigationProducedBatchView">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US20_4_ProductionListNavigationProducedBatchView@32709393]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:46:50Z" finished-at="2020-09-07T10:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US20_4_ProductionListNavigationProducedBatchView@32709393]" name="beforeMethod" is-config="true" duration-ms="6814" started-at="2020-09-07T10:46:50Z" finished-at="2020-09-07T10:46:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.US20_4_ProductionListNavigationProducedBatchView@32709393]" name="loginLogOut" duration-ms="7048" started-at="2020-09-07T10:46:57Z" data-provider="fetchData" finished-at="2020-09-07T10:47:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US20_4_ProductionListNavigationProducedBatchView@32709393]" name="afterMethod" is-config="true" duration-ms="561" started-at="2020-09-07T10:47:04Z" finished-at="2020-09-07T10:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US20_4_ProductionListNavigationProducedBatchView -->
+      <class name="testcases.US26_1_5_Feedback">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US26_1_5_Feedback@30b8a058]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:53:00Z" finished-at="2020-09-07T10:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US26_1_5_Feedback@30b8a058]" name="beforeMethod" is-config="true" duration-ms="6934" started-at="2020-09-07T10:53:00Z" finished-at="2020-09-07T10:53:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US26_1_5_Feedback@30b8a058]" name="loginLogOut" duration-ms="6461" started-at="2020-09-07T10:53:07Z" data-provider="fetchData" finished-at="2020-09-07T10:53:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Feedback message]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US26_1_5_Feedback@30b8a058]" name="afterMethod" is-config="true" duration-ms="561" started-at="2020-09-07T10:53:14Z" finished-at="2020-09-07T10:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US26_1_5_Feedback -->
+      <class name="testcases.US25_3_AcceptPartner">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US25_3_AcceptPartner@72b6cbcc]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:50:46Z" finished-at="2020-09-07T10:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US25_3_AcceptPartner@72b6cbcc]" name="beforeMethod" is-config="true" duration-ms="6716" started-at="2020-09-07T10:50:46Z" finished-at="2020-09-07T10:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="loginLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.US25_3_AcceptPartner@72b6cbcc]" name="loginLogOut" duration-ms="49661" started-at="2020-09-07T10:50:52Z" data-provider="fetchData" finished-at="2020-09-07T10:51:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+at utils.Reporter.reportStep(Reporter.java:33)
+at utils.Reporter.reportStep(Reporter.java:43)
+at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:432)
+at pages.PartnerPage.clickOnNewRequestsTab(PartnerPage.java:32)
+at testcases.US25_3_AcceptPartner.loginLogOut(US25_3_AcceptPartner.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US25_3_AcceptPartner@72b6cbcc]" name="afterMethod" is-config="true" duration-ms="556" started-at="2020-09-07T10:51:42Z" finished-at="2020-09-07T10:51:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US25_3_AcceptPartner -->
+      <class name="testcases.US28_Settings_PasswordChange">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US28_Settings_PasswordChange@4bbfb90a]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:54:10Z" finished-at="2020-09-07T10:54:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US28_Settings_PasswordChange@4bbfb90a]" name="beforeMethod" is-config="true" duration-ms="6667" started-at="2020-09-07T10:54:10Z" finished-at="2020-09-07T10:54:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US28_Settings_PasswordChange@4bbfb90a]" name="loginLogOut" duration-ms="48592" started-at="2020-09-07T10:54:17Z" data-provider="fetchData" finished-at="2020-09-07T10:55:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[passwordgmas1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[passwordgmas1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+at utils.Reporter.reportStep(Reporter.java:33)
+at utils.Reporter.reportStep(Reporter.java:43)
+at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:432)
+at pages.HomePage.clickOnUserLogo(HomePage.java:25)
+at testcases.US28_Settings_PasswordChange.loginLogOut(US28_Settings_PasswordChange.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US28_Settings_PasswordChange@4bbfb90a]" name="afterMethod" is-config="true" duration-ms="555" started-at="2020-09-07T10:55:06Z" finished-at="2020-09-07T10:55:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US28_Settings_PasswordChange -->
+      <class name="testcases.US29_Admin_ViewCompanyInformation">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US29_Admin_ViewCompanyInformation@5a8806ef]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:56:58Z" finished-at="2020-09-07T10:56:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US29_Admin_ViewCompanyInformation@5a8806ef]" name="beforeMethod" is-config="true" duration-ms="6753" started-at="2020-09-07T10:56:58Z" finished-at="2020-09-07T10:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="loginLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.US29_Admin_ViewCompanyInformation@5a8806ef]" name="loginLogOut" duration-ms="48462" started-at="2020-09-07T10:57:05Z" data-provider="fetchData" finished-at="2020-09-07T10:57:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+at utils.Reporter.reportStep(Reporter.java:33)
+at utils.Reporter.reportStep(Reporter.java:43)
+at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:432)
+at pages.HomePage.clickOnUserLogo(HomePage.java:25)
+at testcases.US29_Admin_ViewCompanyInformation.loginLogOut(US29_Admin_ViewCompanyInformation.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US29_Admin_ViewCompanyInformation@5a8806ef]" name="afterMethod" is-config="true" duration-ms="568" started-at="2020-09-07T10:57:53Z" finished-at="2020-09-07T10:57:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US29_Admin_ViewCompanyInformation -->
+      <class name="testcases.US17_6_ClickSigninWithoutEnteringPassword">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.US17_6_ClickSigninWithoutEnteringPassword@23e028a9]" name="beforeSuite" is-config="true" duration-ms="397" started-at="2020-09-07T10:40:48Z" finished-at="2020-09-07T10:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.US17_6_ClickSigninWithoutEnteringPassword@23e028a9]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-09-07T10:40:49Z" finished-at="2020-09-07T10:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US17_6_ClickSigninWithoutEnteringPassword@23e028a9]" name="setValue" is-config="true" duration-ms="1" started-at="2020-09-07T10:40:49Z" finished-at="2020-09-07T10:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US17_6_ClickSigninWithoutEnteringPassword@23e028a9]" name="beforeMethod" is-config="true" duration-ms="8777" started-at="2020-09-07T10:40:49Z" finished-at="2020-09-07T10:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US17_6_ClickSigninWithoutEnteringPassword@23e028a9]" name="loginLogOut" duration-ms="1339" started-at="2020-09-07T10:40:58Z" data-provider="fetchData" finished-at="2020-09-07T10:40:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99900199922]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Tank B]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US17_6_ClickSigninWithoutEnteringPassword@23e028a9]" name="afterMethod" is-config="true" duration-ms="563" started-at="2020-09-07T10:40:59Z" finished-at="2020-09-07T10:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.US17_6_ClickSigninWithoutEnteringPassword@23e028a9]" name="afterTest" is-config="true" duration-ms="41" started-at="2020-09-07T11:00:56Z" finished-at="2020-09-07T11:00:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.US20_5_6_7_8_9_10_PlotInput@56235b8e]" name="afterSuite" is-config="true" duration-ms="197" started-at="2020-09-05T20:22:53Z" finished-at="2020-09-05T20:22:53Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.US17_6_ClickSigninWithoutEnteringPassword@23e028a9]" name="afterSuite" is-config="true" duration-ms="638" started-at="2020-09-07T11:00:56Z" finished-at="2020-09-07T11:00:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- testcases.US20_5_6_7_8_9_10_PlotInput -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testcases.US17_6_ClickSigninWithoutEnteringPassword -->
+      <class name="testcases.US20_11_VerifyMoreThanAvailableQuantity">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US20_11_VerifyMoreThanAvailableQuantity@49fc609f]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:47:21Z" finished-at="2020-09-07T10:47:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US20_11_VerifyMoreThanAvailableQuantity@49fc609f]" name="beforeMethod" is-config="true" duration-ms="6847" started-at="2020-09-07T10:47:21Z" finished-at="2020-09-07T10:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US20_11_VerifyMoreThanAvailableQuantity@49fc609f]" name="loginLogOut" duration-ms="19675" started-at="2020-09-07T10:47:28Z" data-provider="fetchData" finished-at="2020-09-07T10:47:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jendarata Palm Oil Mill]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DO-Plantation-001-20200820]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[KA 01 2020]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[DrD]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Road and Rail]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Transport]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Fresh fruit bunch (#FFB)]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[999999999]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Remarks]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[newRemarks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US20_11_VerifyMoreThanAvailableQuantity@49fc609f]" name="afterMethod" is-config="true" duration-ms="563" started-at="2020-09-07T10:47:48Z" finished-at="2020-09-07T10:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US20_11_VerifyMoreThanAvailableQuantity -->
+      <class name="testcases.US23_7_8_TransactionInformations">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US23_7_8_TransactionInformations@1efed156]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:50:17Z" finished-at="2020-09-07T10:50:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US23_7_8_TransactionInformations@1efed156]" name="beforeMethod" is-config="true" duration-ms="7208" started-at="2020-09-07T10:50:17Z" finished-at="2020-09-07T10:50:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US23_7_8_TransactionInformations@1efed156]" name="loginLogOut" duration-ms="6795" started-at="2020-09-07T10:50:24Z" data-provider="fetchData" finished-at="2020-09-07T10:50:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Company Information]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Transaction - 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US23_7_8_TransactionInformations@1efed156]" name="afterMethod" is-config="true" duration-ms="557" started-at="2020-09-07T10:50:31Z" finished-at="2020-09-07T10:50:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US23_7_8_TransactionInformations -->
+      <class name="testcases.US18_19_ViewIncomingDODetails">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US18_19_ViewIncomingDODetails@1f36e637]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:42:52Z" finished-at="2020-09-07T10:42:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US18_19_ViewIncomingDODetails@1f36e637]" name="beforeMethod" is-config="true" duration-ms="7197" started-at="2020-09-07T10:42:52Z" finished-at="2020-09-07T10:42:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.US18_19_ViewIncomingDODetails@1f36e637]" name="loginLogOut" duration-ms="6676" started-at="2020-09-07T10:42:59Z" data-provider="fetchData" finished-at="2020-09-07T10:43:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US18_19_ViewIncomingDODetails@1f36e637]" name="afterMethod" is-config="true" duration-ms="560" started-at="2020-09-07T10:43:06Z" finished-at="2020-09-07T10:43:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US18_19_ViewIncomingDODetails -->
+      <class name="testcases.US18_1_AllInsightsInCards">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US18_1_AllInsightsInCards@610694f1]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:41:18Z" finished-at="2020-09-07T10:41:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US18_1_AllInsightsInCards@610694f1]" name="beforeMethod" is-config="true" duration-ms="9895" started-at="2020-09-07T10:41:18Z" finished-at="2020-09-07T10:41:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US18_1_AllInsightsInCards@610694f1]" name="loginLogOut" duration-ms="6417" started-at="2020-09-07T10:41:28Z" data-provider="fetchData" finished-at="2020-09-07T10:41:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sales]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Purchase]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Best Suppliers]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Top Products (Sales)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Certified Supply Chain]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Supplier Categories]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Extraction Ratio]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Trade Details]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Messages Exchanged]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US18_1_AllInsightsInCards@610694f1]" name="afterMethod" is-config="true" duration-ms="557" started-at="2020-09-07T10:41:35Z" finished-at="2020-09-07T10:41:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US18_1_AllInsightsInCards -->
+      <class name="testcases.US29_Admin_ViewEmployeeManagement">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US29_Admin_ViewEmployeeManagement@6c49835d]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:57:54Z" finished-at="2020-09-07T10:57:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US29_Admin_ViewEmployeeManagement@6c49835d]" name="beforeMethod" is-config="true" duration-ms="6835" started-at="2020-09-07T10:57:54Z" finished-at="2020-09-07T10:58:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="loginLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.US29_Admin_ViewEmployeeManagement@6c49835d]" name="loginLogOut" duration-ms="48317" started-at="2020-09-07T10:58:01Z" data-provider="fetchData" finished-at="2020-09-07T10:58:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+at utils.Reporter.reportStep(Reporter.java:33)
+at utils.Reporter.reportStep(Reporter.java:43)
+at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:432)
+at pages.HomePage.clickOnUserLogo(HomePage.java:25)
+at testcases.US29_Admin_ViewEmployeeManagement.loginLogOut(US29_Admin_ViewEmployeeManagement.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US29_Admin_ViewEmployeeManagement@6c49835d]" name="afterMethod" is-config="true" duration-ms="558" started-at="2020-09-07T10:58:49Z" finished-at="2020-09-07T10:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US29_Admin_ViewEmployeeManagement -->
+      <class name="testcases.US20_12_13_PlotInput_BackButton">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US20_12_13_PlotInput_BackButton@cd2dae5]" name="setValue" is-config="true" duration-ms="1" started-at="2020-09-07T10:47:49Z" finished-at="2020-09-07T10:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US20_12_13_PlotInput_BackButton@cd2dae5]" name="beforeMethod" is-config="true" duration-ms="6876" started-at="2020-09-07T10:47:49Z" finished-at="2020-09-07T10:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US20_12_13_PlotInput_BackButton@cd2dae5]" name="loginLogOut" duration-ms="7523" started-at="2020-09-07T10:47:55Z" data-provider="fetchData" finished-at="2020-09-07T10:48:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fresh fruit bunch (#FFB)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+at utils.Reporter.reportStep(Reporter.java:33)
+at utils.Reporter.reportStep(Reporter.java:43)
+at wrappers.GenericWrappers.enterByXpath(GenericWrappers.java:207)
+at pages.CreatePlotInputPage.enterQuantityUsed(CreatePlotInputPage.java:41)
+at testcases.US20_12_13_PlotInput_BackButton.loginLogOut(US20_12_13_PlotInput_BackButton.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US20_12_13_PlotInput_BackButton@cd2dae5]" name="afterMethod" is-config="true" duration-ms="563" started-at="2020-09-07T10:48:03Z" finished-at="2020-09-07T10:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US20_12_13_PlotInput_BackButton -->
+      <class name="testcases.US30_11_View_CPOQualityReport">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US30_11_View_CPOQualityReport@2a17b7b6]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T11:00:42Z" finished-at="2020-09-07T11:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US30_11_View_CPOQualityReport@2a17b7b6]" name="beforeMethod" is-config="true" duration-ms="8358" started-at="2020-09-07T11:00:42Z" finished-at="2020-09-07T11:00:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US30_11_View_CPOQualityReport@2a17b7b6]" name="loginLogOut" duration-ms="5612" started-at="2020-09-07T11:00:50Z" data-provider="fetchData" finished-at="2020-09-07T11:00:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99900199922]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Tank B]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US30_11_View_CPOQualityReport@2a17b7b6]" name="afterMethod" is-config="true" duration-ms="561" started-at="2020-09-07T11:00:56Z" finished-at="2020-09-07T11:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US30_11_View_CPOQualityReport -->
+      <class name="testcases.US30_4_5_CreateFFBQualityReport">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US30_4_5_CreateFFBQualityReport@67205a84]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-07T10:59:07Z" finished-at="2020-09-07T10:59:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US30_4_5_CreateFFBQualityReport@67205a84]" name="beforeMethod" is-config="true" duration-ms="7393" started-at="2020-09-07T10:59:07Z" finished-at="2020-09-07T10:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US30_4_5_CreateFFBQualityReport@67205a84]" name="loginLogOut" duration-ms="10674" started-at="2020-09-07T10:59:14Z" data-provider="fetchData" finished-at="2020-09-07T10:59:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DO-org]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Crude Palm Oil]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8687]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[240]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[340]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US30_4_5_CreateFFBQualityReport@67205a84]" name="afterMethod" is-config="true" duration-ms="556" started-at="2020-09-07T10:59:25Z" finished-at="2020-09-07T10:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US30_4_5_CreateFFBQualityReport -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

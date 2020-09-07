@@ -29,14 +29,14 @@ public class US18_3_AddNewFFBQuality extends DibizWrappers {
 		.clickOnTradeDocumentManagerMainMenu()
 		.clickOnIncomingDeliveryOrders()
 		.clickOnIncomingDeliveryOrdersAddFFBQuality()
-		.selectDOList(DO)
-		.selectProductSelection(product)
-		.clickOnSubmitButton()
+		//.selectDOList(DO)
+		//.selectProductSelection(product)
+		//.clickOnSubmitButton()
 		.EnterNumberOfRipeBunches(RipeBunches)
 		.EnterNumberOfOverRipeBunches(OverRipeBunches)
 		.EnterNumberOfUnderRipeBunches(UnderRipeBunches)
 		.EnterNumberOfEmptyBunches(EmptyBunches)
-		.clickOnCreateButton();
+		.clickOnSubmitButton();
 		
 
 }

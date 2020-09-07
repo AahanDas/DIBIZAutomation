@@ -42,7 +42,7 @@ public class FFBQualityEnterDetailPage extends DibizWrappers {
 
 	public FFBQualityEnterDetailPage EnterNumberOfRipeBunches(String data) {
 		// enterByXpath("//*[contains(text(), 'Enter number of ripe bunches')]", data);
-		enterById("input-ripe", data);
+		enterById("input-ripeBunches", data);
 
 		return this;
 	}
@@ -50,21 +50,21 @@ public class FFBQualityEnterDetailPage extends DibizWrappers {
 	public FFBQualityEnterDetailPage EnterNumberOfOverRipeBunches(String data) {
 		// enterByXpath("//*[contains(text(), 'Enter number of over ripe bunches')]",
 		// data);
-		enterById("input-overRipe", data);
+		enterById("input-overripeBunches", data);
 		return this;
 	}
 
 	public FFBQualityEnterDetailPage EnterNumberOfUnderRipeBunches(String data) {
 		// enterByXpath("//*[contains(text(), 'Enter number of under ripe bunches')]",
 		// data);
-		enterById("input-underRipe", data);
+		enterById("input-underripeBunches", data);
 
 		return this;
 	}
 
 	public FFBQualityEnterDetailPage EnterNumberOfEmptyBunches(String data) {
 		// enterByXpath("//*[contains(text(), 'Enter number of empty bunches')]", data);
-		enterById("input-empty", data);
+		enterById("input-emptyBunches", data);
 
 		return this;
 	}

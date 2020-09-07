@@ -123,7 +123,7 @@ public class HomePage extends DibizWrappers {
 
 	public HomePage checkForCardInsightPurchase(String data) {
 
-		verifyTextByXpath("(//*[contains(text(), 'Purchase')])[1]", data);
+		verifyTextByXpath("(//*[contains(text(), 'Purchase')])[2]", data);
 		return this;
 	}
 

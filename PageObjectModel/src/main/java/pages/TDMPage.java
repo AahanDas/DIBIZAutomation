@@ -44,8 +44,9 @@ public class TDMPage extends DibizWrappers {
 	}
 
 	public TDMPage clickOnOutgoingDeliveryOrders() {
-		clickByXpath("(//*[@class='Tabs__TabLabel-sc-18bzzb8-3 eHJjyF'])[7]");
-
+		//clickByXpath("(//*[@class='Tabs__TabLabel-sc-18bzzb8-3 eHJjyF'])[7]");
+		clickByXpath("(//*[contains(text(),'Delivery Orders')])[2]");
+		
 		return this;
 	}
 

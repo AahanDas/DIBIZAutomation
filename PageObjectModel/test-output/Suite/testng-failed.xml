@@ -3,18 +3,126 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testcases.US18_2_3_4_TDMFromNavigation">
+      <class name="testcases.US25_3_DeclinePartner">
         <methods>
           <include name="beforeMethod"/>
+          <include name="loginLogOut" invocation-numbers="0"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="afterSuite"/>
           <include name="setValue"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.US25_3_DeclinePartner -->
+      <class name="testcases.US29_Admin_AssetsView_VehiclesAndStorageUnits">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setValue"/>
+          <include name="afterSuite"/>
+          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.US29_Admin_AssetsView_VehiclesAndStorageUnits -->
+      <class name="testcases.US25_3_AcceptPartner">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="setValue"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.US25_3_AcceptPartner -->
+      <class name="testcases.US29_11_Admin_CreateAssets">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="setValue"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.US29_11_Admin_CreateAssets -->
+      <class name="testcases.US30_7_8_CreateCPOQualityReport">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setValue"/>
+          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.US30_7_8_CreateCPOQualityReport -->
+      <class name="testcases.US21_13_Edit_Draft_DO">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="loginLogOut"/>
+          <include name="setValue"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.US21_13_Edit_Draft_DO -->
+      <class name="testcases.US29_Admin_ViewEmployeeManagement">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="setValue"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.US29_Admin_ViewEmployeeManagement -->
+      <class name="testcases.US18_2_3_4_TDMFromNavigation">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="setValue"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
           <include name="loginLogOut"/>
           <include name="beforeSuite"/>
           <include name="afterTest"/>
         </methods>
       </class> <!-- testcases.US18_2_3_4_TDMFromNavigation -->
+      <class name="testcases.US20_12_13_PlotInput_BackButton">
+        <methods>
+          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="setValue"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.US20_12_13_PlotInput_BackButton -->
+      <class name="testcases.US29_Admin_ViewCompanyInformation">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setValue"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.US29_Admin_ViewCompanyInformation -->
       <class name="testcases.US18_20_IncomingDOStatusChangeToDelivered">
         <methods>
           <include name="beforeMethod"/>
@@ -27,10 +135,58 @@
           <include name="afterTest"/>
         </methods>
       </class> <!-- testcases.US18_20_IncomingDOStatusChangeToDelivered -->
-      <class name="testcases.US18_3_AddNewFFBQuality">
+      <class name="testcases.US19_AddSubDocumentFFBQualityIncomingDO">
         <methods>
           <include name="beforeMethod"/>
+          <include name="setValue"/>
           <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.US19_AddSubDocumentFFBQualityIncomingDO -->
+      <class name="testcases.US28_Settings_LanguageChange">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setValue"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.US28_Settings_LanguageChange -->
+      <class name="testcases.US21_11_Authorization_Info_Check">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="setValue"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="loginLogOut"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.US21_11_Authorization_Info_Check -->
+      <class name="testcases.US28_Settings_PasswordChange">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setValue"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.US28_Settings_PasswordChange -->
+      <class name="testcases.US21_13_Save_DO_As_Draft">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="loginLogOut"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="afterSuite"/>
@@ -38,7 +194,7 @@
           <include name="beforeSuite"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- testcases.US18_3_AddNewFFBQuality -->
+      </class> <!-- testcases.US21_13_Save_DO_As_Draft -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

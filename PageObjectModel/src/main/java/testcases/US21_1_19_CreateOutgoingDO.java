@@ -47,7 +47,7 @@ public class US21_1_19_CreateOutgoingDO extends DibizWrappers {
 		.selectProductFromDropDown(Product)
 		.enterQuantity(Quantity)
 		.clickOnSubmit()
-		.enterRemarks(Remarks)
+		//.enterRemarks(Remarks)
 		.clickOnPreviewDetails()
 		.clickOnSubmitDetails()
 		.enterRemarks(Remarks1)

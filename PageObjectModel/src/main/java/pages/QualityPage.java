@@ -25,7 +25,7 @@ public class QualityPage extends DibizWrappers {
 	}
 
 	public QualityPage selectDOList(String data) {
-		clickById("select-drop-DO List__input");
+		clickById("select-drop-entityID__input");
 		enterByXpath("//*[@type='search']", data);
 		clickByXpath("//*[@class='StyledText-sc-1sadyjn-0 oKAxv']");
 
