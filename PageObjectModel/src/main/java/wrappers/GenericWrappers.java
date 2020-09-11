@@ -3,6 +3,7 @@ package wrappers;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;
@@ -53,6 +54,38 @@ public class GenericWrappers extends Reporter implements Wrappers {
 			e.printStackTrace();
 		}
 	}
+	
+	/*
+	 * public void StoreDONumber() throws IOException { Properties props = new
+	 * Properties();
+	 * 
+	 * 
+	 * String path =
+	 * "C:\\Users\\Suresh VeeraRaghavan\\git\\repositoryDIBIZ\\PageObjectModel\\src\\main\\resources\\db.properties"
+	 * ; FileOutputStream outputStrem = new FileOutputStream(path); String data =
+	 * driver.findElement(By.
+	 * xpath("(//*[@class='Typography__P-cdhru6-4 dqomvH'])[3]")).getText();
+	 * props.setProperty("DONumber", data); props.store(outputStrem,data); }
+	 */
+	
+	/*
+	 * public String ReadDONumber() throws IOException { Properties props = new
+	 * Properties();
+	 * 
+	 * 
+	 * String path =
+	 * "C:\\Users\\Suresh VeeraRaghavan\\git\\repositoryDIBIZ\\PageObjectModel\\src\\main\\resources\\db.properties"
+	 * ; FileInputStream inputStream = new FileInputStream(path); Properties prop =
+	 * new Properties(); prop.load(inputStream); String doNo =
+	 * prop.getProperty("DONumber"); //prop.getProperty("Key", doNo);
+	 * System.out.println("DO number Read from db.properties file: " +doNo); return
+	 * doNo;
+	 * 
+	 * }
+	 */
+	
+	
+	
 
 	/*
 	 * public void ObjectProp() throws IOException { FileReader reader=new

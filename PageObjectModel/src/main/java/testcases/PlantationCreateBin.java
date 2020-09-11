@@ -19,8 +19,10 @@ public class PlantationCreateBin extends DibizWrappers {
 	}
 
 	@Test(dataProvider = "fetchData")
-	public void loginLogOut(String uName, String pwd,String Product, String Harvester, String FFBCount, String Area, String Block,
-			String Phase, String unripe, String rotten, String Loose, String VehicleType, String VehicleNumber, String CrewMember, String BinLabel) {
+	public void loginLogOut(String uName, String pwd,String Product, String Harvester, 
+			String FFBCount, String Area, String Block,
+			String Phase, String unripe, String rotten, String Loose, String VehicleType,
+			String VehicleNumber, String CrewMember, String BinLabel) {
 		new LoginPageDibiz(driver, test)
 		.enterEmail(uName)
 		.enterPassword(pwd)

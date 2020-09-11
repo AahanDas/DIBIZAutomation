@@ -1,5 +1,11 @@
 package pages;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.relevantcodes.extentreports.ExtentTest;
@@ -124,5 +130,41 @@ public class DeliveryOrderPage extends DibizWrappers {
 		
 		return this;
 	}
+	
+	
+	public DeliveryOrderPage StoreDONumber() throws IOException {
+		Properties props = new Properties();
+		
+		
+		String path = "C:\\Users\\Suresh VeeraRaghavan\\git\\repositoryDIBIZ\\PageObjectModel\\src\\main\\resources\\db.properties";
+		FileOutputStream outputStrem = new FileOutputStream(path, false);
+		String data = driver.findElement(By.xpath("(//*[@class='Typography__P-cdhru6-4 dqomvH'])[3]")).getText();
+		props.setProperty("DONumber", data);
+		props.store(outputStrem,data);
+		return this;
+		
+	}
+	
+	  public DeliveryOrderPage ReadDONumber() throws IOException { Properties props = new
+	  Properties();
+	  
+	  
+	  String path =
+	  "C:\\Users\\Suresh VeeraRaghavan\\git\\repositoryDIBIZ\\PageObjectModel\\src\\main\\resources\\db.properties"; 
+	  FileInputStream inputStream = new FileInputStream(path); 
+	  Properties prop = new Properties(); prop.load(inputStream); 
+	  String doNo = prop.getProperty("DONumber"); //prop.getProperty("Key", doNo);
+	  System.out.println("DO number Read from db.properties file: " +doNo); 
+	  
+	  clickByXpath(prop.getProperty("doNo"));
+	  
+	  
+	  
+	  
+	  return this;
+	  
+	  }
+	 
+	
 
 }

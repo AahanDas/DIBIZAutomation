@@ -169,5 +169,47 @@ public class HomePage extends DibizWrappers {
 		return this;
 	}
 
+	public HomePage checkForPlantationCardInsightSales() {
+
+		verifyTextByXpath("(//*[contains(text(), 'Sales')])[1]", "Sales");
+		return this;
+	}
+	
+	public HomePage checkForPlantationCardInsightProductionHectareArea() {
+
+		verifyTextByXpath("(//*[contains(text(), 'Production/ Hectare Area')])[1]", "Production/ Hectare Area");
+		return this;
+	}
+	
+	public HomePage checkForPlantationCardInsightBestBlocks() {
+
+		verifyTextByXpath("(//*[contains(text(), 'Best Blocks')])[1]", "Best Blocks");
+		return this;
+	}
+	public HomePage checkForPlantationCardInsightBestHarvesters() {
+
+		verifyTextByXpath("(//*[contains(text(), 'Best Harvesters')])[1]", "Best Harvesters");
+		return this;
+	}
+	public HomePage checkForPlantationCardInsightTradeDetails() {
+
+		verifyTextByXpath("(//*[contains(text(), 'Trade Details')])[1]", "Trade Details");
+		return this;
+	}
+	public HomePage checkForPlantationCardInsightBinsperday() {
+
+		verifyTextByXpath("(//*[contains(text(), 'Bins per day')])[1]", "Bins per day");
+		return this;
+	}
+	public HomePage checkForPlantationCardInsightTripstimings() {
+
+		verifyTextByXpath("(//*[contains(text(), 'Trips timings')])[1]", "Trips timings");
+		return this;
+	}
+	public HomePage checkForPlantationCardInsightMessagesExchanged() {
+
+		verifyTextByXpath("(//*[contains(text(), 'Messages Exchanged')])[1]", "Messages Exchanged");
+		return this;
+	}
 	
 }

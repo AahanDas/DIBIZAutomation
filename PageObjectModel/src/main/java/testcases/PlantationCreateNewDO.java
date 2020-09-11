@@ -1,5 +1,7 @@
 package testcases;
 
+import java.io.IOException;
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -25,7 +27,7 @@ public class PlantationCreateNewDO extends DibizWrappers {
 	public void loginLogOut(String uName, String pwd, String partner, String
 			  entityReference, String VehicleNumber, String DriverName, String
 			  DispatchedThrough, String ShipperReferenceNumber, String Product, String
-			  Quantity, String Remarks, String Remarks1) throws InterruptedException {
+			  Quantity, String Remarks, String Remarks1) throws InterruptedException, IOException {
 		 
 		new LoginPageDibiz(driver, test)
 		.enterEmail(uName)
@@ -36,7 +38,7 @@ public class PlantationCreateNewDO extends DibizWrappers {
 		.searchPartner(partner)
 		.selectPartner()
 		.clickOnEnterDetails()
-		.enterDeliveryOrderReference(entityReference)
+		//.enterDeliveryOrderReference(entityReference)
 		.enterVehicleNumber(VehicleNumber)
 		.enterDriverName(DriverName)
 		
@@ -47,9 +49,11 @@ public class PlantationCreateNewDO extends DibizWrappers {
 		.selectProductFromDropDown(Product)
 		.enterQuantity(Quantity)
 		.clickOnSubmit()
-		.enterRemarks(Remarks)
+		//.enterRemarks(Remarks)
 		.clickOnPreviewDetails()
-		.clickOnSubmitDetails();
+		.clickOnSubmitDetails()
+		.StoreDONumber()
+		.ReadDONumber();
 		//.enterRemarks(Remarks1)
 		//.clickOnSubmitButton();
 		//.clickOnTradeDocumentManagerMainMenu()

@@ -27,4 +27,17 @@ public class TicketsPage extends DibizWrappers {
 		clickByXpath("(//*[contains(text(), 'View')])[2]");
 		return new ViewTicketPage(driver, test);
 	}
+	
+	public TicketsPage checkForPlantationTicketPageRecordTable() {
+
+		verifyTextByXpath("(//*[contains(text(), 'Date')])[1]", "Date");
+		verifyTextByXpath("(//*[contains(text(), 'Ticket Number')])[1]", "Ticket Number");
+		verifyTextByXpath("(//*[contains(text(), 'Harvester Name')])[1]", "Harvester Name");
+		verifyTextByXpath("(//*[contains(text(), 'Quantity')])[1]", "Quantity");
+		verifyTextByXpath("(//*[contains(text(), 'Daily')])[1]", "Daily");
+		verifyTextByXpath("(//*[contains(text(), 'Weekly')])[1]", "Weekly");
+		verifyTextByXpath("(//*[contains(text(), 'Status')])[1]", "Status");
+		
+		return this;
+	}
 }

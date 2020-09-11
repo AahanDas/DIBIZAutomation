@@ -129,6 +129,20 @@ public class TDMPage extends DibizWrappers {
 
 	}
 	
-	
+	public TDMPage checkForTDMPageDetails() {
+		verifyTextByXpath("(//*[contains(text(), 'Incoming')])[1]", "Incoming");
+		verifyTextByXpath("(//*[contains(text(), 'Outgoing')])[1]", "Outgoing");
+		verifyTextByXpath("(//*[contains(text(), 'Received Date')])[1]", "Received Date");
+		verifyTextByXpath("(//*[contains(text(), 'Received Date')])[2]", "Received Date");
+		verifyTextByXpath("(//*[contains(text(), 'Partner Name')])[1]", "Partner Name");
+		verifyTextByXpath("(//*[contains(text(), 'Partner Name')])[2]", "Partner Name");
+		verifyTextByXpath("(//*[contains(text(), 'Delivery Order #')])[1]", "Delivery Order #");
+		verifyTextByXpath("(//*[contains(text(), 'Delivery Order #')])[2]", "Delivery Order #");
+		verifyTextByXpath("(//*[contains(text(), 'Action')])[1]", "Action");
+		verifyTextByXpath("(//*[contains(text(), 'Action')])[2]", "Action");
+		verifyTextByXpath("(//*[contains(text(), 'Back')])[1]", "Back");
+		return this;
+
+	}
 	
 }

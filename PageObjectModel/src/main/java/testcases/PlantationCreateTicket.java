@@ -19,7 +19,8 @@ public class PlantationCreateTicket extends DibizWrappers {
 	}
 
 	@Test(dataProvider = "fetchData")
-	public void loginLogOut(String uName, String pwd, String Product, String Harvester, String FFBCount, String Area, String Block,
+	public void loginLogOut(String uName, String pwd, String Product,
+			String Harvester, String FFBCount, String Area, String Block,
 			String Phase, String unripe, String rotten, String Loose) {
 		new LoginPageDibiz(driver, test)
 		.enterEmail(uName)

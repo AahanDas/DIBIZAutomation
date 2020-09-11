@@ -23,4 +23,7 @@ public class NewDeliveryOrderConfirmPage extends DibizWrappers {
 		clickByXpath("//*[contains(text(),'Submit Details')]");
 		return new DeliveryOrderPage(driver, test);
 	}
+	
+	
+	
 }
