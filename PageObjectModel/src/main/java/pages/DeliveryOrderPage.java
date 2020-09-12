@@ -145,25 +145,27 @@ public class DeliveryOrderPage extends DibizWrappers {
 		
 	}
 	
-	  public DeliveryOrderPage ReadDONumber() throws IOException { Properties props = new
-	  Properties();
-	  
-	  
-	  String path =
-	  "C:\\Users\\Suresh VeeraRaghavan\\git\\repositoryDIBIZ\\PageObjectModel\\src\\main\\resources\\db.properties"; 
-	  FileInputStream inputStream = new FileInputStream(path); 
-	  Properties prop = new Properties(); prop.load(inputStream); 
-	  String doNo = prop.getProperty("DONumber"); //prop.getProperty("Key", doNo);
-	  System.out.println("DO number Read from db.properties file: " +doNo); 
-	  
-	  clickByXpath(prop.getProperty("doNo"));
-	  
-	  
-	  
-	  
-	  return this;
-	  
-	  }
+	/*
+	 * public DeliveryOrderPage ReadDONumber() throws IOException { Properties props
+	 * = new Properties();
+	 * 
+	 * 
+	 * String path =
+	 * "C:\\Users\\Suresh VeeraRaghavan\\git\\repositoryDIBIZ\\PageObjectModel\\src\\main\\resources\\db.properties"
+	 * ; FileInputStream inputStream = new FileInputStream(path); Properties prop =
+	 * new Properties(); prop.load(inputStream); String doNo =
+	 * prop.getProperty("DONumber");
+	 * System.out.println("DO number Read from db.properties file: " +doNo);
+	 * 
+	 * //clickByXpath(prop.getProperty("doNo"));
+	 * 
+	 * clickByXpath("(//*[contains(text(),'doNo')//following::td[2]])");
+	 * 
+	 * 
+	 * return this;
+	 * 
+	 * }
+	 */
 	 
 	
 

@@ -1,5 +1,7 @@
 package testcases;
 
+import java.io.IOException;
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -20,7 +22,7 @@ public class US19_AddSubDocumentWeighbridgeIncomingDO  extends DibizWrappers {
 
 	@Test(dataProvider = "fetchData")
 	public void loginLogOut(String uName, String pwd, String DO, String product, 
-			String grossWeight, String tareWeight, String ticketNumber) {
+			String grossWeight, String tareWeight, String ticketNumber) throws IOException {
 		new LoginPageDibiz(driver, test)
 		.enterEmail(uName)
 		.enterPassword(pwd)
@@ -28,6 +30,7 @@ public class US19_AddSubDocumentWeighbridgeIncomingDO  extends DibizWrappers {
 		.clickOnTradeDocumentManagerMainMenu()
 		.clickOnIncomingDeliveryOrders()
 		.clickOnFirstVIEWLink()
+		//.ReadDONumberAndClickOnView()
 		.clickOnAddSubDocumentWeighbridge()
 		.entergrossWeight(grossWeight)
 		.entertareWeight(tareWeight)

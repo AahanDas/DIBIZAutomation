@@ -28,7 +28,6 @@ public class US29_Admin_AssetsView_VehiclesAndStorageUnits extends DibizWrappers
 		.enterEmail(uName)
 		.enterPassword(pwd)
 		.clickSignIn()
-		.clickOnUserLogo()
 		.clickOnAdmin()
 		.clickOnAssetsView()
 		.clickOnVehiclesTab()

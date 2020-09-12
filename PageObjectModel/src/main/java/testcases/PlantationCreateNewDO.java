@@ -52,8 +52,8 @@ public class PlantationCreateNewDO extends DibizWrappers {
 		//.enterRemarks(Remarks)
 		.clickOnPreviewDetails()
 		.clickOnSubmitDetails()
-		.StoreDONumber()
-		.ReadDONumber();
+		.StoreDONumber();
+		//.ReadDONumber();
 		//.enterRemarks(Remarks1)
 		//.clickOnSubmitButton();
 		//.clickOnTradeDocumentManagerMainMenu()

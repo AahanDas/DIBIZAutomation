@@ -1,5 +1,9 @@
 package pages;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.relevantcodes.extentreports.ExtentTest;
@@ -40,4 +44,29 @@ public class TicketsPage extends DibizWrappers {
 		
 		return this;
 	}
+	
+	
+	
+	
+	public ViewTicketPage ReadTicketNumberAndClickOnView() throws IOException {
+		//Properties props = new Properties();
+
+		String path = "C:\\Users\\Suresh VeeraRaghavan\\git\\repositoryDIBIZ\\PageObjectModel\\src\\main\\resources\\db.properties";
+		FileInputStream inputStream = new FileInputStream(path);
+		Properties prop = new Properties();
+		prop.load(inputStream);
+		
+		String tktNumber = prop.getProperty("tktNumber");
+		System.out.println("Ticket number Read from db.properties file: " + tktNumber);
+
+		// clickByXpath(prop.getProperty("doNo"));
+
+		clickByXpath("(//*[contains(text(),'"+tktNumber+"')]//following::td[3]//button)");
+
+		return new ViewTicketPage(driver, test);
+
+		}
+	
+	
+	
 }

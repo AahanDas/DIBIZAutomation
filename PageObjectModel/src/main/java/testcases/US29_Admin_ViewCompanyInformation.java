@@ -28,7 +28,6 @@ public class US29_Admin_ViewCompanyInformation extends DibizWrappers {
 		.enterEmail(uName)
 		.enterPassword(pwd)
 		.clickSignIn()
-		.clickOnUserLogo()
 		.clickOnAdmin()
 		.clickOnCompanyInformationView()
 		.verifyViewCompanyInformationPage();

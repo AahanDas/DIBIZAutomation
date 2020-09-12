@@ -64,6 +64,13 @@ public class HomePage extends DibizWrappers {
 		clickByXpath("//*[contains(text(), 'WeighBridge')]");
 		return new WeighBridgePage(driver, test);
 	}
+	
+	public RecordsPage clickOnRecordsMainMenu() {
+
+		clickByXpath("//*[contains(text(), 'Records')]");
+		return new RecordsPage(driver, test);
+	}
+	
 
 	public TicketsPage clickOnTicket() {
 		clickByXpath("//*[contains(text(), 'Ticket')]");
@@ -211,5 +218,7 @@ public class HomePage extends DibizWrappers {
 		verifyTextByXpath("(//*[contains(text(), 'Messages Exchanged')])[1]", "Messages Exchanged");
 		return this;
 	}
+	
+	
 	
 }

@@ -20,8 +20,8 @@ public class UpdateTicketPage extends DibizWrappers {
 
 	public UpdateTicketPage searchProduct(String data) {
 
-		clickByXpath("//*[@class='StyledIcon-ofa7kd-0 cBvDlm']");
-		// enterByXpath("//*[@class='StyledTextInput-sc-1x30a0s-0 bkOazG']", data);
+		clickByXpath("//*[@class='StyledButton-sc-323bzc-0 kaBBoa']");
+		clickById("select-drop-productID__input");
 		enterByXpath("//*[@type='search']", data);
 		return this;
 	}
@@ -37,14 +37,14 @@ public class UpdateTicketPage extends DibizWrappers {
 		 */
 		clickByXpath("//*[@class='StyledText-sc-1sadyjn-0 oKAxv']");
 		clickByXpath("//*[contains(text(),'Submit')]");
-
 		return this;
 	}
 
 	public UpdateTicketPage selectHarvester(String data) {
-		clickByXpath("//*[@class='StyledIcon-ofa7kd-0 cBvDlm']");
+		clickById("select-drop-harvester__input");
 		enterByXpath("//*[@type='search']", data);
 		clickByXpath("//*[@class='StyledText-sc-1sadyjn-0 oKAxv']");
+
 
 		return this;
 	}

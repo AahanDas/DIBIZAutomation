@@ -28,7 +28,7 @@ public class US23_7_8_TransactionInformations extends DibizWrappers {
 		.chooseFromDate()
 		.clickOnApplyButton()
 		.clickOnShowMore()
-		.verifyFirstCardTransactionInformation(transactionInfo);
+		.verifyFirstCardTransactionInformation();
 	}
 
 }

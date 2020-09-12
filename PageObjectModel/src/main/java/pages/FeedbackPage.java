@@ -38,5 +38,14 @@ public class FeedbackPage extends DibizWrappers {
 		clickByXpath("//*[contains(text(),'Submit')]");
 		return this;
 	}
+	
+	public FeedbackPage verifyFeedbackPageDetails() {
+
+		verifyTextByXpath("(//*[contains(text(), 'Message')])[1]", "Message");
+		verifyTextByXpath("(//*[contains(text(), 'Topic')])[1]", "Topic");
+		
+		return this;
+	}
+
 
 }

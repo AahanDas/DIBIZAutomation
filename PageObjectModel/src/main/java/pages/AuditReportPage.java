@@ -30,20 +30,32 @@ public class AuditReportPage extends DibizWrappers {
 		clickByXpath("//*[contains(text(),'Apply')]");
 		return this;
 	}
+	
+	public AuditReportPage clickOnClearButtonAndVerify() {
+		clickByXpath("//*[contains(text(),'Clear')]");
+		verifyTextByXpath("(//*[@placeholder='Choose'])[1]", "Choose");
+		return this;
+	}
+	
 
 	public AuditReportPage clickOnShowMore() {
 		clickByXpath("//*[contains(text(),'Show More')]");
 		return this;
 	}
 
-	public AuditReportPage verifyFirstCardCompanyInformation(String data) {
-		verifyTextByXpath("//*[contains(text(), 'Company Information')]", data);
+	public AuditReportPage verifyFirstCardCompanyInformation() {
+		verifyTextByXpath("//*[contains(text(), 'Company Information')]", "Company Information");
 		return this;
 	}
 
-	public AuditReportPage verifyFirstCardTransactionInformation(String data) {
-		verifyTextByXpath("(//*[contains(text(), 'Transaction - 1')])[1]", data);
+	public AuditReportPage verifyFirstCardTransactionInformation() {
+		verifyTextByXpath("(//*[contains(text(), 'Transaction - 1')])[1]", "Transaction - 1");
 		return this;
+	}
+
+	public HomePage clickOnBackButton() {
+		clickByXpath("//*[contains(text(),'Back')]");
+		return new HomePage(driver, test);
 	}
 
 }

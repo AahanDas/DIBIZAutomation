@@ -47,7 +47,7 @@ public abstract class Reporter {
 	
 
 	public ExtentReports startResult(){
-		extent = new ExtentReports("./reports/report.html", false);
+		extent = new ExtentReports("./reports/report.html", true);
 		extent.loadConfig(new File("./src/main/resources/extent-config.xml"));
 		return extent;
 	}

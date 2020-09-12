@@ -1,5 +1,9 @@
 package pages;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.relevantcodes.extentreports.ExtentTest;
@@ -34,6 +38,38 @@ public class createBinPage extends DibizWrappers {
 		enterById("input-binNumber", data);
 		return this;
 	}
+	
+	public createBinPage ReadTicketNumberAndClickOnCheckBox() throws IOException {
+		//Properties props = new Properties();
+
+		String path = "C:\\Users\\Suresh VeeraRaghavan\\git\\repositoryDIBIZ\\PageObjectModel\\src\\main\\resources\\db.properties";
+		FileInputStream inputStream = new FileInputStream(path);
+		Properties prop = new Properties();
+		prop.load(inputStream);
+		
+		String tktNumber = prop.getProperty("tktNumber");
+		System.out.println("Ticket number Read from db.properties file: " + tktNumber);
+
+		// clickByXpath(prop.getProperty("doNo"));
+
+		clickByXpath("(//*[contains(text(),'"+tktNumber+"')]//preceding::div[1]");
+
+		return this;
+
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	public createBinPage clickOnTicketNumberCheckBox() {
 		clickByXpath("(//*[@class='StyledBox-sc-13pk1d4-0 PiYIl StyledCheckBox__StyledCheckBoxBox-sc-1dbk5ju-3 cJNjzg'])[1]");
 		clickByXpath("(//*[@class='StyledBox-sc-13pk1d4-0 PiYIl StyledCheckBox__StyledCheckBoxBox-sc-1dbk5ju-3 cJNjzg'])[2]");

@@ -28,6 +28,6 @@ public class US23_6_OrganisationInformations  extends DibizWrappers {
 		.chooseFromDate()
 		.clickOnApplyButton()
 		.clickOnShowMore()
-		.verifyFirstCardCompanyInformation(companyInfo);
+		.verifyFirstCardCompanyInformation();
 	}
 }

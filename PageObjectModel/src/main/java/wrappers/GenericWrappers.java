@@ -33,6 +33,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.relevantcodes.extentreports.ExtentTest;
 
+import pages.DeliveryOrderPage;
 import utils.Reporter;
 
 public class GenericWrappers extends Reporter implements Wrappers {
@@ -77,9 +78,15 @@ public class GenericWrappers extends Reporter implements Wrappers {
 	 * "C:\\Users\\Suresh VeeraRaghavan\\git\\repositoryDIBIZ\\PageObjectModel\\src\\main\\resources\\db.properties"
 	 * ; FileInputStream inputStream = new FileInputStream(path); Properties prop =
 	 * new Properties(); prop.load(inputStream); String doNo =
-	 * prop.getProperty("DONumber"); //prop.getProperty("Key", doNo);
-	 * System.out.println("DO number Read from db.properties file: " +doNo); return
-	 * doNo;
+	 * prop.getProperty("DONumber");
+	 * System.out.println("DO number Read from db.properties file: " +doNo);
+	 * 
+	 * //clickByXpath(prop.getProperty("doNo"));
+	 * 
+	 * // clickByXpath("(//*[contains(text(),'doNo')//following::td[2]])");
+	 * 
+	 * 
+	 * return doNo;
 	 * 
 	 * }
 	 */

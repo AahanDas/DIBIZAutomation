@@ -29,7 +29,6 @@ public class US29_11_Admin_CreateAssets extends DibizWrappers {
 		.enterEmail(uName)
 		.enterPassword(pwd)
 		.clickSignIn()
-		.clickOnUserLogo()
 		.clickOnAdmin()
 		.clickOnAssetsView()
 		.clickOnCreateAssetButton()

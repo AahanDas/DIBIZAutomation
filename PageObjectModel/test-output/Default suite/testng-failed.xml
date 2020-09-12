@@ -3,18 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.US19_AddIncomingDOAddFFBQuality">
+      <class name="testcases.PlantationCreateNewDO">
         <methods>
           <include name="beforeMethod"/>
-          <include name="loginLogOut" invocation-numbers="0"/>
           <include name="setValue"/>
           <include name="beforeTest"/>
+          <include name="loginLogOut" invocation-numbers="0"/>
           <include name="afterSuite"/>
           <include name="afterMethod"/>
           <include name="beforeSuite"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- testcases.US19_AddIncomingDOAddFFBQuality -->
+      </class> <!-- testcases.PlantationCreateNewDO -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

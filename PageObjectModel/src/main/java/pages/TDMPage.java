@@ -1,5 +1,9 @@
 package pages;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.relevantcodes.extentreports.ExtentTest;
@@ -20,14 +24,14 @@ public class TDMPage extends DibizWrappers {
 
 	public NewDOPage clickOnCreateNewdropDown() {
 		clickByXpath("//*[contains(text(),'CREATE NEW')]");
-		//clickByXpath("(//*[contains(text(),'DELIVERY ORDER')])[3]");
+		// clickByXpath("(//*[contains(text(),'DELIVERY ORDER')])[3]");
 		clickByXpath("(//*[@class='StyledBox-sc-13pk1d4-0 ixxyKD'])[3]");
-		
+
 		// selectVisibileTextByXPath("//*[contains(text(),'CREATE NEW')]", "DELIVERY
 		// ORDER");
 		return new NewDOPage(driver, test);
 	}
-	
+
 	public NewPurchaseOrderPage clickOnPURCHASEORDERFromCreateNewdropDown() {
 		clickByXpath("//*[contains(text(),'CREATE NEW')]");
 		clickByXpath("//*[contains(text(),'PURCHASE ORDER')]");
@@ -44,9 +48,9 @@ public class TDMPage extends DibizWrappers {
 	}
 
 	public TDMPage clickOnOutgoingDeliveryOrders() {
-		//clickByXpath("(//*[@class='Tabs__TabLabel-sc-18bzzb8-3 eHJjyF'])[7]");
+		// clickByXpath("(//*[@class='Tabs__TabLabel-sc-18bzzb8-3 eHJjyF'])[7]");
 		clickByXpath("(//*[contains(text(),'Delivery Orders')])[2]");
-		
+
 		return this;
 	}
 
@@ -101,34 +105,56 @@ public class TDMPage extends DibizWrappers {
 		return this;
 
 	}
+
+	public NewDeliveryOrderDetailsPage ReadDONumberAndClickOnView() throws IOException {
+		Properties props = new Properties();
+
+		String path = "C:\\Users\\Suresh VeeraRaghavan\\git\\repositoryDIBIZ\\PageObjectModel\\src\\main\\resources\\db.properties";
+		FileInputStream inputStream = new FileInputStream(path);
+		Properties prop = new Properties();
+		prop.load(inputStream);
+		//Properties prop = new Properties();
+		String doNo = prop.getProperty("DONumber");
+		System.out.println("DO number Read from db.properties file: " + doNo);
+
+		// clickByXpath(prop.getProperty("doNo"));
+
+		clickByXpath("(//*[contains(text(),'"+doNo+"')]//following::td[2]//button)");
+
+		return new NewDeliveryOrderDetailsPage(driver, test);
+
+	}
+
 	public NewDeliveryOrderDetailsPage clickOnFirstVIEWLink() {
 		clickByXpath("(//*[contains(text(),'VIEW')])[2]");
 		return new NewDeliveryOrderDetailsPage(driver, test);
 
 	}
-	
+
 	public TDMPage clickOnInvoicesTabIncoming() {
 		clickByXpath("(//*[contains(text(),'Invoices')])[1]");
 		return this;
 
 	}
+
 	public TDMPage clickOnPurchaseOrdersTabIncoming() {
 		clickByXpath("(//*[contains(text(),'Purchase Orders')])[1]");
 		return this;
 
 	}
+
 	public TDMPage clickOnDeliveryOrdersTabIncoming() {
 		clickByXpath("(//*[contains(text(),'Delivery Orders')])[1]");
 		return this;
 
 	}
-	
+
 	public IncomingReceivingDOPage clickOnVIEWALLDELIVERYORDERSIncomingDO() {
 		clickByXpath("//*[contains(text(),'VIEW ALL DELIVERY ORDERS')]");
 		return new IncomingReceivingDOPage(driver, test);
 
 	}
-	
+
 	public TDMPage checkForTDMPageDetails() {
 		verifyTextByXpath("(//*[contains(text(), 'Incoming')])[1]", "Incoming");
 		verifyTextByXpath("(//*[contains(text(), 'Outgoing')])[1]", "Outgoing");
@@ -144,5 +170,5 @@ public class TDMPage extends DibizWrappers {
 		return this;
 
 	}
-	
+
 }

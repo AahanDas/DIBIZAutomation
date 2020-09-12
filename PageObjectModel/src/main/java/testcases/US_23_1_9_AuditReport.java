@@ -28,8 +28,8 @@ public class US_23_1_9_AuditReport extends DibizWrappers {
 		.chooseFromDate()
 		.clickOnApplyButton()
 		.clickOnShowMore()
-		.verifyFirstCardCompanyInformation(companyInfo)
-		.verifyFirstCardTransactionInformation(transactionInfo);
+		.verifyFirstCardCompanyInformation()
+		.verifyFirstCardTransactionInformation();
 	}
 
 }
