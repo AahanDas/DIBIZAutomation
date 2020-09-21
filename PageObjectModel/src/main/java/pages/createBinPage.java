@@ -61,7 +61,24 @@ public class createBinPage extends DibizWrappers {
 	
 	
 	
-	
+	public createBinPage ReadTicketNumberclickOnTicketNumberCheckBox() throws IOException {
+		//Properties props = new Properties();
+
+		String path = "C:\\Users\\Suresh VeeraRaghavan\\git\\repositoryDIBIZ\\PageObjectModel\\src\\main\\resources\\db.properties";
+		FileInputStream inputStream = new FileInputStream(path);
+		Properties prop = new Properties();
+		prop.load(inputStream);
+		//Properties prop = new Properties();
+		String tktNumber = prop.getProperty("tktNumber");
+		System.out.println("Ticket number Read from db.properties file: " + tktNumber);
+
+		// clickByXpath(prop.getProperty("doNo"));
+
+		clickByXpath("(//*[contains(text(),'"+tktNumber+"')]//preceding::div[1])");
+
+		return this;
+
+		}
 	
 	
 	

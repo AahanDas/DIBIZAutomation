@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="2" verbose="5" name="Test(failed)" parallel="classes">
     <classes>
-      <class name="testcases.US19_AddSubDocumentWeighbridgeOutgoingDO">
+      <class name="testcases.US24_6_7_FromDateAndSupplierSearch">
         <methods>
           <include name="beforeMethod"/>
-          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="setValue"/>
           <include name="beforeTest"/>
           <include name="afterSuite"/>
           <include name="afterMethod"/>
-          <include name="setValue"/>
+          <include name="loginLogOut" invocation-numbers="0"/>
           <include name="beforeSuite"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- testcases.US19_AddSubDocumentWeighbridgeOutgoingDO -->
+      </class> <!-- testcases.US24_6_7_FromDateAndSupplierSearch -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

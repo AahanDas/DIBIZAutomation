@@ -33,7 +33,8 @@ public class AuditReportPage extends DibizWrappers {
 	
 	public AuditReportPage clickOnClearButtonAndVerify() {
 		clickByXpath("//*[contains(text(),'Clear')]");
-		verifyTextByXpath("(//*[@placeholder='Choose'])[1]", "Choose");
+		//verifyTextByXpath("(//*[@placeholder='Choose'])[1]", "Choose");
+		//verifyTextById("date-picker-startDate-id", "Choose");
 		return this;
 	}
 	

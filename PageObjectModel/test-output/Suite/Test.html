@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Sep 12 02:29:56 IST 2020</td>
+<td>Started on:</td><td>Tue Sep 22 00:53:08 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>51 seconds (51744 ms)</td>
+<tr><td>Total time:</td><td>128 seconds (128389 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,20 +75,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.US19_AddSubDocumentWeighbridgeOutgoingDO.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.US19_AddSubDocumentWeighbridgeOutgoingDO<br>Parameters: sales@gmas.com, passwordgmas123, DO-org, Fresh fruit bunch, 812, 1, 238Tkt</td>
-<td><div><pre>java.lang.AssertionError: expected [Success] but found [Error]
-	at pages.ViewWeighBridgePage.validateToastMessage(ViewWeighBridgePage.java:34)
-	at testcases.US19_AddSubDocumentWeighbridgeOutgoingDO.loginLogOut(US19_AddSubDocumentWeighbridgeOutgoingDO.java:39)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace582300198", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace582300198'><pre>java.lang.AssertionError: expected [Success] but found [Error]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:453)
-	at org.testng.Assert.assertEquals(Assert.java:463)
-	at pages.ViewWeighBridgePage.validateToastMessage(ViewWeighBridgePage.java:34)
-	at testcases.US19_AddSubDocumentWeighbridgeOutgoingDO.loginLogOut(US19_AddSubDocumentWeighbridgeOutgoingDO.java:39)
+<td title='testcases.US24_6_7_FromDateAndSupplierSearch.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.US24_6_7_FromDateAndSupplierSearch<br>Parameters: sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB), Gunung Mas Plantations Sdn. Bhd.</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:33)
+	at utils.Reporter.reportStep(Reporter.java:43)
+	at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:472)
+	at pages.HomePage.clickOnProductTraceFromMenu(HomePage.java:120)
+	at testcases.US24_6_7_FromDateAndSupplierSearch.loginLogOut(US24_6_7_FromDateAndSupplierSearch.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -99,24 +92,32 @@ function toggleAllBoxes() {
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1205229846", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1205229846'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:33)
+	at utils.Reporter.reportStep(Reporter.java:43)
+	at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:472)
+	at pages.HomePage.clickOnProductTraceFromMenu(HomePage.java:120)
+	at testcases.US24_6_7_FromDateAndSupplierSearch.loginLogOut(US24_6_7_FromDateAndSupplierSearch.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
 </pre></div></td>
-<td>10</td>
-<td>testcases.US19_AddSubDocumentWeighbridgeOutgoingDO@5abca1e0</td></tr>
+<td>50</td>
+<td>testcases.US24_6_7_FromDateAndSupplierSearch@13a5fe33</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -126,10 +127,35 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.US21_1_19_CreateOutgoingDO.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.US21_1_19_CreateOutgoingDO<br>Parameters: sales@gmas.com, passwordgmas123, Jendarata Palm Oil Mill, DO-Plantation-001-20200820, KA 01 2020, DrD, Road and Rail, Transport, Fresh fruit bunch (#FFB), 1, Remarks, newRemarks</td>
+<td title='testcases.US24_1_2_3_4_5_LoginSelectProductAndVerifyPage.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.US24_1_2_3_4_5_LoginSelectProductAndVerifyPage<br>Parameters: sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB)</td>
 <td></td>
-<td>22</td>
-<td>testcases.US21_1_19_CreateOutgoingDO@3632be31</td></tr>
+<td>10</td>
+<td>testcases.US24_1_2_3_4_5_LoginSelectProductAndVerifyPage@527740a2</td></tr>
+<tr>
+<td title='testcases.US24_8_9_10_11_12_TraceAndVerifyPage.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.US24_8_9_10_11_12_TraceAndVerifyPage<br>Parameters: sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB), Gunung Mas Plantations Sdn. Bhd.</td>
+<td></td>
+<td>14</td>
+<td>testcases.US24_8_9_10_11_12_TraceAndVerifyPage@3108bc</td></tr>
+<tr>
+<td title='testcases.US24_13_TraceAndTreeGraphMapTab.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.US24_13_TraceAndTreeGraphMapTab<br>Parameters: sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB), Gunung Mas Plantations Sdn. Bhd.</td>
+<td></td>
+<td>28</td>
+<td>testcases.US24_13_TraceAndTreeGraphMapTab@370736d9</td></tr>
+<tr>
+<td title='testcases.US24_14_15_16_ProductTraceTree.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.US24_14_15_16_ProductTraceTree<br>Parameters: sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB), Gunung Mas Plantations Sdn. Bhd.</td>
+<td></td>
+<td>25</td>
+<td>testcases.US24_14_15_16_ProductTraceTree@5f9d02cb</td></tr>
+<tr>
+<td title='testcases.US24_17_18_19_20_21_ProductTraceGraph.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.US24_17_18_19_20_21_ProductTraceGraph<br>Parameters: sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB), Gunung Mas Plantations Sdn. Bhd.</td>
+<td></td>
+<td>16</td>
+<td>testcases.US24_17_18_19_20_21_ProductTraceGraph@63753b6d</td></tr>
+<tr>
+<td title='testcases.US24_22_23_24_25_26_27_28_ProductTraceMap.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.US24_22_23_24_25_26_27_28_ProductTraceMap<br>Parameters: sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB), Gunung Mas Plantations Sdn. Bhd.</td>
+<td></td>
+<td>19</td>
+<td>testcases.US24_22_23_24_25_26_27_28_ProductTraceMap@6b09bb57</td></tr>
 </table><p>
 </body>
 </html>

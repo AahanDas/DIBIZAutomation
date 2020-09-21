@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="4" total="6" passed="1">
+<testng-results skipped="0" failed="1" ignored="24" total="31" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="51744" started-at="2020-09-11T20:59:56Z" finished-at="2020-09-11T21:00:48Z">
+  <suite name="Suite" duration-ms="128389" started-at="2020-09-21T19:23:08Z" finished-at="2020-09-21T19:25:17Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="51744" started-at="2020-09-11T20:59:56Z" finished-at="2020-09-11T21:00:48Z">
-      <class name="testcases.US21_1_19_CreateOutgoingDO">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.US21_1_19_CreateOutgoingDO@3632be31]" name="beforeSuite" is-config="true" duration-ms="219" started-at="2020-09-11T20:59:56Z" finished-at="2020-09-11T20:59:56Z">
+    <test name="Test" duration-ms="128389" started-at="2020-09-21T19:23:08Z" finished-at="2020-09-21T19:25:17Z">
+      <class name="testcases.US24_1_2_3_4_5_LoginSelectProductAndVerifyPage">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.US24_1_2_3_4_5_LoginSelectProductAndVerifyPage@527740a2]" name="beforeSuite" is-config="true" duration-ms="1371" started-at="2020-09-21T19:23:07Z" finished-at="2020-09-21T19:23:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.US21_1_19_CreateOutgoingDO@3632be31]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-09-11T20:59:56Z" finished-at="2020-09-11T20:59:56Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.US24_1_2_3_4_5_LoginSelectProductAndVerifyPage@527740a2]" name="beforeTest" is-config="true" duration-ms="2" started-at="2020-09-21T19:23:08Z" finished-at="2020-09-21T19:23:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US21_1_19_CreateOutgoingDO@3632be31]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-11T20:59:56Z" finished-at="2020-09-11T20:59:56Z">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US24_1_2_3_4_5_LoginSelectProductAndVerifyPage@527740a2]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-21T19:23:08Z" finished-at="2020-09-21T19:23:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setValue -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US21_1_19_CreateOutgoingDO@3632be31]" name="beforeMethod" is-config="true" duration-ms="9978" started-at="2020-09-11T20:59:56Z" finished-at="2020-09-11T21:00:06Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US24_1_2_3_4_5_LoginSelectProductAndVerifyPage@527740a2]" name="beforeMethod" is-config="true" duration-ms="13458" started-at="2020-09-21T19:23:09Z" finished-at="2020-09-21T19:23:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US21_1_19_CreateOutgoingDO@3632be31]" name="loginLogOut" duration-ms="22088" started-at="2020-09-11T21:00:06Z" data-provider="fetchData" finished-at="2020-09-11T21:00:28Z">
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US24_1_2_3_4_5_LoginSelectProductAndVerifyPage@527740a2]" name="loginLogOut" duration-ms="10101" started-at="2020-09-21T19:23:23Z" data-provider="fetchData" finished-at="2020-09-21T19:23:33Z">
           <params>
             <param index="0">
               <value>
@@ -37,81 +37,36 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[Jendarata Palm Oil Mill]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[DO-Plantation-001-20200820]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[KA 01 2020]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[DrD]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Road and Rail]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Transport]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
                 <![CDATA[Fresh fruit bunch (#FFB)]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[Remarks]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[newRemarks]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginLogOut -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US21_1_19_CreateOutgoingDO@3632be31]" name="afterMethod" is-config="true" duration-ms="568" started-at="2020-09-11T21:00:28Z" finished-at="2020-09-11T21:00:29Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US24_1_2_3_4_5_LoginSelectProductAndVerifyPage@527740a2]" name="afterMethod" is-config="true" duration-ms="589" started-at="2020-09-21T19:23:33Z" finished-at="2020-09-21T19:23:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.US21_1_19_CreateOutgoingDO@3632be31]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-09-11T21:00:48Z" finished-at="2020-09-11T21:00:48Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.US24_1_2_3_4_5_LoginSelectProductAndVerifyPage@527740a2]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-09-21T19:25:17Z" finished-at="2020-09-21T19:25:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.US21_1_19_CreateOutgoingDO@3632be31]" name="afterSuite" is-config="true" duration-ms="249" started-at="2020-09-11T21:00:48Z" finished-at="2020-09-11T21:00:48Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.US24_1_2_3_4_5_LoginSelectProductAndVerifyPage@527740a2]" name="afterSuite" is-config="true" duration-ms="793" started-at="2020-09-21T19:25:17Z" finished-at="2020-09-21T19:25:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- testcases.US21_1_19_CreateOutgoingDO -->
-      <class name="testcases.US19_AddSubDocumentWeighbridgeOutgoingDO">
-        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US19_AddSubDocumentWeighbridgeOutgoingDO@5abca1e0]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-11T21:00:29Z" finished-at="2020-09-11T21:00:29Z">
+      </class> <!-- testcases.US24_1_2_3_4_5_LoginSelectProductAndVerifyPage -->
+      <class name="testcases.US24_14_15_16_ProductTraceTree">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US24_14_15_16_ProductTraceTree@5f9d02cb]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-21T19:24:14Z" finished-at="2020-09-21T19:24:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setValue -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US19_AddSubDocumentWeighbridgeOutgoingDO@5abca1e0]" name="beforeMethod" is-config="true" duration-ms="7126" started-at="2020-09-11T21:00:29Z" finished-at="2020-09-11T21:00:36Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US24_14_15_16_ProductTraceTree@5f9d02cb]" name="beforeMethod" is-config="true" duration-ms="9065" started-at="2020-09-21T19:24:14Z" finished-at="2020-09-21T19:24:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US19_AddSubDocumentWeighbridgeOutgoingDO@5abca1e0]" name="loginLogOut" duration-ms="10849" started-at="2020-09-11T21:00:36Z" data-provider="fetchData" finished-at="2020-09-11T21:00:47Z">
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US24_14_15_16_ProductTraceTree@5f9d02cb]" name="loginLogOut" duration-ms="25263" started-at="2020-09-21T19:24:23Z" data-provider="fetchData" finished-at="2020-09-21T19:24:48Z">
           <params>
             <param index="0">
               <value>
@@ -125,44 +80,186 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[DO-org]]>
+                <![CDATA[Fresh fruit bunch (#FFB)]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Fresh fruit bunch]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[812]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[238Tkt]]>
+                <![CDATA[Gunung Mas Plantations Sdn. Bhd.]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US24_14_15_16_ProductTraceTree@5f9d02cb]" name="afterMethod" is-config="true" duration-ms="603" started-at="2020-09-21T19:24:48Z" finished-at="2020-09-21T19:24:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US24_14_15_16_ProductTraceTree -->
+      <class name="testcases.US24_22_23_24_25_26_27_28_ProductTraceMap">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US24_22_23_24_25_26_27_28_ProductTraceMap@6b09bb57]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-21T19:24:49Z" finished-at="2020-09-21T19:24:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US24_22_23_24_25_26_27_28_ProductTraceMap@6b09bb57]" name="beforeMethod" is-config="true" duration-ms="7876" started-at="2020-09-21T19:24:49Z" finished-at="2020-09-21T19:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US24_22_23_24_25_26_27_28_ProductTraceMap@6b09bb57]" name="loginLogOut" duration-ms="19243" started-at="2020-09-21T19:24:57Z" data-provider="fetchData" finished-at="2020-09-21T19:25:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fresh fruit bunch (#FFB)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Gunung Mas Plantations Sdn. Bhd.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US24_22_23_24_25_26_27_28_ProductTraceMap@6b09bb57]" name="afterMethod" is-config="true" duration-ms="637" started-at="2020-09-21T19:25:16Z" finished-at="2020-09-21T19:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US24_22_23_24_25_26_27_28_ProductTraceMap -->
+      <class name="testcases.US24_13_TraceAndTreeGraphMapTab">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US24_13_TraceAndTreeGraphMapTab@370736d9]" name="setValue" is-config="true" duration-ms="1" started-at="2020-09-21T19:23:57Z" finished-at="2020-09-21T19:23:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US24_13_TraceAndTreeGraphMapTab@370736d9]" name="beforeMethod" is-config="true" duration-ms="8095" started-at="2020-09-21T19:23:57Z" finished-at="2020-09-21T19:24:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US24_13_TraceAndTreeGraphMapTab@370736d9]" name="loginLogOut" duration-ms="28717" started-at="2020-09-21T19:24:05Z" data-provider="fetchData" finished-at="2020-09-21T19:24:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fresh fruit bunch (#FFB)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Gunung Mas Plantations Sdn. Bhd.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US24_13_TraceAndTreeGraphMapTab@370736d9]" name="afterMethod" is-config="true" duration-ms="623" started-at="2020-09-21T19:24:34Z" finished-at="2020-09-21T19:24:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US24_13_TraceAndTreeGraphMapTab -->
+      <class name="testcases.US24_17_18_19_20_21_ProductTraceGraph">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US24_17_18_19_20_21_ProductTraceGraph@63753b6d]" name="setValue" is-config="true" duration-ms="1" started-at="2020-09-21T19:24:34Z" finished-at="2020-09-21T19:24:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US24_17_18_19_20_21_ProductTraceGraph@63753b6d]" name="beforeMethod" is-config="true" duration-ms="8769" started-at="2020-09-21T19:24:35Z" finished-at="2020-09-21T19:24:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US24_17_18_19_20_21_ProductTraceGraph@63753b6d]" name="loginLogOut" duration-ms="16859" started-at="2020-09-21T19:24:43Z" data-provider="fetchData" finished-at="2020-09-21T19:25:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fresh fruit bunch (#FFB)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Gunung Mas Plantations Sdn. Bhd.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US24_17_18_19_20_21_ProductTraceGraph@63753b6d]" name="afterMethod" is-config="true" duration-ms="587" started-at="2020-09-21T19:25:00Z" finished-at="2020-09-21T19:25:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US24_17_18_19_20_21_ProductTraceGraph -->
+      <class name="testcases.US24_6_7_FromDateAndSupplierSearch">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US24_6_7_FromDateAndSupplierSearch@13a5fe33]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-21T19:23:08Z" finished-at="2020-09-21T19:23:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US24_6_7_FromDateAndSupplierSearch@13a5fe33]" name="beforeMethod" is-config="true" duration-ms="13458" started-at="2020-09-21T19:23:09Z" finished-at="2020-09-21T19:23:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US24_6_7_FromDateAndSupplierSearch@13a5fe33]" name="loginLogOut" duration-ms="50461" started-at="2020-09-21T19:23:23Z" data-provider="fetchData" finished-at="2020-09-21T19:24:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fresh fruit bunch (#FFB)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Gunung Mas Plantations Sdn. Bhd.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
             <message>
-              <![CDATA[expected [Success] but found [Error]]]>
+              <![CDATA[FAILED]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Success] but found [Error]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at pages.ViewWeighBridgePage.validateToastMessage(ViewWeighBridgePage.java:34)
-at testcases.US19_AddSubDocumentWeighbridgeOutgoingDO.loginLogOut(US19_AddSubDocumentWeighbridgeOutgoingDO.java:39)
+              <![CDATA[java.lang.RuntimeException: FAILED
+at utils.Reporter.reportStep(Reporter.java:33)
+at utils.Reporter.reportStep(Reporter.java:43)
+at wrappers.GenericWrappers.clickByXpath(GenericWrappers.java:472)
+at pages.HomePage.clickOnProductTraceFromMenu(HomePage.java:120)
+at testcases.US24_6_7_FromDateAndSupplierSearch.loginLogOut(US24_6_7_FromDateAndSupplierSearch.java:27)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -173,32 +270,60 @@ at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginLogOut -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US19_AddSubDocumentWeighbridgeOutgoingDO@5abca1e0]" name="afterMethod" is-config="true" duration-ms="563" started-at="2020-09-11T21:00:47Z" finished-at="2020-09-11T21:00:48Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US24_6_7_FromDateAndSupplierSearch@13a5fe33]" name="afterMethod" is-config="true" duration-ms="597" started-at="2020-09-21T19:24:13Z" finished-at="2020-09-21T19:24:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- testcases.US19_AddSubDocumentWeighbridgeOutgoingDO -->
+      </class> <!-- testcases.US24_6_7_FromDateAndSupplierSearch -->
+      <class name="testcases.US24_8_9_10_11_12_TraceAndVerifyPage">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.US24_8_9_10_11_12_TraceAndVerifyPage@3108bc]" name="setValue" is-config="true" duration-ms="0" started-at="2020-09-21T19:23:34Z" finished-at="2020-09-21T19:23:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.US24_8_9_10_11_12_TraceAndVerifyPage@3108bc]" name="beforeMethod" is-config="true" duration-ms="8098" started-at="2020-09-21T19:23:34Z" finished-at="2020-09-21T19:23:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.US24_8_9_10_11_12_TraceAndVerifyPage@3108bc]" name="loginLogOut" duration-ms="14535" started-at="2020-09-21T19:23:42Z" data-provider="fetchData" finished-at="2020-09-21T19:23:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fresh fruit bunch (#FFB)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Gunung Mas Plantations Sdn. Bhd.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.US24_8_9_10_11_12_TraceAndVerifyPage@3108bc]" name="afterMethod" is-config="true" duration-ms="587" started-at="2020-09-21T19:23:56Z" finished-at="2020-09-21T19:23:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.US24_8_9_10_11_12_TraceAndVerifyPage -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

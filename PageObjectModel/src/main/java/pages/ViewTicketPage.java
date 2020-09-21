@@ -43,25 +43,25 @@ public class ViewTicketPage extends DibizWrappers {
 	
 	public ViewTicketPage verifyViewTicketPageRecordDetail() {
 		String HarvesterName = driver.findElement(By.xpath("(//*[@class='Typography__P-cdhru6-4 ctKvoC'])[1]")).getText();
-		verifyTextByXpath("(//*[contains(text(), 'Harvester Name')])[1]", HarvesterName);
+		verifyTextByXpath("(//*[contains(text(), 'Harvester Name')])[1]//following::div[1]", HarvesterName);
 		
 		String TicketNumber = driver.findElement(By.xpath("(//*[@class='Typography__P-cdhru6-4 ctKvoC'])[2]")).getText();
-		verifyTextByXpath("(//*[contains(text(), 'Ticket Number')])[1]", TicketNumber);
+		verifyTextByXpath("(//*[contains(text(), 'Ticket Number')])[1]//following::div[1]", TicketNumber);
 		
 		String Quantity = driver.findElement(By.xpath("(//*[@class='Typography__P-cdhru6-4 ctKvoC'])[3]")).getText();
-		verifyTextByXpath("(//*[contains(text(), 'Quantity')])[1]", Quantity);
+		verifyTextByXpath("(//*[contains(text(), 'Quantity')])[1]//following::div[1]", Quantity);
 		
 		String UnripeBunches = driver.findElement(By.xpath("(//*[@class='Typography__P-cdhru6-4 ctKvoC'])[4]")).getText();
-		verifyTextByXpath("(//*[contains(text(), 'Unripe bunches')])[1]", UnripeBunches);
+		verifyTextByXpath("(//*[contains(text(), 'Unripe bunches')])[1]//following::div[1]", UnripeBunches);
 		
 		String RottenBunches = driver.findElement(By.xpath("(//*[@class='Typography__P-cdhru6-4 ctKvoC'])[5]")).getText();
-		verifyTextByXpath("(//*[contains(text(), 'Rotten bunches')])[1]", RottenBunches);
+		verifyTextByXpath("(//*[contains(text(), 'Rotten bunches')])[1]//following::div[1]", RottenBunches);
 		
 		String LooseFruitlets = driver.findElement(By.xpath("(//*[@class='Typography__P-cdhru6-4 ctKvoC'])[6]")).getText();
-		verifyTextByXpath("(//*[contains(text(), 'Loose Fruitlets')])[1]", LooseFruitlets);
+		verifyTextByXpath("(//*[contains(text(), 'Loose Fruitlets')])[1]//following::div[1]", LooseFruitlets);
 		
 		String Block = driver.findElement(By.xpath("(//*[@class='Typography__P-cdhru6-4 ctKvoC'])[9]")).getText();
-		verifyTextByXpath("(//*[contains(text(), 'Block')])[1]", Block);
+		verifyTextByXpath("(//*[contains(text(), 'Block')])[1]//following::div[1]", Block);
 		
 		return this;
 	}

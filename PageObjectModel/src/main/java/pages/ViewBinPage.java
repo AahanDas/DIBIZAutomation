@@ -29,5 +29,36 @@ public class ViewBinPage extends DibizWrappers {
 
 		return this;
 	}
+	public ViewBinPage clickOnNoinConfirmPopUpPage() {
+		clickByXpath("//*[contains(text(),'No')]");
+
+		return this;
+	}
+	
+	public ViewBinPage verifyViewBinPage() {
+		
+		verifyTextByXpath("(//*[contains(text(), 'Bin Details')])[1]", "Bin Details");
+		verifyTextByXpath("(//*[contains(text(), 'Bin Label')])[1]", "Bin Label:");
+		verifyTextByXpath("(//*[contains(text(), 'Number of Tickets')])[1]", "Number of Tickets:");
+		verifyTextByXpath("(//*[contains(text(), 'Quanity')])[1]", "Quanity:");
+		verifyTextByXpath("(//*[contains(text(), 'Assigned Ticket')])[1]", "Assigned Ticket");
+		verifyTextByXpath("(//*[contains(text(), 'Ticket Number')])[1]", "Ticket Number");
+		verifyTextByXpath("(//*[contains(text(), 'Area')])[1]", "Area");
+		verifyTextByXpath("(//*[contains(text(), 'Block Number')])[1]", "Block Number");
+		
+		return this;
+	}
+	
+	public BinsPage clickOnBackButton() {
+		clickByXpath("//*[contains(text(),'Back')]");
+
+		return new BinsPage(driver, test);
+	}
+	
+	public UpdateBinPage clickOnEDITBINButton() {
+		clickByXpath("//*[contains(text(),'EDIT BIN')]");
+
+		return new UpdateBinPage(driver, test);
+	}
 
 }

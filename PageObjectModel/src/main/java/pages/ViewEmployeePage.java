@@ -30,4 +30,12 @@ public class ViewEmployeePage extends DibizWrappers {
 		return this;
 
 	}
+	
+	public ViewEmployeePage clickOnDeleteButton() {
+
+		clickByXpath("(//*[contains(text(),'Delete')])[1]");
+		return this;
+	}
+	
+	
 }

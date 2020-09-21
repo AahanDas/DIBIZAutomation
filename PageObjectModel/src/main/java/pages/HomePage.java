@@ -32,7 +32,7 @@ public class HomePage extends DibizWrappers {
 	}
 
 	public AdminPage clickOnAdmin() {
-		clickByXpath("(//*[contains(text(),'Admin')])[1]");
+		clickByXpath("(//*[contains(text(),'Administrator')])[1]");
 		return new AdminPage(driver, test);
 	}
 

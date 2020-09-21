@@ -17,8 +17,9 @@ public class ProductTracePage extends DibizWrappers {
 		}
 
 	}
+
 	public ProductTracePage chooseProduct(String data) {
-		
+
 		clickById("select-drop-Choose Product__input");
 		enterByXpath("//*[@type='search']", data);
 		clickByXpath("//*[@class='StyledText-sc-1sadyjn-0 oKAxv']");
@@ -34,6 +35,15 @@ public class ProductTracePage extends DibizWrappers {
 		return this;
 	}
 
+	public ProductTracePage searchSupplierName(String data) {
+
+		clickByXpath("//*[@name='input-undefined-Supplier Name']");
+		enterByXpath("//*[@name='input-undefined-Supplier Name']", data);
+
+		return this;
+
+	}
+
 	public ProductTracePage clickOnApplyButton() {
 
 		clickByXpath("//*[contains(text(),'Apply')]");
@@ -46,6 +56,16 @@ public class ProductTracePage extends DibizWrappers {
 		clickByXpath("(//*[contains(text(),'Trace')])[4]");
 		return new GenerateTracePage(driver, test);
 
+	}
+
+	public ProductTracePage verifyProductPageDetails() {
+
+		verifyTextByXpath("(//*[contains(text(), 'Date')])[1]", "Date");
+		verifyTextByXpath("(//*[contains(text(), 'Supplier')])[1]", "Supplier");
+		verifyTextByXpath("(//*[contains(text(), 'Document Number')])[1]", "Document Number");
+		verifyTextByXpath("(//*[contains(text(), 'Quantity')])[1]", "Quantity");
+
+		return this;
 	}
 
 }

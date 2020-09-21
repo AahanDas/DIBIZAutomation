@@ -17,22 +17,27 @@ public class BinsPage extends DibizWrappers {
 		}
 
 	}
-	
+
 	public createBinPage clickOnCreateBin() {
-		
+
 		clickByXpath("//*[contains(text(),'CREATE BIN')]");
 		return new createBinPage(driver, test);
 	}
-	
+
 	public BinsPage checkForPlantationBinPageRecordTable() {
 
 		verifyTextByXpath("(//*[contains(text(), 'Date')])[1]", "Date");
 		verifyTextByXpath("(//*[contains(text(), 'Bin Number')])[1]", "Bin Number");
 		verifyTextByXpath("(//*[contains(text(), 'Quantity')])[1]", "Quantity");
 		verifyTextByXpath("(//*[contains(text(), 'Number of Tickets')])[1]", "Number of Tickets");
-		
-		
+
 		return this;
+	}
+
+	public ViewBinPage clickOnFirstViewBin() {
+
+		clickByXpath("(//*[contains(text(), 'View')])[1]");
+		return new ViewBinPage(driver, test);
 	}
 
 }

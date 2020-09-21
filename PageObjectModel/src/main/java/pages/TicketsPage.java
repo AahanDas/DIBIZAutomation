@@ -37,7 +37,7 @@ public class TicketsPage extends DibizWrappers {
 		verifyTextByXpath("(//*[contains(text(), 'Date')])[1]", "Date");
 		verifyTextByXpath("(//*[contains(text(), 'Ticket Number')])[1]", "Ticket Number");
 		verifyTextByXpath("(//*[contains(text(), 'Harvester Name')])[1]", "Harvester Name");
-		verifyTextByXpath("(//*[contains(text(), 'Quantity')])[1]", "Quantity");
+		verifyTextByXpath("(//*[@class='Typography__Label-cdhru6-5 gNFnJ'])[6]", "Quantity (Nos)");
 		verifyTextByXpath("(//*[contains(text(), 'Daily')])[1]", "Daily");
 		verifyTextByXpath("(//*[contains(text(), 'Weekly')])[1]", "Weekly");
 		verifyTextByXpath("(//*[contains(text(), 'Status')])[1]", "Status");

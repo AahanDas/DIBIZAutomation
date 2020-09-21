@@ -24,4 +24,12 @@ public class ViewCompanyInformationPage extends DibizWrappers {
 		return this;
 
 	}
+	
+	public ViewCompanyInformationPage clickOnEditForOrganisation() {
+
+		verifyTextByXpath("//*[contains(text(), 'Edit')]", "Edit");
+		return this;
+		//Edit button is not working
+	}
+	
 }

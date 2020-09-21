@@ -19,13 +19,13 @@ public class GenerateTracePage extends DibizWrappers {
 	}
 
 	public GenerateTracePage clickOnMinusForTree() {
-		clickByXpath("(//*[@class='Typography__Label-cdhru6-5 Trace-Tree__LabelBlock-sc-1wum2sf-0 jFPGVi'])[1]");
+		clickByXpath("(//*[@class='Trace-Tree__Dot-sc-1wum2sf-1 bgxVPE'])[1]");
 
 		return this;
 	}
 	
 	public GenerateTracePage clickOnPlusForTree() {
-		clickByXpath("(//*[@class='Typography__Label-cdhru6-5 Trace-Tree__LabelBlock-sc-1wum2sf-0 jFPGVi'])[1]");
+		clickByXpath("(//*[@class='Trace-Tree__Dot-sc-1wum2sf-1 bgxVPE'])[1]");
 
 		return this;
 	}
@@ -48,5 +48,9 @@ public class GenerateTracePage extends DibizWrappers {
 		clickByXpath("//*[contains(text(),'Map')]");
 		return this;
 	}	
+	public GenerateTracePage clickOnTreeTab() {
+		clickByXpath("//*[contains(text(),'Tree')]");
+		return this;
+	}
 
 }

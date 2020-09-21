@@ -2,8 +2,11 @@ package pages;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.List;
 import java.util.Properties;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.relevantcodes.extentreports.ExtentTest;
@@ -170,5 +173,40 @@ public class TDMPage extends DibizWrappers {
 		return this;
 
 	}
+	
+	
+	// For exercise
+	
+	public TDMPage calculationMethod() {
+		
+		
+		WebElement ul= driver.findElement(By.xpath("//*[@class='StyledTable__StyledTableBody-sc-1m3u5g-3 cLWqZ StyledDataTable__StyledDataTableBody-xrlyjm-2 cqQuOY']"));//xpath of ul
+	    //Thread.sleep(3000);
+	    List<WebElement> allOptions= ul.findElements(By.tagName("li"));
+	    for(WebElement selectLi: allOptions)
+	    {
+	       
+	        	System.out.println("Sttatus:  "+selectLi);
+	        
+	    }
+		return this;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 }

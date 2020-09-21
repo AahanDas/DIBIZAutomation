@@ -20,7 +20,7 @@ public class CreateTicketPage extends DibizWrappers {
 	
 	public CreateTicketPage searchProduct(String data) {
 		
-		clickByXpath("//*[@class='StyledButton-sc-323bzc-0 kaBBoa']");
+		//clickByXpath("//*[@class='StyledButton-sc-323bzc-0 kaBBoa']");
 		clickById("select-drop-productID__input");
 		enterByXpath("//*[@type='search']", data);
 		return this;
