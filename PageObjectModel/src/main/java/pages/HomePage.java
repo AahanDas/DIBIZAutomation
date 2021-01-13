@@ -27,7 +27,7 @@ public class HomePage extends DibizWrappers {
 	}
 
 	public SettingsPage clickOnSettings() {
-		clickByXpath("//*[contains(text(),'Settings')]");
+		clickByXpath("//*[@title='Settings']");
 		return new SettingsPage(driver, test);
 	}
 

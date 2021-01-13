@@ -19,13 +19,13 @@ public class GenerateTracePage extends DibizWrappers {
 	}
 
 	public GenerateTracePage clickOnMinusForTree() {
-		clickByXpath("(//*[@class='Trace-Tree__Dot-sc-1wum2sf-1 bgxVPE'])[1]");
+		clickByXpath("(//*[@class='Trace-Tree__Dot-sc-1wum2sf-1 bLmPhk'])[1]");
 
 		return this;
 	}
 	
 	public GenerateTracePage clickOnPlusForTree() {
-		clickByXpath("(//*[@class='Trace-Tree__Dot-sc-1wum2sf-1 bgxVPE'])[1]");
+		clickByXpath("(//*[@class='Trace-Tree__Dot-sc-1wum2sf-1 bLmPhk'])[1]");
 
 		return this;
 	}
@@ -52,5 +52,55 @@ public class GenerateTracePage extends DibizWrappers {
 		clickByXpath("//*[contains(text(),'Tree')]");
 		return this;
 	}
+	
+	public ProductTracePage clickOnBackButton() {
+		clickByXpath("//*[contains(text(),'Back')]");
+		return new ProductTracePage(driver, test);
+	}
+	
+	public GenerateTracePage verifyTreeTracePage() {
+		verifyTextByXpath("//*[contains(text(), 'Organisation Information')]", "Organisation Information");
+		verifyTextByXpath("//*[contains(text(), 'List of Transactions')]", "List of Transactions");
+		
+		verifyTextByXpath("//*[contains(text(), 'Company Name')]", "Company Name:");
+		verifyTextByXpath("//*[contains(text(), 'Certification Status')]", "Certification Status:");
+		verifyTextByXpath("//*[contains(text(), 'Transactions')]", "Transactions:");
+		
+		verifyTextByXpath("//*[contains(text(), 'Date')]", "Date");
+		verifyTextByXpath("(//*[contains(text(), 'Product')])[6]", "Product");
+		verifyTextByXpath("(//*[contains(text(), 'Quantity')])[2]", "Quantity");
+		verifyTextByXpath("//*[contains(text(), 'Transporter Name')]", "Transporter Name");
+		
+		return this;
+	}
+	
+	public GenerateTracePage verifyGraphTracePage() {
+		verifyTextByXpath("//*[contains(text(), 'Company Name')]", "Company Name:");
+		verifyTextByXpath("//*[contains(text(), 'Certification Status')]", "Certification Status:");
+		verifyTextByXpath("//*[contains(text(), 'Transactions')]", "Transactions:");
+		
+		
+		verifyTextByXpath("//*[contains(text(), 'Organisation Information')]", "Organisation Information");
+		//verifyTextByXpath("//*[contains(text(), 'List of Transactions')]", "List of Transactions");
+		
+		
+		verifyTextByXpath("//*[contains(text(), 'Date')]", "Date");
+		verifyTextByXpath("(//*[contains(text(), 'Product')])[6]", "Product");
+		verifyTextByXpath("(//*[contains(text(), 'Quantity')])[2]", "Quantity");
+		verifyTextByXpath("//*[contains(text(), 'Transporter Name')]", "Transporter Name");
+		
+		return this;
+	}
+	
+	public GenerateTracePage verifyMapTracePage() {
+		verifyTextByXpath("//*[contains(text(), 'Company Name')]", "Company Name:");
+		verifyTextByXpath("//*[contains(text(), 'Certification Status')]", "Certification Status:");
+		verifyTextByXpath("//*[contains(text(), 'Transactions')]", "Transactions:");
+		
+		
+		return this;
+	}
+	
+	
 
 }

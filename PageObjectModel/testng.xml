@@ -3,7 +3,10 @@
 
 <suite name="suite of suites">
     <suite-files>
-        <suite-file path="testngInOrder.xml" />
+        <suite-file path="testngOilMill.xml" />
+        <suite-file path="testngRefinery.xml" />
         <suite-file path="testngProductTrace.xml" />
+        <suite-file path="testngPlantation.xml" />
+      
     </suite-files>
 </suite>

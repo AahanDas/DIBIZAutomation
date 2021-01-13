@@ -20,7 +20,7 @@ public class US30_4_5_CreateFFBQualityReport extends DibizWrappers {
 
 	@Test(dataProvider = "fetchData")
 	public void loginLogOut(String uName, String pwd, String DO, String product, String RipeBunch, 
-			String OverRipe, String UnderRipe, String EmptyBunches) {
+			String OverRipe, String UnderRipe, String EmptyBunches, String WetBunches, String UnripeBunches) {
 		new LoginPageDibiz(driver, test)
 		.enterEmail(uName)
 		.enterPassword(pwd)
@@ -34,6 +34,9 @@ public class US30_4_5_CreateFFBQualityReport extends DibizWrappers {
 		.enterNumberOfOverRipeBunches(OverRipe)
 		.enterNumberOfUnderRipeBunches(UnderRipe)
 		.enterNumberOfEmptyBunches(EmptyBunches)
+		.enterNumberOfWetBunches(WetBunches)
+		.enterNumberOfUnripeBunches(UnripeBunches)
+		
 		.clickOnCreate();
 		
 

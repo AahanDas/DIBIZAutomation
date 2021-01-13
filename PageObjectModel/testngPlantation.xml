@@ -3,75 +3,55 @@
 <suite name="Suite">
 	<test name="Test">
 		<classes>
-			<class name="testcases.US02_1_LoginAndVerifyInsights" />
-			<class name="testcases.US02_3_VerifyTicketPageRecordTable" />
-			<class name="testcases.US02_4_VerifyBinPageRecordTable" />
-			<class name="testcases.US02_5_VerifyTDMRecordTable" />
-			<class name="testcases.US02_6_VerifyWeighbridgePageRecordTable" />
-			<class name="testcases.US02_7_VerifyRecordsPageRecordTable" />
-			<class name="testcases.US02_8_VerifyPartnerManagementPageRecordTable" />
-			<class name="testcases.US02_9_VerifyAuditReportsPageRecordTable" />
-			<class name="testcases.US02_10_VerifyAdministratorPageRecordTable" />
-			<class name="testcases.US02_11_VerifyFeedbackPageRecordTable" />
-			
-			<class name="testcases.US03_1_2_3_VerifyRecordPageTabs" />
-			<class name="testcases.US03_4_VerifyTractorTabDetails" />
-			<class name="testcases.US03_5_VerifyCheckerTabDetails" />
-			<class name="testcases.US03_6_CheckerView" />
-			<class name="testcases.US03_7_VerifyTicketPageDetails" />
-			<class name="testcases.US03_8_TractorView" />
-			<class name="testcases.US03_9_VerifyBinPageDetails" />
-			
-			<class name="testcases.US04_1_2_4_FilterAuditReport" />
-			<class name="testcases.US04_3_ClearFilter" />
-			<class name="testcases.US04_5_6_VerifyOrganizatonInformation" />
-			<class name="testcases.US04_7_8_VerifyTransactionInformation" />
-			<class name="testcases.US04_9_ShowMore" />
-			<class name="testcases.US04_10_BackButton" />
-			
-			<!-- <class name="testcases.US05_1_2_VerifySettingsPage" />
-			<class name="testcases.US05_3_4_5_ChangePassword" />
-			<class name="testcases.US05_6_ChangePasswordThenBack" /> -->
-			<class name="testcases.US05_7_8_9_ChangeLanguage" />
-			<class name="testcases.US05_10_ChangeLanguageThenBack" />
-			
-			<class name="testcases.US06_1_2_3_4_5_6_LoginAndVerifyEmployeeManagementPage" />
-			<class name="testcases.US06_7_CreateEmployee" />
-			<!-- <class name="testcases.US06_8_EditEmployee" />
-			<class name="testcases.US06_9_RemoveEmployee" /> -->
-			<class name="testcases.US06_15_16_17_LoginAndVerifyAssetPage" />
-			<class name="testcases.US06_18_19_20_21_CreateAssetOtherThree" />
-			<class name="testcases.US06_18_19_20_21_CreateAssetVehicle" />
-			<class name="testcases.US06_22_EditAssetVehicle" />
-			<class name="testcases.US06_25_26_LoginAndViewCompanyInformation" />
-			
-			<class name="testcases.US07_1_5_Feedback" />
-			
-			<class name="testcases.US08_1_2_3_LoginAndVerifyTicketPageDetails" />
-			<class name="testcases.US08_4_5_TicketViewAndVerifyPageDetails" />
-			<class name="testcases.US08_6_BackButton" />
-			
-			<class name="testcases.US08_7_8_9_10_11_12_CreateTicketAndVerifyTicketListing" />
-			<class name="testcases.US08_13_14_EditAndUpdateCreatedTicket" />
-			
-			<class name="testcases.US09_3_4_5_6_7_CreateBinAndVerifyBintListing" />
-			
-			<class name="testcases.US08_13_14_EditAndUpdateCreatedTicket" />
-			
-			<class name="testcases.US09_1_2_8_9_LoginAndVerifyBinPageDetails" />
-			
-			<class name="testcases.US09_9_10_BinsViewDetailAndVerifyPage" />
-
-			<class name="testcases.US08_SupportTest_CreateTicketAndVerifyTicketListing" />
-			<class name="testcases.US09_12_13_CreateBinAndMarkAsCompleteConfirmYes" />
-			
-			<class name="testcases.US08_SupportTest1_CreateTicketAndVerifyTicketListing" />
-			<class name="testcases.US09_14_CreateBinAndMarkAsCompleteConfirmNo" />
-			
-			<class name="testcases.US08_SupportTest2_CreateTicketAndVerifyTicketListing" />
-			<class name="testcases.US09_15_CreateBinAndGoBackToBinPage" />
-			
-			<class name="testcases.US09_16_17_EditAndUpdateCreatedBin" />
+					
+			<class name="testcases.Plantation_CreateNewDO" />
+			<class name="testcases.Plantation_OutgoingDO_AddWeighbridge" />
+			<class name="testcases.Plantation_IncomingDOAdd_Weighbridge" />
+			<class name="testcases.Plantation_CreateTicketAndVerifyTicketListing" />
+			<class name="testcases.Plantation_CreateBinAndVerifyBintListing" />
+			<class name="testcases.Plantation_RecordsModule_GenerateDO" />
+			<class name="testcases.Plantation_LoginAndVerifyInsights" />
+			<class name="testcases.Plantation_VerifyAdministratorPageRecordTable" />
+			<class name="testcases.Plantation_VerifyFeedbackPageRecordTable" />
+			<class name="testcases.Plantation_VerifyTicketPageRecordTable" />
+			<class name="testcases.Plantation_VerifyBinPageRecordTable" />
+			<class name="testcases.Plantation_VerifyWeighbridgePageRecordTable" />
+			<class name="testcases.Plantation_VerifyRecordsPageRecordTable" />
+			<class name="testcases.Plantation_VerifyPartnerManagementPageRecordTable" />
+			<class name="testcases.Plantation_VerifyAuditReportsPageRecordTable" />
+			<class name="testcases.Plantation_VerifyRecordPageTabs" />
+			<class name="testcases.Plantation_CheckerView" />
+			<class name="testcases.Plantation_VerifyTicketPageDetails" />
+			<class name="testcases.Plantation_TractorView" />
+			<class name="testcases.Plantation_VerifyBinPageDetails" />
+			<class name="testcases.Plantation_FilterAuditReport" />
+			<class name="testcases.Plantation_Back_Button" />
+			<class name="testcases.Plantation_ClearFilter" />
+			<class name="testcases.Plantation_VerifyOrganizatonInformation" />
+			<class name="testcases.Plantation_VerifyTransactionInformation" />
+			<class name="testcases.Plantation_ShowMore" />
+			<class name="testcases.Plantation_LoginAndVerifyEmployeeManagementPage" />
+			<class name="testcases.Plantation_LoginAndVerifyAssetPage" />
+			<class name="testcases.Plantation_CreateAssetOtherThree" />
+			<class name="testcases.Plantation_CreateAssetVehicle" />
+			<class name="testcases.Plantation_EditAssetVehicle" />
+			<class name="testcases.Plantation_LoginAndViewCompanyInformation" />
+			<class name="testcases.Plantation_CreateEmployee" />
+			<class name="testcases.Plantation_EditEmployee" />
+			<class name="testcases.Plantation_Feedback" />
+			<class name="testcases.Plantation_LoginAndVerifyTicketPageDetails" />
+			<class name="testcases.Plantation_EditAndUpdateCreatedTicket" />
+			<class name="testcases.Plantation_TicketViewAndVerifyPageDetails" />
+			<class name="testcases.Plantation_LoginAndVerifyBinPageDetails" />
+			<class name="testcases.Plantation_CreateBinAndMarkAsCompleteConfirmYes" />
+			<class name="testcases.Plantation_CreateBinAndMarkAsCompleteConfirmNo" />
+			<class name="testcases.Plantation_CreateBinAndGoBackToBinPage" />
+			<class name="testcases.Plantation_EditAndUpdateCreatedBin" />
+			<class name="testcases.Plantation_BinsViewDetailAndVerifyPage" />
+			<class name="testcases.Mill_OrganisationInformations" />
+			<class name="testcases.Mill_TransactionInformations" />
+			<class name="testcases.Mill_ShowMore" />
+					
 			
 			
 		</classes>

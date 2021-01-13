@@ -1,20 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]" parallel="classes">
-  <test thread-count="2" verbose="5" name="Test(failed)" parallel="classes">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testcases.US24_6_7_FromDateAndSupplierSearch">
+      <class name="testcases.ProductTrace_ProductTraceMapBack">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="loginLogOut"/>
+          <include name="setValue"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.ProductTrace_ProductTraceMapBack -->
+      <class name="testcases.ProductTrace_FromDateAndSupplierSearch">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="loginLogOut"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="setValue"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.ProductTrace_FromDateAndSupplierSearch -->
+      <class name="testcases.ProductTrace_TraceAndTreeGraphMapTab">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="loginLogOut"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="setValue"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.ProductTrace_TraceAndTreeGraphMapTab -->
+      <class name="testcases.ProductTrace_ProductTraceTree">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setValue"/>
+          <include name="loginLogOut"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.ProductTrace_ProductTraceTree -->
+      <class name="testcases.ProductTrace_ProductTraceTreeBack">
+        <methods>
+          <include name="loginLogOut"/>
+          <include name="beforeMethod"/>
+          <include name="setValue"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.ProductTrace_ProductTraceTreeBack -->
+      <class name="testcases.ProductTrace_ProductTraceGraph">
+        <methods>
+          <include name="loginLogOut"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="setValue"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.ProductTrace_ProductTraceGraph -->
+      <class name="testcases.ProductTrace_ProductTraceMap">
         <methods>
           <include name="beforeMethod"/>
           <include name="setValue"/>
           <include name="beforeTest"/>
-          <include name="afterSuite"/>
           <include name="afterMethod"/>
-          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+          <include name="loginLogOut"/>
           <include name="beforeSuite"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- testcases.US24_6_7_FromDateAndSupplierSearch -->
+      </class> <!-- testcases.ProductTrace_ProductTraceMap -->
+      <class name="testcases.ProductTrace_TraceAndVerifyPage">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setValue"/>
+          <include name="loginLogOut"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.ProductTrace_TraceAndVerifyPage -->
+      <class name="testcases.ProductTrace_ProductTraceGraphBack">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="loginLogOut"/>
+          <include name="setValue"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.ProductTrace_ProductTraceGraphBack -->
+      <class name="testcases.ProductTrace_LoginSelectProductAndVerifyPage">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="loginLogOut"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="setValue"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.ProductTrace_LoginSelectProductAndVerifyPage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

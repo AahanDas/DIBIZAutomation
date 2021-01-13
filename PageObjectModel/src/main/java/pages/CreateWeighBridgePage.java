@@ -72,5 +72,12 @@ public class CreateWeighBridgePage extends DibizWrappers {
 		return this;
 
 	}
+	
+	public DeliveryOrderPage clickOnSubmitWeighBridge() {
+		
+		clickByXpath("//*[contains(text(), 'Submit')]");
+		return new DeliveryOrderPage(driver, test);
+	}
+	
 
 }

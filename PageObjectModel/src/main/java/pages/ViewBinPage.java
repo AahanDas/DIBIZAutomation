@@ -60,5 +60,11 @@ public class ViewBinPage extends DibizWrappers {
 
 		return new UpdateBinPage(driver, test);
 	}
+	
+	public NewDOPage clickOnGenerateDeliveryOrderButton() {
+		
+		clickByXpath("//*[contains(text(),'Generate Delivery Order')]");
+		return new NewDOPage(driver, test);
+	}
 
 }

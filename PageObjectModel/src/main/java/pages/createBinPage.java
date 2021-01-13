@@ -95,7 +95,7 @@ public class createBinPage extends DibizWrappers {
 		return this;
 	}
 	public ViewBinPage clickOnCreate() {
-		clickByXpath("//*[@class='StyledButton-sc-323bzc-0 edaVNT']");
+		clickByXpath("//*[@class='StyledButton-sc-323bzc-0 ctgEtY']");
 		return new ViewBinPage(driver, test);
 	}
 

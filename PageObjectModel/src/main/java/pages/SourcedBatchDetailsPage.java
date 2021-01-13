@@ -1,5 +1,11 @@
 package pages;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.relevantcodes.extentreports.ExtentTest;
@@ -33,5 +39,16 @@ public class SourcedBatchDetailsPage  extends DibizWrappers {
 		clickByXpath("//*[contains(text(),'Log Out')]");
 		return new LoginPageDibiz(driver, test);
 	}
+	
+	public SourcedBatchDetailsPage StoreBatchReference() throws IOException {
+		Properties props = new Properties();
+		String path = "C:\\Users\\Suresh VeeraRaghavan\\git\\repositoryDIBIZ\\PageObjectModel\\src\\main\\resources\\db.properties";
+		FileOutputStream outputStrem = new FileOutputStream(path, false);
+		String data1 = driver.findElement(By.xpath("//*[contains(text(),'Batch Reference')]//following::div[1]")).getText();
+		props.setProperty("BatchReference", data1);
+		props.store(outputStrem,data1);
+		return this;
+	}
+	
 
 }

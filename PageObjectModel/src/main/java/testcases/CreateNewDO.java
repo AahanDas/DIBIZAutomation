@@ -15,7 +15,8 @@ public class CreateNewDO extends DibizWrappers {
 		category = "Regression";
 		authors = "DrD";
 		browserName = "chrome";
-		dataSheetName = "CreateNewDO";
+		//dataSheetName = "CreateNewDO";
+		dataSheetName = "CreateNewDO1234";
 	}
 
 	@Test(dataProvider = "fetchData")
@@ -41,14 +42,14 @@ public class CreateNewDO extends DibizWrappers {
 		.selectProductFromDropDown(Product)
 		.enterQuantity(Quantity)
 		.clickOnSubmit()
-		.enterRemarks(Remarks)
+		//.enterRemarks(Remarks)
 		.clickOnPreviewDetails()
-		.clickOnSubmitDetails()
-		.enterRemarks(Remarks1)
-		.clickOnSubmitButton()
-		.clickOnTradeDocumentManagerMainMenu()
-		.clickOnDeliveryOrdersFromOutGoing()
-		.clickOnVIEWlink();
+		.clickOnSubmitDetails();
+		//.enterRemarks(Remarks1)
+		//.clickOnSubmitButton()
+		//.clickOnTradeDocumentManagerMainMenu()
+		//.clickOnDeliveryOrdersFromOutGoing()
+		//.clickOnVIEWlink();
 		
 }
 }

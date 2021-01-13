@@ -1,5 +1,9 @@
 package pages;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.relevantcodes.extentreports.ExtentTest;
@@ -58,6 +62,23 @@ public class ProductionPage extends DibizWrappers {
 		return new InputStorageUpdatePage(driver, test);
 	}
 	
-	
+	public CreatePlotOutputPage ReadBatchReferenceAndClickOnPlotOutput() throws IOException {
+		Properties props = new Properties();
+
+		String path = "C:\\Users\\Suresh VeeraRaghavan\\git\\repositoryDIBIZ\\PageObjectModel\\src\\main\\resources\\db.properties";
+		FileInputStream inputStream = new FileInputStream(path);
+		Properties prop = new Properties();
+		prop.load(inputStream);
+		//Properties prop = new Properties();
+		String BatchReference = prop.getProperty("BatchReference");
+		System.out.println("DO number Read from db.properties file: " + BatchReference);
+
+		// clickByXpath(prop.getProperty("BatchReference"));
+
+		clickByXpath("(//*[contains(text(),'"+BatchReference+"')]//following::td[4]//button)");
+
+		return new CreatePlotOutputPage(driver, test);
+
+	}
 
 }

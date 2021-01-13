@@ -29,7 +29,7 @@ public class PartnerPage extends DibizWrappers {
 
 	public PartnerPage clickOnNewRequestsTab() {
 
-		clickByXpath("//*[contains(text(),'New Requests')]");
+		clickByXpath("//*[contains(text(),'Incoming Request')]");
 		return this;
 
 	}

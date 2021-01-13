@@ -93,7 +93,8 @@ public class CreateTicketPage extends DibizWrappers {
 	}
 
 	public ViewTicketPage clickOnCreate() {
-		clickByXpath("//*[@class='StyledButton-sc-323bzc-0 edaVNT']");
+		//clickByXpath("//*[@class='StyledButton-sc-323bzc-0 ctgEtY']");
+		clickByXpath("(//*[contains(text(),'Create')])[4]");
 		return new ViewTicketPage(driver, test);
 	}
 

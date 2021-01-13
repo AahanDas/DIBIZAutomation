@@ -28,7 +28,7 @@ public class NewDOPage extends DibizWrappers {
 
 	public NewDOPage selectPartner() {
 		clickByXpath(
-				"//*[@class='StyledBox-sc-13pk1d4-0 ewGRLN StyledRadioButton__StyledRadioButtonBox-g1f6ld-3 gsXQqV']");
+				"//*[@class='Label__BaseLabel-z3zd7f-0 fAQTGU']");
 		return this;
 	}
 

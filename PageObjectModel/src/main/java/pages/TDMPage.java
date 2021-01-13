@@ -34,6 +34,23 @@ public class TDMPage extends DibizWrappers {
 		// ORDER");
 		return new NewDOPage(driver, test);
 	}
+	
+	public NewPOPage clickOnCreateNewPOdropDown() {
+		clickByXpath("//*[contains(text(),'CREATE NEW')]");
+		clickByXpath("(//*[@class='StyledBox-sc-13pk1d4-0 ixxyKD'])[1]");
+		//clickByXpath("(//*[contains(text(),'PURCHASE ORDER')])[2]");
+		return new NewPOPage(driver, test);
+		
+	}
+	public NewInvoicePage clickOnCreateNewInvoicedropDown() {
+		clickByXpath("//*[contains(text(),'CREATE NEW')]");
+		clickByXpath("(//*[@class='StyledBox-sc-13pk1d4-0 ixxyKD'])[2]");
+		//clickByXpath("(//*[contains(text(),'PURCHASE ORDER')])[2]");
+		return new NewInvoicePage(driver, test);
+		
+	}
+	
+	
 
 	public NewPurchaseOrderPage clickOnPURCHASEORDERFromCreateNewdropDown() {
 		clickByXpath("//*[contains(text(),'CREATE NEW')]");
@@ -76,13 +93,34 @@ public class TDMPage extends DibizWrappers {
 		return new CreateWeighBridgePage(driver, test);
 	}
 
-	public CreateWeighBridgePage clickOnOutgoingDeliveryOrdersAddWeighbridge() {
-		clickByXpath("(//*[contains(text(),'Add')])[1]");
+	/*
+	 * public CreateWeighBridgePage clickOnOutgoingDeliveryOrdersAddWeighbridge() {
+	 * clickByXpath("(//*[contains(text(),'Add')])[1]");
+	 * clickByXpath("(//*[contains(text(),'Weighbridge')])[1]");
+	 * 
+	 * return new CreateWeighBridgePage(driver, test); }
+	 */
+
+	public CreateWeighBridgePage ReadDONumberAndclickOnOutgoingDeliveryOrdersAddWeighbridge() throws IOException {
+		Properties props = new Properties();
+
+		String path = "C:\\Users\\Suresh VeeraRaghavan\\git\\repositoryDIBIZ\\PageObjectModel\\src\\main\\resources\\db.properties";
+		FileInputStream inputStream = new FileInputStream(path);
+		Properties prop = new Properties();
+		prop.load(inputStream);
+		//Properties prop = new Properties();
+		String doNo = prop.getProperty("DONumber");
+		System.out.println("DO number Read from db.properties file: " + doNo);
+
+		// clickByXpath(prop.getProperty("doNo"));
+
+		clickByXpath("(//*[contains(text(),'"+doNo+"')]//following::td[3]//button)");
 		clickByXpath("(//*[contains(text(),'Weighbridge')])[1]");
+		
 
 		return new CreateWeighBridgePage(driver, test);
-	}
 
+	}
 	public FFBQualityEnterDetailPage clickOnIncomingDeliveryOrdersAddFFBQuality() {
 		clickByXpath("(//*[contains(text(),'Add')])[1]");
 		clickByXpath("(//*[contains(text(),'FFB Quality')])[1]");
@@ -145,6 +183,18 @@ public class TDMPage extends DibizWrappers {
 		return this;
 
 	}
+	
+	public TDMPage clickOnPurchaseOrdersTaboutgoing() {
+		clickByXpath("(//*[contains(text(),'Purchase Orders')])[2]");
+		return this;
+
+	}
+	public TDMPage clickOnInvoiceTaboutgoing() {
+		clickByXpath("(//*[contains(text(),'Invoices')])[2]");
+		return this;
+
+	}
+	
 
 	public TDMPage clickOnDeliveryOrdersTabIncoming() {
 		clickByXpath("(//*[contains(text(),'Delivery Orders')])[1]");
@@ -193,9 +243,45 @@ public class TDMPage extends DibizWrappers {
 	}
 	
 	
+	public PURCHASEOrderPage readPOandClickOnVIEWforPOcreated() throws IOException {
+		Properties props = new Properties();
+
+		String path = "C:\\Users\\Suresh VeeraRaghavan\\git\\repositoryDIBIZ\\PageObjectModel\\src\\main\\resources\\db.properties";
+		FileInputStream inputStream = new FileInputStream(path);
+		Properties prop = new Properties();
+		prop.load(inputStream);
+		//Properties prop = new Properties();
+		String poNo = prop.getProperty("PONumber");
+		System.out.println("PO number Read from db.properties file: " + poNo);
+
+		// clickByXpath(prop.getProperty("doNo"));
+
+		clickByXpath("(//*[contains(text(),'"+poNo+"')]//following::td[2]//button)");
+
+		return new PURCHASEOrderPage(driver, test);
+
+	}
 	
 	
 	
+	public InvoicePage readInvoiceAndClickOnVIEWforPOcreated() throws IOException {
+		Properties props = new Properties();
+
+		String path = "C:\\Users\\Suresh VeeraRaghavan\\git\\repositoryDIBIZ\\PageObjectModel\\src\\main\\resources\\db.properties";
+		FileInputStream inputStream = new FileInputStream(path);
+		Properties prop = new Properties();
+		prop.load(inputStream);
+		//Properties prop = new Properties();
+		String invoiceNo = prop.getProperty("InvoiceNumber");
+		System.out.println("InvoiceNumber Read from db.properties file: " + invoiceNo);
+
+		// clickByXpath(prop.getProperty("doNo"));
+
+		clickByXpath("(//*[contains(text(),'"+invoiceNo+"')]//following::td[2]//button)");
+
+		return new InvoicePage(driver, test);
+
+	}
 	
 	
 	

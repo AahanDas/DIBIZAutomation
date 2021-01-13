@@ -10,8 +10,8 @@ public class RefineryCreateNewDO extends DibizWrappers {
 
 	@BeforeClass
 	public void setValue() {
-		testCaseName = "Create New DO - Refinery";
-		testDescription = "RefineryCreateNewDO";
+		testCaseName = "RefineryCreateNewDO";
+		testDescription = "Create New DO - Refinery";
 		category = "Regression";
 		authors = "DrD";
 		browserName = "chrome";
@@ -41,11 +41,11 @@ public class RefineryCreateNewDO extends DibizWrappers {
 		.selectProductFromDropDown(Product)
 		.enterQuantity(Quantity)
 		.clickOnSubmit()
-		.enterRemarks(Remarks)
+		//.enterRemarks(Remarks)
 		.clickOnPreviewDetails()
-		.clickOnSubmitDetails()
-		.enterRemarks(Remarks1)
-		.clickOnSubmitButton();
+		.clickOnSubmitDetails();
+		//.enterRemarks(Remarks1)
+		//.clickOnSubmitButton();
 //		.clickOnDeliveryOrdersFromOutGoing()
 //		.clickOnVIEWlink();
 		

@@ -48,6 +48,7 @@
 			<version>4.0.0</version>
 		</dependency>
 		
+		
 	</dependencies>
 	<build>
 		<plugins>
@@ -68,9 +69,8 @@
 				<inherited>true</inherited>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>testngOilMill.xml</suiteXmlFile>
-                    	<suiteXmlFile>testngPlantation.xml</suiteXmlFile>
-                    	<suiteXmlFile>testngProductTrace.xml</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+                    	
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

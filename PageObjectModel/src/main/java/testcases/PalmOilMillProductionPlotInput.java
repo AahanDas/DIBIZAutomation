@@ -1,5 +1,7 @@
 package testcases;
 
+import java.io.IOException;
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -19,7 +21,7 @@ public class PalmOilMillProductionPlotInput extends DibizWrappers {
 	}
 
 	@Test(dataProvider = "fetchData")
-	public void loginLogOut(String uName, String pwd, String product, String quantity, String productionLine) {
+	public void loginLogOut(String uName, String pwd, String product, String quantity, String productionLine) throws IOException {
 		new LoginPageDibiz(driver, test)
 		.enterEmail(uName)
 		.enterPassword(pwd)
@@ -30,6 +32,7 @@ public class PalmOilMillProductionPlotInput extends DibizWrappers {
 		.selectCheckBoxOfConsignmentNumber()
 		.enterQuantityUsed(quantity)
 		.enterProductionLine(productionLine)
-		.clickOnSubmit();
+		.clickOnSubmit()
+		.StoreBatchReference();
 }
 }

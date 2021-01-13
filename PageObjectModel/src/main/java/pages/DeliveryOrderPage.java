@@ -144,6 +144,13 @@ public class DeliveryOrderPage extends DibizWrappers {
 		return this;
 		
 	}
+	public LoginPageDibiz clickOnLogoutButton() {
+		
+		clickByXpath("//*[contains(text(),'Log Out')]");
+		return new LoginPageDibiz(driver, test);
+		
+	}
+	
 	
 	/*
 	 * public DeliveryOrderPage ReadDONumber() throws IOException { Properties props

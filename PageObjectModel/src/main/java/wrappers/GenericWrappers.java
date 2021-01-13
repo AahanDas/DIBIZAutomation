@@ -156,19 +156,30 @@ public class GenericWrappers extends Reporter implements Wrappers {
 
 					// for Headless browser
 					ChromeOptions chromeOptions = new ChromeOptions();
-					chromeOptions.addArguments("--headless");
-					chromeOptions.addArguments("window-size=1920x1500");
-
-					System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+					//chromeOptions.addArguments("--headless");
+					chromeOptions.setHeadless(true);
+					chromeOptions.addArguments("--no-sandbox", "window-size=1920x1500", "--single-process");
+				//	chromeOptions.addArguments("window-size=1920x1500");
+					//***********************************************//
+					//For Local Windows Run
+					//***********************************************//
+					//System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+					//***********************************************//
+					//For Docker Linux Run
+					//***********************************************//
+					System.setProperty("webdriver.chrome.driver", "/chromedriver/chromedriver");
+					
 					driver = new ChromeDriver(chromeOptions);
+					//System.out.println(" \n \n \n Starting chrome1");
 					//driver = new ChromeDriver();
 				} else if (browser.equalsIgnoreCase("Firefox")) {
 					System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
 					driver = new FirefoxDriver();
 				}
 			}
-
+			//System.out.println("\n \n Before MAximize browser");
 			driver.manage().window().maximize();
+			//System.out.println("\n \n After MAximize browser");
 			driver.manage().timeouts().implicitlyWait(45, TimeUnit.SECONDS);
 			driver.get(sUrl);
 

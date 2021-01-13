@@ -13,61 +13,50 @@ import org.testng.annotations.DataProvider;
 import utils.DataInputProvider;
 
 public class DibizWrappers extends GenericWrappers {
-	
+
 	public String browserName;
-	public String dataSheetName;	
+	public String dataSheetName;
 
 	@BeforeSuite
-	public void beforeSuite(){
+	public void beforeSuite() {
 		startResult();
 	}
 
 	@BeforeTest
-	public void beforeTest() throws IOException{
+	public void beforeTest() throws IOException {
 		loadObjects();
-		//ObjectProp();
+		// ObjectProp();
 	}
-	
+
 	@BeforeMethod
-	public void beforeMethod(){
+	public void beforeMethod() {
 		test = startTestCase(testCaseName, testDescription);
 		test.assignCategory(category);
 		test.assignAuthor(authors);
 		invokeApp(browserName);
 	}
-	
-	
-	
-		
+
 	@AfterSuite
-	public void afterSuite(){
+	public void afterSuite() {
 		endResult();
 	}
 
 	@AfterTest
-	public void afterTest(){
+	public void afterTest() {
 		unloadObjects();
 	}
-	
+
 	@AfterMethod
-	public void afterMethod(){
+	public void afterMethod() {
 		endTestcase();
-		closeAllBrowsers();		
+		closeAllBrowsers();
 	}
-	
-	@DataProvider(name="fetchData")
-	public Object[][] getData(){
-		
-		return DataInputProvider.getAllSheetData("./data/"+dataSheetName+".xlsx");		
-	}	
-	
-	
-	
-	
+
+	@DataProvider(name = "fetchData")
+	public String[][] getData() throws InterruptedException {
+
+		//return DataInputProvider.getAllSheetData("./data/" + dataSheetName + ".xlsx");
+		 return DataInputProvider.getAllSheetData("./data/"+dataSheetName+".csv");
+	}
+
 }
-
-
-
-
-
-

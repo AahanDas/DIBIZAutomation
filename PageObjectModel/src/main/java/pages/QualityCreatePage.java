@@ -41,6 +41,22 @@ public class QualityCreatePage extends DibizWrappers {
 
 		return this;
 	}
+	
+	public QualityCreatePage enterNumberOfWetBunches(String data) {
+		enterById("input-wetBunches", data);
+
+		return this;
+	}
+	
+	public QualityCreatePage enterNumberOfUnripeBunches(String data) {
+		enterById("input-unripeBunches", data);
+
+		return this;
+	}
+	
+	
+	
+	
 	public QualityPage clickOnCreate() {
 		clickByXpath("//*[contains(text(),'Submit')]");
 		return new QualityPage(driver, test);
